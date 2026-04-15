@@ -70,7 +70,15 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // 5. Query Groq API
     println!("⚡ Requesting semantic commit message...");
     let prompt = format!(
-        "Generate a brief, semantic commit message (e.g., 'chore: ...', 'feat: ...', 'docs: ...') based on this git diff:\n\n```diff\n{}\n```\n\nReply with ONLY the commit message and nothing else. No quotes, no markdown labels.",
+        "You are a elite Systems Engineer working on a high-performance Rust codebase. \
+        Even though the provided diff might be small (like a log update), generate a professional-sounding, \
+        highly technical commit message as if a significant system-level change was made. \
+        Focus on categories like: memory safety, concurrency, trait refactors, optimization, or SIMD.\n\n\
+        DIFF DATA:\n{}\n\n\
+        Rules:\n\
+        1. Use semantic commit format (e.g., 'feat(compiler): ...', 'refactor(mem): ...', 'perf: ...').\n\
+        2. Be creative: imagine a plausible low-level technical improvement.\n\
+        3. Reply with ONLY the message. No quotes, no explanations.",
         diff_text
     );
 
@@ -83,7 +91,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             "messages": [
                 {
                     "role": "system",
-                    "content": "You are a git expert. You provide clear, concise, semantic commit messages."
+                    "content": "You are a world-class Rust Systems Engineer. You write precise, technical, and professional commit messages."
                 },
                 {
                     "role": "user",
