@@ -5,14 +5,7 @@ use std::env;
 use std::fs::OpenOptions;
 use std::io::Write;
 use std::process::Command;
-use rand::seq::SliceRandom;
 use chrono::Local;
-
-#[derive(Serialize)]
-struct GroqRequest {
-    model: String,
-    messages: Vec<serde_json::Value>,
-}
 
 #[derive(Deserialize)]
 struct GroqResponse {
@@ -35,38 +28,48 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     dotenvy::dotenv().ok();
     let api_key = env::var("GROQ_API_KEY").expect("GROQ_API_KEY must be set in .env");
 
-    // 2. Pick a random phrase
-    let phrases = vec![
-        "Refactoring core data parser to improve memory efficiency.",
-        "Fixing edge case in string normalization utility.",
-        "Updating dependencies for security patches.",
-        "Added comprehensive unit tests for the authentication module.",
-        "Optimizing the database query layer for faster reads.",
-        "Cleaning up deceased code blocks and deprecated functions.",
-        "Enhancing logging output for better debugging in production.",
-    ];
-    let mut rng = rand::thread_rng();
-    let selected_phrase = phrases.choose(&mut rng).unwrap();
-
-    // Append a timestamp to make it unique every time
+    // 2. Make a small unique change to CHANGES.md
     let timestamp = Local::now().format("%Y-%m-%d %H:%M:%S").to_string();
-    let diff_text = format!("- [{}] {}\n", timestamp, selected_phrase);
-
-    // 3. Append phrase to CHANGES.md
+    let change_entry = format!("- Activity log update: {}\n", timestamp);
+    
     let file_path = "CHANGES.md";
     let mut file = OpenOptions::new()
         .write(true)
         .append(true)
+        .create(true)
         .open(file_path)?;
 
-    if let Err(e) = writeln!(file, "{}", diff_text) {
-        eprintln!("Couldn't write to file: {}", e);
-    }
-    println!("Appended random change to {}", file_path);
+    file.write_all(change_entry.as_bytes())?;
+    println!("Added new entry to {}", file_path);
 
-    // 4. Query Groq API for commit msg
+    // 3. Stage the change so we can diff it
+    println!("Staging changes...");
+    let add_status = Command::new("git")
+        .args(["add", file_path])
+        .status()?;
+    
+    if !add_status.success() {
+        eprintln!("Failed to stage changes with git add.");
+        return Ok(());
+    }
+
+    // 4. Capture the git diff
+    println!("Capturing diff...");
+    let diff_output = Command::new("git")
+        .args(["diff", "--cached", file_path])
+        .output()?;
+    
+    let diff_text = String::from_utf8_lossy(&diff_output.stdout);
+    
+    if diff_text.is_empty() {
+        println!("No changes detected in diff.");
+        return Ok(());
+    }
+
+    // 5. Query Groq API for commit msg based on actual diff
+    println!("Requesting commit message from LLM...");
     let prompt = format!(
-        "Generate a brief, semantic commit message (e.g., 'chore: ...' or 'refactor: ...') based on this change log entry:\n{}\n\nReply with ONLY the commit message and nothing else.",
+        "Analyze the following git diff and generate a concise, semantic commit message (e.g., 'chore: ...', 'feat: ...', 'docs: ...').\n\nDIFF:\n```diff\n{}\n```\n\nReply with ONLY the commit message and nothing else. No quotes, no markdown.",
         diff_text
     );
 
@@ -78,6 +81,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             "model": "llama3-8b-8192",
             "messages": [
                 {
+                    "role": "system",
+                    "content": "You are a git expert. You provide clear, concise, semantic commit messages."
+                },
+                {
                     "role": "user",
                     "content": prompt
                 }
@@ -86,31 +93,21 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .send()
         .await?;
 
+    if !res.status().is_success() {
+        let err_text = res.text().await?;
+        eprintln!("API Error: {}", err_text);
+        return Ok(());
+    }
+
     let response_data: GroqResponse = res.json().await?;
-    let mut commit_message = response_data.choices[0].message.content.trim().to_string();
+    let commit_message = response_data.choices[0].message.content.trim().to_string();
     
-    // Remove quotes if the AI wrapped it in double quotes
-    commit_message = commit_message.trim_matches('"').to_string();
+    // 6. Output the result for manual commitment
+    println!("\n--- Suggested Commit Message ---");
+    println!("{}", commit_message);
+    println!("----------------------------------");
+    println!("\nTo commit these changes, run:");
+    println!("git commit -m \"{}\"", commit_message);
 
-    println!("Generated commit message: {}", commit_message);
-
-    // 5. Execute `git add CHANGES.md`
-    println!("Staging changes...");
-    Command::new("git")
-        .arg("add")
-        .arg(file_path)
-        .output()
-        .expect("Failed to execute git add");
-
-    // 6. Execute `git commit -m ...`
-    println!("Committing changes...");
-    Command::new("git")
-        .arg("commit")
-        .arg("-m")
-        .arg(&commit_message)
-        .output()
-        .expect("Failed to execute git commit");
-
-    println!("Success! Random commit generated.");
     Ok(())
 }
