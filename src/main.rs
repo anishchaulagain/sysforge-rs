@@ -79,7 +79,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .post("https://api.groq.com/openai/v1/chat/completions")
         .header("Authorization", format!("Bearer {}", api_key))
         .json(&json!({
-            "model": "llama3-8b-8192",
+            "model": "llama-3.3-70b-versatile",
             "messages": [
                 {
                     "role": "system",
