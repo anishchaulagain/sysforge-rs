@@ -31,15 +31,18 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // 2. Make a small unique change to CHANGES.md
     let timestamp = Local::now().format("%Y-%m-%d %H:%M:%S").to_string();
     let change_entry = format!("- Activity log update: {}\n", timestamp);
-    
     let file_path = "CHANGES.md";
-    let mut file = OpenOptions::new()
-        .write(true)
-        .append(true)
-        .create(true)
-        .open(file_path)?;
 
-    file.write_all(change_entry.as_bytes())?;
+    {
+        let mut file = OpenOptions::new()
+            .write(true)
+            .append(true)
+            .create(true)
+            .open(file_path)?;
+        file.write_all(change_entry.as_bytes())?;
+        file.flush()?; 
+    } // File handle is closed here
+
     println!("✔ Added new entry to {}", file_path);
 
     // 3. Stage the change
@@ -57,9 +60,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .args(["diff", "--cached", "--", file_path])
         .output()?;
     
-    let diff_text = String::from_utf8_lossy(&diff_output.stdout).trim().to_string();
+    let diff_text = String::from_utf8_lossy(&diff_output.stdout).to_string();
     
-    if diff_text.is_empty() {
+    if diff_text.trim().is_empty() {
         println!("⚠ No changes detected in diff. Ensure the file is being tracked by git.");
         return Ok(());
     }
