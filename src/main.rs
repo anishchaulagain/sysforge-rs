@@ -78,7 +78,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         Rules:\n\
         1. Use semantic commit format (e.g., 'feat(compiler): ...', 'refactor(mem): ...', 'perf: ...').\n\
         2. Be creative: imagine a plausible low-level technical improvement.\n\
-        3. Reply with ONLY the message. No quotes, no explanations.",
+        3. Reply with ONLY the message. No quotes, no explanations.
+        
+        only generate short form commit message.
+        ",
         diff_text
     );
 
