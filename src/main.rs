@@ -1,5 +1,5 @@
 use reqwest::Client;
-use serde::{Deserialize, Serialize};
+use serde::Deserialize;
 use serde_json::json;
 use std::env;
 use std::fs::OpenOptions;
@@ -40,36 +40,34 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .open(file_path)?;
 
     file.write_all(change_entry.as_bytes())?;
-    println!("Added new entry to {}", file_path);
+    println!("✔ Added new entry to {}", file_path);
 
-    // 3. Stage the change so we can diff it
-    println!("Staging changes...");
+    // 3. Stage the change
     let add_status = Command::new("git")
         .args(["add", file_path])
         .status()?;
     
     if !add_status.success() {
-        eprintln!("Failed to stage changes with git add.");
+        eprintln!("✘ Failed to stage changes with git add.");
         return Ok(());
     }
 
     // 4. Capture the git diff
-    println!("Capturing diff...");
     let diff_output = Command::new("git")
-        .args(["diff", "--cached", file_path])
+        .args(["diff", "--cached", "--", file_path])
         .output()?;
     
-    let diff_text = String::from_utf8_lossy(&diff_output.stdout);
+    let diff_text = String::from_utf8_lossy(&diff_output.stdout).trim().to_string();
     
     if diff_text.is_empty() {
-        println!("No changes detected in diff.");
+        println!("⚠ No changes detected in diff. Ensure the file is being tracked by git.");
         return Ok(());
     }
 
-    // 5. Query Groq API for commit msg based on actual diff
-    println!("Requesting commit message from LLM...");
+    // 5. Query Groq API
+    println!("⚡ Requesting semantic commit message...");
     let prompt = format!(
-        "Analyze the following git diff and generate a concise, semantic commit message (e.g., 'chore: ...', 'feat: ...', 'docs: ...').\n\nDIFF:\n```diff\n{}\n```\n\nReply with ONLY the commit message and nothing else. No quotes, no markdown.",
+        "Generate a brief, semantic commit message (e.g., 'chore: ...', 'feat: ...', 'docs: ...') based on this git diff:\n\n```diff\n{}\n```\n\nReply with ONLY the commit message and nothing else. No quotes, no markdown labels.",
         diff_text
     );
 
