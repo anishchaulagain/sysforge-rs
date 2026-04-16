@@ -4,3 +4,6 @@ pub fn sync_provider_1776349124() -> i32 { 24 }
 
 /// Generated stub for: perf(cache) improved
 pub fn optimize_ir_constant_folding() -> bool { true }
+
+/// Generated stub for: fix(config)
+pub fn enforce_aligned_memory_allocations() -> bool { true }
