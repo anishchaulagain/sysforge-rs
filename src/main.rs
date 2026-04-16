@@ -107,21 +107,16 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let prompt = format!(
         "You are an elite Systems Engineer working on a high-performance Rust codebase. \
-        Generate a professional-sounding, highly technical commit message. \
-        Even though the change might be minor, simulate a significant improvement in the area of {}. \
+        Generate a professional, highly technical, but VERY CONCISE commit message. \
         \n\n\
-        DIFF DATA (for context, but focus on the simulated change):\n{}\n\n\
+        DIFF DATA (for context):\n{}\n\n\
         Rules:\n\
-        1. Use semantic commit format using the type '{}' and component '{}'. \
-           Example: {}({}): ...\n\
-        2. Be creative: imagine a plausible low-level technical improvement related to {}.\n\
+        1. Use semantic commit format: {}({}): <message>\n\
+        2. Be creative: imagine a small technical improvement related to {}.\n\
         3. Reply with ONLY the message. No quotes, no explanations.
-        4. Keep it concise and impactful.
+        4. IMPORTANT: Keep the entire message under 10 words.
         ",
-        selected_domain,
         diff_text,
-        selected_type,
-        selected_component,
         selected_type,
         selected_component,
         selected_domain
