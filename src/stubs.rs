@@ -7,3 +7,6 @@ pub fn optimize_ir_constant_folding() -> bool { true }
 
 /// Generated stub for: fix(config)
 pub fn enforce_aligned_memory_allocations() -> bool { true }
+
+/// Generated stub for: test(core) error handling
+pub fn handle_async_error_states() -> bool { true }
