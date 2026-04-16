@@ -6,6 +6,7 @@ use std::fs::OpenOptions;
 use std::io::Write;
 use std::process::Command;
 use chrono::Local;
+use rand::seq::SliceRandom;
 
 #[derive(Deserialize)]
 struct GroqResponse {
@@ -69,20 +70,43 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // 5. Query Groq API
     println!("⚡ Requesting semantic commit message...");
+
+    let types = ["feat", "fix", "refactor", "perf", "chore", "docs", "test", "ci", "build"];
+    let domains = [
+        "memory safety", "concurrency", "asynchronous I/O", "trait refactors", 
+        "optimization", "SIMD", "FFI", "serialization", "error handling", 
+        "networking", "data structures", "compiler internal", "macro expansion"
+    ];
+    let components = [
+        "core", "api", "worker", "store", "net", "parser", "crypto", "auth", 
+        "cache", "scheduler", "logger", "config", "runtime"
+    ];
+
+    let mut rng = rand::thread_rng();
+    let selected_type = types.choose(&mut rng).unwrap_or(&"feat");
+    let selected_domain = domains.choose(&mut rng).unwrap_or(&"optimization");
+    let selected_component = components.choose(&mut rng).unwrap_or(&"core");
+
     let prompt = format!(
-        "You are a elite Systems Engineer working on a high-performance Rust codebase. \
-        Even though the provided diff might be small (like a log update), generate a professional-sounding, \
-        highly technical commit message as if a significant system-level change was made. \
-        Focus on categories like: memory safety, concurrency, trait refactors, optimization, or SIMD.\n\n\
-        DIFF DATA:\n{}\n\n\
+        "You are an elite Systems Engineer working on a high-performance Rust codebase. \
+        Generate a professional-sounding, highly technical commit message. \
+        Even though the change might be minor, simulate a significant improvement in the area of {}. \
+        \n\n\
+        DIFF DATA (for context, but focus on the simulated change):\n{}\n\n\
         Rules:\n\
-        1. Use semantic commit format (e.g., 'feat(compiler): ...', 'refactor(mem): ...', 'perf: ...').\n\
-        2. Be creative: imagine a plausible low-level technical improvement.\n\
+        1. Use semantic commit format using the type '{}' and component '{}'. \
+           Example: {}({}): ...\n\
+        2. Be creative: imagine a plausible low-level technical improvement related to {}.\n\
         3. Reply with ONLY the message. No quotes, no explanations.
-        
-        only generate short form commit message.
+        4. Keep it concise and impactful.
         ",
-        diff_text
+        selected_domain,
+        diff_text,
+        selected_type,
+        selected_component,
+        selected_type,
+        selected_component,
+        selected_domain
     );
 
     let client = Client::new();
