@@ -29,26 +29,44 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     dotenvy::dotenv().ok();
     let api_key = env::var("GROQ_API_KEY").expect("GROQ_API_KEY must be set in .env");
 
-    // 2. Make a small unique change to CHANGES.md
+    // 2. Make small unique changes
     let timestamp = Local::now().format("%Y-%m-%d %H:%M:%S").to_string();
-    let change_entry = format!("- Activity log update: {}\n", timestamp);
-    let file_path = "CHANGES.md";
+    let timestamp_raw = Local::now().timestamp();
 
+    // 2a. Update CHANGES.md
+    let log_path = "CHANGES.md";
+    let change_entry = format!("- Activity log update: {}\n", timestamp);
     {
         let mut file = OpenOptions::new()
             .write(true)
             .append(true)
             .create(true)
-            .open(file_path)?;
+            .open(log_path)?;
         file.write_all(change_entry.as_bytes())?;
         file.flush()?; 
-    } // File handle is closed here
+    }
+    println!("✔ Added new entry to {}", log_path);
 
-    println!("✔ Added new entry to {}", file_path);
+    // 2b. Update src/stubs.rs (Code change)
+    let code_path = "src/stubs.rs";
+    let stub_code = format!(
+        "\n/// Internal system stub generated at {}\npub fn sync_provider_{}() -> i32 {{ {} }}\n",
+        timestamp, timestamp_raw, timestamp_raw % 100
+    );
+    {
+        let mut file = OpenOptions::new()
+            .write(true)
+            .append(true)
+            .create(true)
+            .open(code_path)?;
+        file.write_all(stub_code.as_bytes())?;
+        file.flush()?;
+    }
+    println!("✔ Generated code stub in {}", code_path);
 
-    // 3. Stage the change
+    // 3. Stage the changes
     let add_status = Command::new("git")
-        .args(["add", file_path])
+        .args(["add", log_path, code_path])
         .status()?;
     
     if !add_status.success() {
@@ -56,9 +74,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         return Ok(());
     }
 
-    // 4. Capture the git diff
+    // 4. Capture the git diff (all staged changes)
     let diff_output = Command::new("git")
-        .args(["diff", "--cached", "--", file_path])
+        .args(["diff", "--cached"])
         .output()?;
     
     let diff_text = String::from_utf8_lossy(&diff_output.stdout).to_string();
