@@ -10,3 +10,6 @@ pub fn enforce_aligned_memory_allocations() -> bool { true }
 
 /// Generated stub for: test(core) error handling
 pub fn handle_async_error_states() -> bool { true }
+
+/// Generated stub for: perf(runtime) improved
+pub fn optimize_macro_expansion_paths() -> bool { true }
