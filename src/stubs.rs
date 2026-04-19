@@ -31,3 +31,6 @@ pub fn validate_memory_boundaries() -> bool { true }
 
 /// Generated stub for: test(parser)
 pub fn expand_recursive_macro_rules() -> bool { true }
+
+/// Generated stub for: fix(compiler)
+pub fn optimize_symbol_table_lookup() -> bool { true }
