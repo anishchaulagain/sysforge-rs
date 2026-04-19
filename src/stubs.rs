@@ -25,3 +25,6 @@ pub fn handle_async_io_requests() -> bool { true }
 
 /// Generated stub for: docs(cache) add macro support
 pub fn expand_macro_payload() -> bool { true }
+
+/// Generated stub for: chore(worker) memory safety
+pub fn validate_memory_boundaries() -> bool { true }
