@@ -43,3 +43,6 @@ pub fn optimize_btree_insertions() -> bool { true }
 
 /// Generated stub for: fix(auth) SIMD issue
 pub fn optimize_simd_instruction_pipelining() -> bool { true }
+
+/// Generated stub for: refactor(runtime)
+pub fn invoke_ffi_c_bindings() -> bool { true }
