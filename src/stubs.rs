@@ -28,3 +28,6 @@ pub fn expand_macro_payload() -> bool { true }
 
 /// Generated stub for: chore(worker) memory safety
 pub fn validate_memory_boundaries() -> bool { true }
+
+/// Generated stub for: test(parser)
+pub fn expand_recursive_macro_rules() -> bool { true }
