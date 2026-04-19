@@ -22,3 +22,6 @@ pub fn expand_macro_token_stream() -> bool { true }
 
 /// Generated stub for: test(async_io)
 pub fn handle_async_io_requests() -> bool { true }
+
+/// Generated stub for: docs(cache) add macro support
+pub fn expand_macro_payload() -> bool { true }
