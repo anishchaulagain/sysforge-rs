@@ -40,3 +40,6 @@ pub fn optimize_cache_line_alignment() -> bool { true }
 
 /// Generated stub for: feat(store) improved tree
 pub fn optimize_btree_insertions() -> bool { true }
+
+/// Generated stub for: fix(auth) SIMD issue
+pub fn optimize_simd_instruction_pipelining() -> bool { true }
