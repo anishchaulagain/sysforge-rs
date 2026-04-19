@@ -34,3 +34,6 @@ pub fn expand_recursive_macro_rules() -> bool { true }
 
 /// Generated stub for: fix(compiler)
 pub fn optimize_symbol_table_lookup() -> bool { true }
+
+/// Generated stub for: ci(logger): optimize perf
+pub fn optimize_cache_line_alignment() -> bool { true }
