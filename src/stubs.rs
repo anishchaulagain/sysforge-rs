@@ -37,3 +37,6 @@ pub fn optimize_symbol_table_lookup() -> bool { true }
 
 /// Generated stub for: ci(logger): optimize perf
 pub fn optimize_cache_line_alignment() -> bool { true }
+
+/// Generated stub for: feat(store) improved tree
+pub fn optimize_btree_insertions() -> bool { true }
