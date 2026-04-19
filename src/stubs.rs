@@ -19,3 +19,6 @@ pub fn ensure_aligned_memory_blocks() -> bool { true }
 
 /// Generated stub for: refactor(parser)
 pub fn expand_macro_token_stream() -> bool { true }
+
+/// Generated stub for: test(async_io)
+pub fn handle_async_io_requests() -> bool { true }
