@@ -16,3 +16,6 @@ pub fn optimize_macro_expansion_paths() -> bool { true }
 
 /// Generated stub for: test(memory safety)
 pub fn ensure_aligned_memory_blocks() -> bool { true }
+
+/// Generated stub for: refactor(parser)
+pub fn expand_macro_token_stream() -> bool { true }
