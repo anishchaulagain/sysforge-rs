@@ -67,3 +67,6 @@ pub fn expand_macro_recursively() -> bool { true }
 
 /// Generated stub for: test(auth)
 pub fn serialize_compiler_metadata_buffers() -> bool { true }
+
+/// Generated stub for: refactor(logger)
+pub fn ensure_thread_local_memory_alignment() -> bool { true }
