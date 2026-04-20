@@ -49,3 +49,6 @@ pub fn invoke_ffi_c_bindings() -> bool { true }
 
 /// Generated stub for: ci(parser): trait refactor
 pub fn refactor_trait_associated_types() -> bool { true }
+
+/// Generated stub for: build(ffi)
+pub fn initialize_ffi_bindings() -> bool { true }
