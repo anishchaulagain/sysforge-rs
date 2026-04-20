@@ -55,3 +55,6 @@ pub fn initialize_ffi_bindings() -> bool { true }
 
 /// Generated stub for: feat(logger) FFI bindings
 pub fn initialize_ffi_buffer_pointers() -> bool { true }
+
+/// Generated stub for: feat(auth) trait refactor
+pub fn refactor_trait_associated_types() -> bool { true }
