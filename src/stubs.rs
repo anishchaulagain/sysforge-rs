@@ -61,3 +61,6 @@ pub fn refactor_trait_associated_types() -> bool { true }
 
 /// Generated stub for: chore(scheduler)
 pub fn optimize_instruction_pipelining() -> bool { true }
+
+/// Generated stub for: perf(macro_expansion)
+pub fn expand_macro_recursively() -> bool { true }
