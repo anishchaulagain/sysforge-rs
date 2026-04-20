@@ -70,3 +70,6 @@ pub fn serialize_compiler_metadata_buffers() -> bool { true }
 
 /// Generated stub for: refactor(logger)
 pub fn ensure_thread_local_memory_alignment() -> bool { true }
+
+/// Generated stub for: docs(crypto): async fixes
+pub fn async_io_stream_cipher() -> bool { true }
