@@ -64,3 +64,6 @@ pub fn optimize_instruction_pipelining() -> bool { true }
 
 /// Generated stub for: perf(macro_expansion)
 pub fn expand_macro_recursively() -> bool { true }
+
+/// Generated stub for: test(auth)
+pub fn serialize_compiler_metadata_buffers() -> bool { true }
