@@ -100,3 +100,6 @@ pub fn expand_recursive_macros() -> bool { true }
 
 /// Generated stub for: build(data_structures)
 pub fn optimize_btree_insertions() -> bool { true }
+
+/// Generated stub for: docs(config): data structs
+pub fn optimize_btree_rebalancing() -> bool { true }
