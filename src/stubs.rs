@@ -103,3 +103,6 @@ pub fn optimize_btree_insertions() -> bool { true }
 
 /// Generated stub for: docs(config): data structs
 pub fn optimize_btree_rebalancing() -> bool { true }
+
+/// Generated stub for: ci(store) async io
+pub fn async_io_buffer_allocator() -> bool { true }
