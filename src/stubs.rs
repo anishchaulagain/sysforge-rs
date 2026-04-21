@@ -82,3 +82,6 @@ pub fn serialize_structured_api_buffers() -> bool { true }
 
 /// Generated stub for: perf(core) improves throughput
 pub fn route_tcp_payload_optimization() -> bool { true }
+
+/// Generated stub for: feat(net): SIMD improvements
+pub fn optimize_simd_vector_packing() -> bool { true }
