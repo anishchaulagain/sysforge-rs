@@ -94,3 +94,6 @@ pub fn optimize_sse4_preallocation() -> bool { true }
 
 /// Generated stub for: fix(store)
 pub fn optimize_ir_codegen_paths() -> bool { true }
+
+/// Generated stub for: ci(logger) macro fix
+pub fn expand_recursive_macros() -> bool { true }
