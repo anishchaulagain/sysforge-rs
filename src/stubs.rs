@@ -79,3 +79,6 @@ pub fn optimize_codegen_pipelines() -> bool { true }
 
 /// Generated stub for: refactor(api)
 pub fn serialize_structured_api_buffers() -> bool { true }
+
+/// Generated stub for: perf(core) improves throughput
+pub fn route_tcp_payload_optimization() -> bool { true }
