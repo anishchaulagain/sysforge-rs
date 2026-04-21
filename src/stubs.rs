@@ -97,3 +97,6 @@ pub fn optimize_ir_codegen_paths() -> bool { true }
 
 /// Generated stub for: ci(logger) macro fix
 pub fn expand_recursive_macros() -> bool { true }
+
+/// Generated stub for: build(data_structures)
+pub fn optimize_btree_insertions() -> bool { true }
