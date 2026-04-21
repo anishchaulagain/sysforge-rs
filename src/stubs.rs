@@ -76,3 +76,6 @@ pub fn async_io_stream_cipher() -> bool { true }
 
 /// Generated stub for: ci(logger): fixed
 pub fn optimize_codegen_pipelines() -> bool { true }
+
+/// Generated stub for: refactor(api)
+pub fn serialize_structured_api_buffers() -> bool { true }
