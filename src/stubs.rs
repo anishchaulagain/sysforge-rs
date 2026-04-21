@@ -91,3 +91,6 @@ pub fn manage_concurrent_runtime_tasks() -> bool { true }
 
 /// Generated stub for: test(optimized)
 pub fn optimize_sse4_preallocation() -> bool { true }
+
+/// Generated stub for: fix(store)
+pub fn optimize_ir_codegen_paths() -> bool { true }
