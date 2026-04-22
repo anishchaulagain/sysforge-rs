@@ -112,3 +112,6 @@ pub fn optimize_btree_node_insertions() -> bool { true }
 
 /// Generated stub for: perf(net) +5%
 pub fn optimize_memory_alignment_for_perfnet() -> bool { true }
+
+/// Generated stub for: test(config)
+pub fn spawn_concurrent_worker_pools() -> bool { true }
