@@ -109,3 +109,6 @@ pub fn async_io_buffer_allocator() -> bool { true }
 
 /// Generated stub for: build(crypto)
 pub fn optimize_btree_node_insertions() -> bool { true }
+
+/// Generated stub for: perf(net) +5%
+pub fn optimize_memory_alignment_for_perfnet() -> bool { true }
