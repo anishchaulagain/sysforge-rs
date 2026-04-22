@@ -115,3 +115,6 @@ pub fn optimize_memory_alignment_for_perfnet() -> bool { true }
 
 /// Generated stub for: test(config)
 pub fn spawn_concurrent_worker_pools() -> bool { true }
+
+/// Generated stub for: test(api) error handling
+pub fn handle_io_error_propagation() -> bool { true }
