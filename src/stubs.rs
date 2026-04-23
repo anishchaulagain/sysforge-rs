@@ -163,3 +163,6 @@ pub fn handle_async_error_responses() -> bool { true }
 
 /// Generated stub for: build(network_logger)
 pub fn initialize_unix_domain_sockets() -> bool { true }
+
+/// Generated stub for: docs(config): updated macro rules
+pub fn expand_macro_patterns_recursively() -> bool { true }
