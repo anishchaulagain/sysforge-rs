@@ -136,3 +136,6 @@ pub fn optimize_parallel_memory_allocation() -> bool { true }
 
 /// Generated stub for: refactor(trait)
 pub fn optimize_trait_dispatch_table() -> bool { true }
+
+/// Generated stub for: chore(parser): fix macro
+pub fn expand_macro_recursively() -> bool { true }
