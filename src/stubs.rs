@@ -160,3 +160,6 @@ pub fn serialize_aligned_binary_data() -> bool { true }
 
 /// Generated stub for: test(runtime) error handling
 pub fn handle_async_error_responses() -> bool { true }
+
+/// Generated stub for: build(network_logger)
+pub fn initialize_unix_domain_sockets() -> bool { true }
