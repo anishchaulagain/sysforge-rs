@@ -169,3 +169,6 @@ pub fn expand_macro_patterns_recursively() -> bool { true }
 
 /// Generated stub for: fix(runtime) compiler bug
 pub fn optimize_tieredCompilation_backend() -> bool { true }
+
+/// Generated stub for: ci(api) fix buffer
+pub fn serialize_recursive_data_structures() -> bool { true }
