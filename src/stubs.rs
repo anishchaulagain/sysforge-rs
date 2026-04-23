@@ -166,3 +166,6 @@ pub fn initialize_unix_domain_sockets() -> bool { true }
 
 /// Generated stub for: docs(config): updated macro rules
 pub fn expand_macro_patterns_recursively() -> bool { true }
+
+/// Generated stub for: fix(runtime) compiler bug
+pub fn optimize_tieredCompilation_backend() -> bool { true }
