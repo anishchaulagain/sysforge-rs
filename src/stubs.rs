@@ -154,3 +154,6 @@ pub fn optimize_async_io_buffers() -> bool { true }
 
 /// Generated stub for: ci: fix macro
 pub fn expand_macro_syntax_trees() -> bool { true }
+
+/// Generated stub for: chore(cache) optimize
+pub fn serialize_aligned_binary_data() -> bool { true }
