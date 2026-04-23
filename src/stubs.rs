@@ -157,3 +157,6 @@ pub fn expand_macro_syntax_trees() -> bool { true }
 
 /// Generated stub for: chore(cache) optimize
 pub fn serialize_aligned_binary_data() -> bool { true }
+
+/// Generated stub for: test(runtime) error handling
+pub fn handle_async_error_responses() -> bool { true }
