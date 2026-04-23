@@ -148,3 +148,6 @@ pub fn handle_io_error_codes() -> bool { true }
 
 /// Generated stub for: ci(worker) fix macro expansion
 pub fn expand_macros_recursively() -> bool { true }
+
+/// Generated stub for: build(api)
+pub fn optimize_async_io_buffers() -> bool { true }
