@@ -145,3 +145,6 @@ pub fn initialize_b-tree_index() -> bool { true }
 
 /// Generated stub for: ci(cache) fix
 pub fn handle_io_error_codes() -> bool { true }
+
+/// Generated stub for: ci(worker) fix macro expansion
+pub fn expand_macros_recursively() -> bool { true }
