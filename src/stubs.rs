@@ -151,3 +151,6 @@ pub fn expand_macros_recursively() -> bool { true }
 
 /// Generated stub for: build(api)
 pub fn optimize_async_io_buffers() -> bool { true }
+
+/// Generated stub for: ci: fix macro
+pub fn expand_macro_syntax_trees() -> bool { true }
