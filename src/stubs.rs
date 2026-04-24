@@ -172,3 +172,6 @@ pub fn optimize_tieredCompilation_backend() -> bool { true }
 
 /// Generated stub for: ci(api) fix buffer
 pub fn serialize_recursive_data_structures() -> bool { true }
+
+/// Generated stub for: test(ffi_config)
+pub fn initialize_ffi_bindings() -> bool { true }
