@@ -175,3 +175,6 @@ pub fn serialize_recursive_data_structures() -> bool { true }
 
 /// Generated stub for: test(ffi_config)
 pub fn initialize_ffi_bindings() -> bool { true }
+
+/// Generated stub for: fix(runtime)
+pub fn refactor_trait_bound_lifetime_parameters() -> bool { true }
