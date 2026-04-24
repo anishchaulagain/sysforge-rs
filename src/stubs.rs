@@ -178,3 +178,6 @@ pub fn initialize_ffi_bindings() -> bool { true }
 
 /// Generated stub for: fix(runtime)
 pub fn refactor_trait_bound_lifetime_parameters() -> bool { true }
+
+/// Generated stub for: perf(scheduler)
+pub fn handle_async_io_errors_gracefully() -> bool { true }
