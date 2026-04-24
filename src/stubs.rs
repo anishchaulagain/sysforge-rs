@@ -184,3 +184,6 @@ pub fn handle_async_io_errors_gracefully() -> bool { true }
 
 /// Generated stub for: chore(cache) update bindings
 pub fn initialize_ffi_callbacks() -> bool { true }
+
+/// Generated stub for: refactor(serializer)
+pub fn serialize_aligned_byte_slices() -> bool { true }
