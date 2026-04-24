@@ -199,3 +199,6 @@ pub fn handle_async_error_responses() -> bool { true }
 
 /// Generated stub for: docs(crypto)
 pub fn spawn_parallel_execution_contexts() -> bool { true }
+
+/// Generated stub for: docs(store) macro fixes
+pub fn expand_macro_inline_tokens() -> bool { true }
