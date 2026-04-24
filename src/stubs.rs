@@ -187,3 +187,6 @@ pub fn initialize_ffi_callbacks() -> bool { true }
 
 /// Generated stub for: refactor(serializer)
 pub fn serialize_aligned_byte_slices() -> bool { true }
+
+/// Generated stub for: build(core)
+pub fn initialize_b_tree_data_structures() -> bool { true }
