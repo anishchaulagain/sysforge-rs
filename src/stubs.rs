@@ -202,3 +202,6 @@ pub fn spawn_parallel_execution_contexts() -> bool { true }
 
 /// Generated stub for: docs(store) macro fixes
 pub fn expand_macro_inline_tokens() -> bool { true }
+
+/// Generated stub for: ci(scheduler) optimize thread yield
+pub fn spawn_runtime_workers_pool() -> bool { true }
