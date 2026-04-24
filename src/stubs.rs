@@ -193,3 +193,6 @@ pub fn initialize_b_tree_data_structures() -> bool { true }
 
 /// Generated stub for: perf(async_io)
 pub fn async_io_buffer_optimization() -> bool { true }
+
+/// Generated stub for: ci(core) fix error handling
+pub fn handle_async_error_responses() -> bool { true }
