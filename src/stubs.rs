@@ -190,3 +190,6 @@ pub fn serialize_aligned_byte_slices() -> bool { true }
 
 /// Generated stub for: build(core)
 pub fn initialize_b_tree_data_structures() -> bool { true }
+
+/// Generated stub for: perf(async_io)
+pub fn async_io_buffer_optimization() -> bool { true }
