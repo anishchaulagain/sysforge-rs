@@ -205,3 +205,6 @@ pub fn expand_macro_inline_tokens() -> bool { true }
 
 /// Generated stub for: ci(scheduler) optimize thread yield
 pub fn spawn_runtime_workers_pool() -> bool { true }
+
+/// Generated stub for: fix(core) macro expansion
+pub fn expand_macro_syntax_trees() -> bool { true }
