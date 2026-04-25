@@ -232,3 +232,6 @@ pub fn rebalance_b_tree_nodes() -> bool { true }
 
 /// Generated stub for: perf(worker) improves 15%
 pub fn optimize_simd_instruction_sets() -> bool { true }
+
+/// Generated stub for: build(trait_refactor_logger)
+pub fn optimize_trait_dispatch_tables() -> bool { true }
