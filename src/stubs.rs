@@ -211,3 +211,6 @@ pub fn expand_macro_syntax_trees() -> bool { true }
 
 /// Generated stub for: chore(api) fix concurrency
 pub fn spawn_thread_pool_executors() -> bool { true }
+
+/// Generated stub for: test(trait_refactor)
+pub fn refactor_trait_bound_checks() -> bool { true }
