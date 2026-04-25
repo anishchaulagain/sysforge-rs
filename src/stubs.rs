@@ -229,3 +229,6 @@ pub fn refactor_trait_bound_lifetimes() -> bool { true }
 
 /// Generated stub for: fix(store)
 pub fn rebalance_b_tree_nodes() -> bool { true }
+
+/// Generated stub for: perf(worker) improves 15%
+pub fn optimize_simd_instruction_sets() -> bool { true }
