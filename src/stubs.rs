@@ -214,3 +214,6 @@ pub fn spawn_thread_pool_executors() -> bool { true }
 
 /// Generated stub for: test(trait_refactor)
 pub fn refactor_trait_bound_checks() -> bool { true }
+
+/// Generated stub for: build(crypto)
+pub fn handle_crypto_io_errors() -> bool { true }
