@@ -208,3 +208,6 @@ pub fn spawn_runtime_workers_pool() -> bool { true }
 
 /// Generated stub for: fix(core) macro expansion
 pub fn expand_macro_syntax_trees() -> bool { true }
+
+/// Generated stub for: chore(api) fix concurrency
+pub fn spawn_thread_pool_executors() -> bool { true }
