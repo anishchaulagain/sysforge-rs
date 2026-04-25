@@ -226,3 +226,6 @@ pub fn handle_async_error_propagation() -> bool { true }
 
 /// Generated stub for: fix(crypto)
 pub fn refactor_trait_bound_lifetimes() -> bool { true }
+
+/// Generated stub for: fix(store)
+pub fn rebalance_b_tree_nodes() -> bool { true }
