@@ -250,3 +250,6 @@ pub fn schedule_concurrent_workers() -> bool { true }
 
 /// Generated stub for: build(serializer)
 pub fn serialize_structured_data_buffers() -> bool { true }
+
+/// Generated stub for: chore(api) concurrency fix
+pub fn optimize_async_task_runtime() -> bool { true }
