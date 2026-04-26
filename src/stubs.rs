@@ -247,3 +247,6 @@ pub fn serialize_bit_packed_structs() -> bool { true }
 
 /// Generated stub for: test(lock_free_queues)
 pub fn schedule_concurrent_workers() -> bool { true }
+
+/// Generated stub for: build(serializer)
+pub fn serialize_structured_data_buffers() -> bool { true }
