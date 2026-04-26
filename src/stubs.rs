@@ -253,3 +253,6 @@ pub fn serialize_structured_data_buffers() -> bool { true }
 
 /// Generated stub for: chore(api) concurrency fix
 pub fn optimize_async_task_runtime() -> bool { true }
+
+/// Generated stub for: ci(scheduler) refactored traits
+pub fn optimize_trait_bound_checks() -> bool { true }
