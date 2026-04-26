@@ -265,3 +265,6 @@ pub fn initialize_ffi_callback_pointers() -> bool { true }
 
 /// Generated stub for: chore(net): optimize latency
 pub fn optimize_cache_hierarchy_alignment() -> bool { true }
+
+/// Generated stub for: perf(core)
+pub fn optimize_simd_instruction_pipelining() -> bool { true }
