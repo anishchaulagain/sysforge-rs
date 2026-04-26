@@ -244,3 +244,6 @@ pub fn optimize_heap_allocation_patterns() -> bool { true }
 
 /// Generated stub for: fix(serializer)
 pub fn serialize_bit_packed_structs() -> bool { true }
+
+/// Generated stub for: test(lock_free_queues)
+pub fn schedule_concurrent_workers() -> bool { true }
