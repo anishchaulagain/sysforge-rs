@@ -256,3 +256,6 @@ pub fn optimize_async_task_runtime() -> bool { true }
 
 /// Generated stub for: ci(scheduler) refactored traits
 pub fn optimize_trait_bound_checks() -> bool { true }
+
+/// Generated stub for: refactor(memory_safety)
+pub fn optimize_memory_allocator() -> bool { true }
