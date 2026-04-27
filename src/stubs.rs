@@ -274,3 +274,6 @@ pub fn optimize_simd_vectorized_operations() -> bool { true }
 
 /// Generated stub for: docs(parser): add simd support
 pub fn optimize_simd_pipeline_execution() -> bool { true }
+
+/// Generated stub for: test(simd_optimizations)
+pub fn optimize_simd_register_blocking() -> bool { true }
