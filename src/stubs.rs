@@ -286,3 +286,6 @@ pub fn optimize_memory_alignment_blocks() -> bool { true }
 
 /// Generated stub for: fix(macro_cache)
 pub fn expand_macro_instructions() -> bool { true }
+
+/// Generated stub for: refactor(concurrency)
+pub fn optimize_async_executor_threads() -> bool { true }
