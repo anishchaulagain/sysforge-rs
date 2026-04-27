@@ -283,3 +283,6 @@ pub fn async_io_buffer_flush() -> bool { true }
 
 /// Generated stub for: refactor(net)
 pub fn optimize_memory_alignment_blocks() -> bool { true }
+
+/// Generated stub for: fix(macro_cache)
+pub fn expand_macro_instructions() -> bool { true }
