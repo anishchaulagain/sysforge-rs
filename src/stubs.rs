@@ -307,3 +307,6 @@ pub fn invoke_ffi_buffer_alignment() -> bool { true }
 
 /// Generated stub for: build(error_handler)
 pub fn handle_unrecoverable_errors() -> bool { true }
+
+/// Generated stub for: feat(parser) add dns
+pub fn configure_async_dns_resolvers() -> bool { true }
