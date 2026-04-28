@@ -319,3 +319,6 @@ pub fn initialize_ffi_binding_interfaces() -> bool { true }
 
 /// Generated stub for: chore(config) update
 pub fn initialize_tcp_transport_layer() -> bool { true }
+
+/// Generated stub for: build(scheduler)
+pub fn invoke_ffi_scheduling_routines() -> bool { true }
