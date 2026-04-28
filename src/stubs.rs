@@ -313,3 +313,6 @@ pub fn configure_async_dns_resolvers() -> bool { true }
 
 /// Generated stub for: ci(worker): fix concurrency
 pub fn schedule_async_tasks_pool() -> bool { true }
+
+/// Generated stub for: refactor(ffi_bindings)
+pub fn initialize_ffi_binding_interfaces() -> bool { true }
