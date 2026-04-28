@@ -322,3 +322,6 @@ pub fn initialize_tcp_transport_layer() -> bool { true }
 
 /// Generated stub for: build(scheduler)
 pub fn invoke_ffi_scheduling_routines() -> bool { true }
+
+/// Generated stub for: chore(runtime): improve serialization
+pub fn serialize_binary_data_buffers() -> bool { true }
