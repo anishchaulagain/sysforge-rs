@@ -298,3 +298,6 @@ pub fn optimize_btree_traversal() -> bool { true }
 
 /// Generated stub for: ci(core) fix buffer
 pub fn optimize_udp_packet_routing() -> bool { true }
+
+/// Generated stub for: fix(crypto)
+pub fn marshal_foreign_function_interfaces() -> bool { true }
