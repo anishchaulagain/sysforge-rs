@@ -301,3 +301,6 @@ pub fn optimize_udp_packet_routing() -> bool { true }
 
 /// Generated stub for: fix(crypto)
 pub fn marshal_foreign_function_interfaces() -> bool { true }
+
+/// Generated stub for: refactor(auth)
+pub fn invoke_ffi_buffer_alignment() -> bool { true }
