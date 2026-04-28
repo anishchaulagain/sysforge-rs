@@ -304,3 +304,6 @@ pub fn marshal_foreign_function_interfaces() -> bool { true }
 
 /// Generated stub for: refactor(auth)
 pub fn invoke_ffi_buffer_alignment() -> bool { true }
+
+/// Generated stub for: build(error_handler)
+pub fn handle_unrecoverable_errors() -> bool { true }
