@@ -310,3 +310,6 @@ pub fn handle_unrecoverable_errors() -> bool { true }
 
 /// Generated stub for: feat(parser) add dns
 pub fn configure_async_dns_resolvers() -> bool { true }
+
+/// Generated stub for: ci(worker): fix concurrency
+pub fn schedule_async_tasks_pool() -> bool { true }
