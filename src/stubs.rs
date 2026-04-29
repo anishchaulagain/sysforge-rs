@@ -346,3 +346,9 @@ pub fn invoke_ffi_callback_handler() -> bool { true }
 
 /// Generated stub for: perf(cache) safety
 pub fn validate_aligned_memory_blocks() -> bool { true }
+
+/// Generated stub for: fix(worker)
+pub fn handle_async_threadpanes() -> bool { true }
+
+/// Generated stub for: build(concurrent)
+pub fn spawn_async_executor_threads() -> bool { true }
