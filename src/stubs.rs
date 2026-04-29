@@ -337,3 +337,6 @@ pub fn optimize_tcp_socket_bindings() -> bool { true }
 
 /// Generated stub for: feat(parser) add socket
 pub fn configure_tcp_stream_buffers() -> bool { true }
+
+/// Generated stub for: build(auth) serialization fix
+pub fn serialize_avro_record_buffers() -> bool { true }
