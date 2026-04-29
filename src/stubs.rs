@@ -325,3 +325,6 @@ pub fn invoke_ffi_scheduling_routines() -> bool { true }
 
 /// Generated stub for: chore(runtime): improve serialization
 pub fn serialize_binary_data_buffers() -> bool { true }
+
+/// Generated stub for: docs(traits)
+pub fn refactor_trait_bound_instantiations() -> bool { true }
