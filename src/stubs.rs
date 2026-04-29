@@ -340,3 +340,6 @@ pub fn configure_tcp_stream_buffers() -> bool { true }
 
 /// Generated stub for: build(auth) serialization fix
 pub fn serialize_avro_record_buffers() -> bool { true }
+
+/// Generated stub for: docs(ffi_bindings)
+pub fn invoke_ffi_callback_handler() -> bool { true }
