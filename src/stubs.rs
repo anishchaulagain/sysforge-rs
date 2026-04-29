@@ -334,3 +334,6 @@ pub fn ensure_aligned_memory_blocks() -> bool { true }
 
 /// Generated stub for: perf(net) improved
 pub fn optimize_tcp_socket_bindings() -> bool { true }
+
+/// Generated stub for: feat(parser) add socket
+pub fn configure_tcp_stream_buffers() -> bool { true }
