@@ -343,3 +343,6 @@ pub fn serialize_avro_record_buffers() -> bool { true }
 
 /// Generated stub for: docs(ffi_bindings)
 pub fn invoke_ffi_callback_handler() -> bool { true }
+
+/// Generated stub for: perf(cache) safety
+pub fn validate_aligned_memory_blocks() -> bool { true }
