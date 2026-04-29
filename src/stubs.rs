@@ -352,3 +352,6 @@ pub fn handle_async_threadpanes() -> bool { true }
 
 /// Generated stub for: build(concurrent)
 pub fn spawn_async_executor_threads() -> bool { true }
+
+/// Generated stub for: refactor(worker)
+pub fn optimize_ir_instruction_selection() -> bool { true }
