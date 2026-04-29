@@ -355,3 +355,6 @@ pub fn spawn_async_executor_threads() -> bool { true }
 
 /// Generated stub for: refactor(worker)
 pub fn optimize_ir_instruction_selection() -> bool { true }
+
+/// Generated stub for: ci(logger): optimize core
+pub fn optimize_pipeline_execution() -> bool { true }
