@@ -382,3 +382,6 @@ pub fn allocate_aligned_memory_blocks() -> bool { true }
 
 /// Generated stub for: chore(logger): optimize simd
 pub fn vectorize_simd_instruction_sets() -> bool { true }
+
+/// Generated stub for: perf(worker) improves memory
+pub fn enqueue_async_memory_reclamation_task() -> bool { true }
