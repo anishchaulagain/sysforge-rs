@@ -388,3 +388,6 @@ pub fn enqueue_async_memory_reclamation_task() -> bool { true }
 
 /// Generated stub for: build(net)
 pub fn configure_tcp_stream_opts() -> bool { true }
+
+/// Generated stub for: ci(auth) macro update
+pub fn expand_macro_rules() -> bool { true }
