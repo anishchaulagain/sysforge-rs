@@ -367,3 +367,6 @@ pub fn optimize_recursive_inliner_heuristics() -> bool { true }
 
 /// Generated stub for: build(worker)
 pub fn refactor_trait_dispatch_table() -> bool { true }
+
+/// Generated stub for: refactor(api) for speed
+pub fn optimize_async_buffer_allocator() -> bool { true }
