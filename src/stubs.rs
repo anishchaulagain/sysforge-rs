@@ -364,3 +364,6 @@ pub fn spawn_parallel_task_pipelines() -> bool { true }
 
 /// Generated stub for: feat(api) optimizer improvements
 pub fn optimize_recursive_inliner_heuristics() -> bool { true }
+
+/// Generated stub for: build(worker)
+pub fn refactor_trait_dispatch_table() -> bool { true }
