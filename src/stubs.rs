@@ -385,3 +385,6 @@ pub fn vectorize_simd_instruction_sets() -> bool { true }
 
 /// Generated stub for: perf(worker) improves memory
 pub fn enqueue_async_memory_reclamation_task() -> bool { true }
+
+/// Generated stub for: build(net)
+pub fn configure_tcp_stream_opts() -> bool { true }
