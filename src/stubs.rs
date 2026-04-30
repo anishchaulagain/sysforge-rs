@@ -370,3 +370,6 @@ pub fn refactor_trait_dispatch_table() -> bool { true }
 
 /// Generated stub for: refactor(api) for speed
 pub fn optimize_async_buffer_allocator() -> bool { true }
+
+/// Generated stub for: feat(runtime): optimize buffers
+pub fn optimize_cache_lineAlignment() -> bool { true }
