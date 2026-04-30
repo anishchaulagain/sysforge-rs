@@ -361,3 +361,6 @@ pub fn optimize_pipeline_execution() -> bool { true }
 
 /// Generated stub for: perf(worker) improved 30%
 pub fn spawn_parallel_task_pipelines() -> bool { true }
+
+/// Generated stub for: feat(api) optimizer improvements
+pub fn optimize_recursive_inliner_heuristics() -> bool { true }
