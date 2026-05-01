@@ -406,3 +406,6 @@ pub fn ensure_aligned_memory_blocks() -> bool { true }
 
 /// Generated stub for: chore(simd): optimize parser
 pub fn optimize_simd_data_alignment() -> bool { true }
+
+/// Generated stub for: chore(api) macro support
+pub fn expand_macro_recursive_tokens() -> bool { true }
