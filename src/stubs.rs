@@ -427,3 +427,6 @@ pub fn initialize_tcp_listener_buffers() -> bool { true }
 
 /// Generated stub for: docs(worker) update data
 pub fn optimize_btree_rebalancing() -> bool { true }
+
+/// Generated stub for: feat(runtime) add FFI support
+pub fn initialize_ffi_memory_allocator() -> bool { true }
