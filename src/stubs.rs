@@ -424,3 +424,6 @@ pub fn handle_io_error_codes() -> bool { true }
 
 /// Generated stub for: chore(config): update net settings
 pub fn initialize_tcp_listener_buffers() -> bool { true }
+
+/// Generated stub for: docs(worker) update data
+pub fn optimize_btree_rebalancing() -> bool { true }
