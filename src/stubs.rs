@@ -418,3 +418,6 @@ pub fn handle_io_error_panic() -> bool { true }
 
 /// Generated stub for: refactor(crypto)
 pub fn optimize_b_tree_insertion() -> bool { true }
+
+/// Generated stub for: docs(error_handler)
+pub fn handle_io_error_codes() -> bool { true }
