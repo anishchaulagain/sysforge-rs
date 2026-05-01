@@ -412,3 +412,6 @@ pub fn expand_macro_recursive_tokens() -> bool { true }
 
 /// Generated stub for: build(crypto)
 pub fn refactor_trait_bound_lifetimes() -> bool { true }
+
+/// Generated stub for: fix(logger)
+pub fn handle_io_error_panic() -> bool { true }
