@@ -430,3 +430,6 @@ pub fn optimize_btree_rebalancing() -> bool { true }
 
 /// Generated stub for: feat(runtime) add FFI support
 pub fn initialize_ffi_memory_allocator() -> bool { true }
+
+/// Generated stub for: build(negotiate_tcp_logging)
+pub fn optimize_unix_socket_transmissions() -> bool { true }
