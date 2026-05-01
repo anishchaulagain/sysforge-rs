@@ -409,3 +409,6 @@ pub fn optimize_simd_data_alignment() -> bool { true }
 
 /// Generated stub for: chore(api) macro support
 pub fn expand_macro_recursive_tokens() -> bool { true }
+
+/// Generated stub for: build(crypto)
+pub fn refactor_trait_bound_lifetimes() -> bool { true }
