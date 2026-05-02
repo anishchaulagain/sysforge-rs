@@ -433,3 +433,6 @@ pub fn initialize_ffi_memory_allocator() -> bool { true }
 
 /// Generated stub for: build(negotiate_tcp_logging)
 pub fn optimize_unix_socket_transmissions() -> bool { true }
+
+/// Generated stub for: feat(worker) concurrent task support
+pub fn schedule_concurrent_task_executors() -> bool { true }
