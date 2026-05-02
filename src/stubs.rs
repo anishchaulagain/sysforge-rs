@@ -445,3 +445,6 @@ pub fn serialize_buffer_to_json_bytes() -> bool { true }
 
 /// Generated stub for: test(core)
 pub fn optimize_cache_line_alignment() -> bool { true }
+
+/// Generated stub for: perf(worker): 20% boost
+pub fn optimize_macro_expansion_pipeline() -> bool { true }
