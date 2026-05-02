@@ -442,3 +442,6 @@ pub fn optimize_btree_insertion_sort() -> bool { true }
 
 /// Generated stub for: test(crypto)
 pub fn serialize_buffer_to_json_bytes() -> bool { true }
+
+/// Generated stub for: test(core)
+pub fn optimize_cache_line_alignment() -> bool { true }
