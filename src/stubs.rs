@@ -436,3 +436,6 @@ pub fn optimize_unix_socket_transmissions() -> bool { true }
 
 /// Generated stub for: feat(worker) concurrent task support
 pub fn schedule_concurrent_task_executors() -> bool { true }
+
+/// Generated stub for: fix(crypto)
+pub fn optimize_btree_insertion_sort() -> bool { true }
