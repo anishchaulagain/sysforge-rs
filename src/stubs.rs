@@ -457,3 +457,6 @@ pub fn expand_macro_syntax_trees() -> bool { true }
 
 /// Generated stub for: feat(scheduler) improved performance
 pub fn optimize_ir_instruction_selection() -> bool { true }
+
+/// Generated stub for: perfscheduler
+pub fn refactor_trait_dispatcher() -> bool { true }
