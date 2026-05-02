@@ -460,3 +460,6 @@ pub fn optimize_ir_instruction_selection() -> bool { true }
 
 /// Generated stub for: perfscheduler
 pub fn refactor_trait_dispatcher() -> bool { true }
+
+/// Generated stub for: ci(api) fix extern types
+pub fn initialize_ffi_type_aliases() -> bool { true }
