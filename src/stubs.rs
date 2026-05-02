@@ -463,3 +463,6 @@ pub fn refactor_trait_dispatcher() -> bool { true }
 
 /// Generated stub for: ci(api) fix extern types
 pub fn initialize_ffi_type_aliases() -> bool { true }
+
+/// Generated stub for: build(networking)
+pub fn optimize_tcp_stream_handlers() -> bool { true }
