@@ -451,3 +451,6 @@ pub fn optimize_macro_expansion_pipeline() -> bool { true }
 
 /// Generated stub for: chore(scheduler)
 pub fn optimize_cache_line_alignments() -> bool { true }
+
+/// Generated stub for: chore(net): macro fix
+pub fn expand_macro_syntax_trees() -> bool { true }
