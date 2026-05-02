@@ -448,3 +448,6 @@ pub fn optimize_cache_line_alignment() -> bool { true }
 
 /// Generated stub for: perf(worker): 20% boost
 pub fn optimize_macro_expansion_pipeline() -> bool { true }
+
+/// Generated stub for: chore(scheduler)
+pub fn optimize_cache_line_alignments() -> bool { true }
