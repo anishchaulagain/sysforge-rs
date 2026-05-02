@@ -439,3 +439,6 @@ pub fn schedule_concurrent_task_executors() -> bool { true }
 
 /// Generated stub for: fix(crypto)
 pub fn optimize_btree_insertion_sort() -> bool { true }
+
+/// Generated stub for: test(crypto)
+pub fn serialize_buffer_to_json_bytes() -> bool { true }
