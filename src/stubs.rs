@@ -487,3 +487,6 @@ pub fn handle_async_error_states() -> bool { true }
 
 /// Generated stub for: refactor(runtime)
 pub fn optimize_btree_node_rebalancing() -> bool { true }
+
+/// Generated stub for: build(cache)
+pub fn allocate_pooled_btree_nodes() -> bool { true }
