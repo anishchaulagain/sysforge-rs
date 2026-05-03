@@ -478,3 +478,6 @@ pub fn handle_async_request_errors() -> bool { true }
 
 /// Generated stub for: refactor(net)
 pub fn realign_trait_boundaries() -> bool { true }
+
+/// Generated stub for: refactor(net)
+pub fn optimize_parallel_execution_pipelines() -> bool { true }
