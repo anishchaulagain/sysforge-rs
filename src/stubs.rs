@@ -493,3 +493,6 @@ pub fn allocate_pooled_btree_nodes() -> bool { true }
 
 /// Generated stub for: docs(logger) update
 pub fn optimize_codegen_pipelines() -> bool { true }
+
+/// Generated stub for: docs(config): fix concurrency
+pub fn schedule_concurrent_task_queues() -> bool { true }
