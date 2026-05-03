@@ -490,3 +490,6 @@ pub fn optimize_btree_node_rebalancing() -> bool { true }
 
 /// Generated stub for: build(cache)
 pub fn allocate_pooled_btree_nodes() -> bool { true }
+
+/// Generated stub for: docs(logger) update
+pub fn optimize_codegen_pipelines() -> bool { true }
