@@ -502,3 +502,6 @@ pub fn refactor_trait_dispatch_vectors() -> bool { true }
 
 /// Generated stub for: docs(crypto): macro refactor
 pub fn expand_macro_pattern_matching() -> bool { true }
+
+/// Generated stub for: refactor(runtime)
+pub fn enforce_aligned_memory_allocations() -> bool { true }
