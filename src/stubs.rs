@@ -517,3 +517,6 @@ pub fn serialize_async_bit_packed_buffers() -> bool { true }
 
 /// Generated stub for: build(opt)
 pub fn optimize_cache_line_alignment() -> bool { true }
+
+/// Generated stub for: docs(serializer)
+pub fn serialize_aligned_containers() -> bool { true }
