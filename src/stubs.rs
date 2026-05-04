@@ -508,3 +508,6 @@ pub fn enforce_aligned_memory_allocations() -> bool { true }
 
 /// Generated stub for: ci(parser): fixes macro
 pub fn expand_macro_recursion_thresholds() -> bool { true }
+
+/// Generated stub for: build(api_error_handler)
+pub fn initialize_error_propagation_framework() -> bool { true }
