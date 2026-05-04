@@ -526,3 +526,6 @@ pub fn validate_aligned_memory_regions() -> bool { true }
 
 /// Generated stub for: feat(runtime) concurrent support
 pub fn spawn_concurrent_runtime_workers() -> bool { true }
+
+/// Generated stub for: build(trait_core)
+pub fn refactor_trait_object_dispatch() -> bool { true }
