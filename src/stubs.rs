@@ -499,3 +499,6 @@ pub fn schedule_concurrent_task_queues() -> bool { true }
 
 /// Generated stub for: docs(crypto): trait updates
 pub fn refactor_trait_dispatch_vectors() -> bool { true }
+
+/// Generated stub for: docs(crypto): macro refactor
+pub fn expand_macro_pattern_matching() -> bool { true }
