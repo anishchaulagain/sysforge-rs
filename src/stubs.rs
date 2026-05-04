@@ -514,3 +514,6 @@ pub fn initialize_error_propagation_framework() -> bool { true }
 
 /// Generated stub for: chore(core) fix serialization
 pub fn serialize_async_bit_packed_buffers() -> bool { true }
+
+/// Generated stub for: build(opt)
+pub fn optimize_cache_line_alignment() -> bool { true }
