@@ -505,3 +505,6 @@ pub fn expand_macro_pattern_matching() -> bool { true }
 
 /// Generated stub for: refactor(runtime)
 pub fn enforce_aligned_memory_allocations() -> bool { true }
+
+/// Generated stub for: ci(parser): fixes macro
+pub fn expand_macro_recursion_thresholds() -> bool { true }
