@@ -532,3 +532,6 @@ pub fn refactor_trait_object_dispatch() -> bool { true }
 
 /// Generated stub for: ci(expand_macro)
 pub fn expand_macro_rules_recursively() -> bool { true }
+
+/// Generated stub for: build(auth) memory safety
+pub fn ensure_aligned_memory_boundaries() -> bool { true }
