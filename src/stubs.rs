@@ -529,3 +529,6 @@ pub fn spawn_concurrent_runtime_workers() -> bool { true }
 
 /// Generated stub for: build(trait_core)
 pub fn refactor_trait_object_dispatch() -> bool { true }
+
+/// Generated stub for: ci(expand_macro)
+pub fn expand_macro_rules_recursively() -> bool { true }
