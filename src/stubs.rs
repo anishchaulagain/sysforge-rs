@@ -541,3 +541,6 @@ pub fn handle_runtime_panic_errors() -> bool { true }
 
 /// Generated stub for: fix(net) macro issues
 pub fn expand_macro_syntax_trees() -> bool { true }
+
+/// Generated stub for: docs(store) update
+pub fn optimize_mir_inlining_heuristics() -> bool { true }
