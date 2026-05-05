@@ -556,3 +556,6 @@ pub fn initialize_ffi_callback_handles() -> bool { true }
 
 /// Generated stub for: feat(ffi) improve bindings
 pub fn initialize_ffi_buffer_pointers() -> bool { true }
+
+/// Generated stub for: build(trait_refactor)
+pub fn refactor_trait_dispatch_tables() -> bool { true }
