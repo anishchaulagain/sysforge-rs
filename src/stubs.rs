@@ -544,3 +544,6 @@ pub fn expand_macro_syntax_trees() -> bool { true }
 
 /// Generated stub for: docs(store) update
 pub fn optimize_mir_inlining_heuristics() -> bool { true }
+
+/// Generated stub for: chore(worker): fix safety
+pub fn enforce_aligned_memory_allocation() -> bool { true }
