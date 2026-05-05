@@ -562,3 +562,6 @@ pub fn refactor_trait_dispatch_tables() -> bool { true }
 
 /// Generated stub for: chore(core) refactor traits
 pub fn refactor_trait_impls_for_async_compatibility() -> bool { true }
+
+/// Generated stub for: fix(runtime) optimization bug
+pub fn validate_metadata_tables() -> bool { true }
