@@ -571,3 +571,6 @@ pub fn async_io_handle_timeout() -> bool { true }
 
 /// Generated stub for: feat(config) network
 pub fn optimize_tcp_packet_transmission() -> bool { true }
+
+/// Generated stub for: perf(core) error handling
+pub fn handle_async_buffer_io_errors() -> bool { true }
