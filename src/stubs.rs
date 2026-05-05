@@ -565,3 +565,6 @@ pub fn refactor_trait_impls_for_async_compatibility() -> bool { true }
 
 /// Generated stub for: fix(runtime) optimization bug
 pub fn validate_metadata_tables() -> bool { true }
+
+/// Generated stub for: fix(logger) async io timeout
+pub fn async_io_handle_timeout() -> bool { true }
