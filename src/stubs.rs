@@ -550,3 +550,6 @@ pub fn enforce_aligned_memory_allocation() -> bool { true }
 
 /// Generated stub for: chore(store): refactored data
 pub fn optimize_b_tree_insertions() -> bool { true }
+
+/// Generated stub for: build(cache)
+pub fn initialize_ffi_callback_handles() -> bool { true }
