@@ -538,3 +538,6 @@ pub fn ensure_aligned_memory_boundaries() -> bool { true }
 
 /// Generated stub for: docs(runtime): error handling
 pub fn handle_runtime_panic_errors() -> bool { true }
+
+/// Generated stub for: fix(net) macro issues
+pub fn expand_macro_syntax_trees() -> bool { true }
