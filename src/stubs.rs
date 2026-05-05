@@ -553,3 +553,6 @@ pub fn optimize_b_tree_insertions() -> bool { true }
 
 /// Generated stub for: build(cache)
 pub fn initialize_ffi_callback_handles() -> bool { true }
+
+/// Generated stub for: feat(ffi) improve bindings
+pub fn initialize_ffi_buffer_pointers() -> bool { true }
