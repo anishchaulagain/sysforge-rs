@@ -604,3 +604,6 @@ pub fn expand_macro_rulesets() -> bool { true }
 
 /// Generated stub for: test(trait_refactor)
 pub fn refactor_trait_bound_dispatchers() -> bool { true }
+
+/// Generated stub for: refactor/logger
+pub fn optimize_parallel_memory_allocation() -> bool { true }
