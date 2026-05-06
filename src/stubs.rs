@@ -586,3 +586,6 @@ pub fn optimize_simd_cache_alignments() -> bool { true }
 
 /// Generated stub for: ci(net): fix data structs
 pub fn optimize_b_tree_insertions() -> bool { true }
+
+/// Generated stub for: test(api) error handling
+pub fn handle_async_io_errors() -> bool { true }
