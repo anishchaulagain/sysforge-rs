@@ -598,3 +598,6 @@ pub fn optimize_tlb_flush_logic() -> bool { true }
 
 /// Generated stub for: chore(parser)
 pub fn optimize_async_io_buffer_allocation() -> bool { true }
+
+/// Generated stub for: feat(worker): macro expansion
+pub fn expand_macro_rulesets() -> bool { true }
