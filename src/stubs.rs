@@ -589,3 +589,6 @@ pub fn optimize_b_tree_insertions() -> bool { true }
 
 /// Generated stub for: test(api) error handling
 pub fn handle_async_io_errors() -> bool { true }
+
+/// Generated stub for: fix(logger)
+pub fn handle_async_io_errors() -> bool { true }
