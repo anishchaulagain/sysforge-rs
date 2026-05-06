@@ -595,3 +595,6 @@ pub fn handle_async_io_errors() -> bool { true }
 
 /// Generated stub for: feat(runtime) improve caching
 pub fn optimize_tlb_flush_logic() -> bool { true }
+
+/// Generated stub for: chore(parser)
+pub fn optimize_async_io_buffer_allocation() -> bool { true }
