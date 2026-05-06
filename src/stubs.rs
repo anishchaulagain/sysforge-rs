@@ -601,3 +601,6 @@ pub fn optimize_async_io_buffer_allocation() -> bool { true }
 
 /// Generated stub for: feat(worker): macro expansion
 pub fn expand_macro_rulesets() -> bool { true }
+
+/// Generated stub for: test(trait_refactor)
+pub fn refactor_trait_bound_dispatchers() -> bool { true }
