@@ -577,3 +577,6 @@ pub fn handle_async_buffer_io_errors() -> bool { true }
 
 /// Generated stub for: fix(trait)
 pub fn refactor_trait_bound_lifetimes() -> bool { true }
+
+/// Generated stub for: build scheduler
+pub fn manage_async_execution_contexts() -> bool { true }
