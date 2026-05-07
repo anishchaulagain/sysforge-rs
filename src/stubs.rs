@@ -628,3 +628,6 @@ pub fn refactor_trait_bound_generics() -> bool { true }
 
 /// Generated stub for: fix(performance)
 pub fn optimize_critical_path_allocator() -> bool { true }
+
+/// Generated stub for: refactor(core)
+pub fn expand_macro_recursively() -> bool { true }
