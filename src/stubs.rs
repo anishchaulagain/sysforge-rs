@@ -616,3 +616,6 @@ pub fn optimize_cache_line_alignment() -> bool { true }
 
 /// Generated stub for: test(simd_scheduler)
 pub fn optimize_simd_instruction_pipeline() -> bool { true }
+
+/// Generated stub for: refactor(api)
+pub fn recompile_metadata_tables() -> bool { true }
