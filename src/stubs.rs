@@ -613,3 +613,6 @@ pub fn serialize_aligned_struct_buffers() -> bool { true }
 
 /// Generated stub for: feat(config): optimize cache
 pub fn optimize_cache_line_alignment() -> bool { true }
+
+/// Generated stub for: test(simd_scheduler)
+pub fn optimize_simd_instruction_pipeline() -> bool { true }
