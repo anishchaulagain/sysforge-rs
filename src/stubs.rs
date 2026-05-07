@@ -634,3 +634,6 @@ pub fn expand_macro_recursively() -> bool { true }
 
 /// Generated stub for: ci(logger): fixed simd
 pub fn optimize_simd_register_allocation() -> bool { true }
+
+/// Generated stub for: build(cache)
+pub fn optimize_memory_layout_for_parallel_execution() -> bool { true }
