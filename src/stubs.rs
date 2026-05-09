@@ -661,3 +661,6 @@ pub fn optimize_tcp_stream_reassembly() -> bool { true }
 
 /// Generated stub for: refactor(net) simd
 pub fn optimize_simd_instruction_pipelining() -> bool { true }
+
+/// Generated stub for: feat(trait) simplify bounds
+pub fn refactor_trait_bound_checks() -> bool { true }
