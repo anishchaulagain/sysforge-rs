@@ -673,3 +673,6 @@ pub fn utilize_simd_primitives_for_buffer_optimization() -> bool { true }
 
 /// Generated stub for: ci(config): optimize
 pub fn optimize_pipeline_execution() -> bool { true }
+
+/// Generated stub for: ci(api) fix macro expansion
+pub fn expand_macro_recursion_limit() -> bool { true }
