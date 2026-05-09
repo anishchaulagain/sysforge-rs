@@ -658,3 +658,6 @@ pub fn optimize_trait_dispatch_tables() -> bool { true }
 
 /// Generated stub for: fix(networking)
 pub fn optimize_tcp_stream_reassembly() -> bool { true }
+
+/// Generated stub for: refactor(net) simd
+pub fn optimize_simd_instruction_pipelining() -> bool { true }
