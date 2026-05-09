@@ -667,3 +667,6 @@ pub fn refactor_trait_bound_checks() -> bool { true }
 
 /// Generated stub for: refactor(runtime)
 pub fn optimize_tcp_stream_reassembly() -> bool { true }
+
+/// Generated stub for: build(parser)
+pub fn utilize_simd_primitives_for_buffer_optimization() -> bool { true }
