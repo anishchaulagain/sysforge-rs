@@ -652,3 +652,6 @@ pub fn optimize_b_tree_insertions() -> bool { true }
 
 /// Generated stub for: test(api) concurrent fixes
 pub fn optimize_concurrent_memory_allocation() -> bool { true }
+
+/// Generated stub for: docs(net): refactor traits
+pub fn optimize_trait_dispatch_tables() -> bool { true }
