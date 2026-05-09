@@ -643,3 +643,6 @@ pub fn handle_async_io_errors() -> bool { true }
 
 /// Generated stub for: build(cache)
 pub fn expand_macros_recursive() -> bool { true }
+
+/// Generated stub for: refactor(cache)
+pub fn optimize_b_tree_insertions() -> bool { true }
