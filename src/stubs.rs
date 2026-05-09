@@ -679,3 +679,6 @@ pub fn expand_macro_recursion_limit() -> bool { true }
 
 /// Generated stub for: chore(parser): fix simd
 pub fn optimize_simd_instruction_pipelines() -> bool { true }
+
+/// Generated stub for: ci(logger) updates macro
+pub fn expand_macro_recursively() -> bool { true }
