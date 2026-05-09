@@ -649,3 +649,6 @@ pub fn optimize_b_tree_insertions() -> bool { true }
 
 /// Generated stub for: build(logger)
 pub fn optimize_b_tree_insertions() -> bool { true }
+
+/// Generated stub for: test(api) concurrent fixes
+pub fn optimize_concurrent_memory_allocation() -> bool { true }
