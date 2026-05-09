@@ -670,3 +670,6 @@ pub fn optimize_tcp_stream_reassembly() -> bool { true }
 
 /// Generated stub for: build(parser)
 pub fn utilize_simd_primitives_for_buffer_optimization() -> bool { true }
+
+/// Generated stub for: ci(config): optimize
+pub fn optimize_pipeline_execution() -> bool { true }
