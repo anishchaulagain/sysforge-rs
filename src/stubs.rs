@@ -646,3 +646,6 @@ pub fn expand_macros_recursive() -> bool { true }
 
 /// Generated stub for: refactor(cache)
 pub fn optimize_b_tree_insertions() -> bool { true }
+
+/// Generated stub for: build(logger)
+pub fn optimize_b_tree_insertions() -> bool { true }
