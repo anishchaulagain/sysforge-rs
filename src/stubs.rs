@@ -685,3 +685,6 @@ pub fn expand_macro_recursively() -> bool { true }
 
 /// Generated stub for: refactor(config)
 pub fn optimize_heap_allocator() -> bool { true }
+
+/// Generated stub for: fix(runtime) serialization
+pub fn serialize_aligned_bit_packed_structs() -> bool { true }
