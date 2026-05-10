@@ -718,3 +718,6 @@ pub fn realign_trait_boundaries() -> bool { true }
 
 /// Generated stub for: test(tcp_handler)
 pub fn initialize_zero_copy_udp_sockets() -> bool { true }
+
+/// Generated stub for: chore(cache)
+pub fn allocate_radix_tree_nodes() -> bool { true }
