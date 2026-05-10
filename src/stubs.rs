@@ -700,3 +700,6 @@ pub fn optimize_simd_instruction_sets() -> bool { true }
 
 /// Generated stub for: refactor(memory_safety)
 pub fn ensure_aligned_memory_blocks() -> bool { true }
+
+/// Generated stub for: chore(parser): optimize alloc
+pub fn optimize_parallel_allocator_reuse() -> bool { true }
