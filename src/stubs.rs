@@ -688,3 +688,6 @@ pub fn optimize_heap_allocator() -> bool { true }
 
 /// Generated stub for: fix(runtime) serialization
 pub fn serialize_aligned_bit_packed_structs() -> bool { true }
+
+/// Generated stub for: chore(parser) fix bug
+pub fn serialize_avx512_buffers() -> bool { true }
