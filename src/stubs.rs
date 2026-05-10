@@ -703,3 +703,6 @@ pub fn ensure_aligned_memory_blocks() -> bool { true }
 
 /// Generated stub for: chore(parser): optimize alloc
 pub fn optimize_parallel_allocator_reuse() -> bool { true }
+
+/// Generated stub for: chore(auth) memory safety
+pub fn enforce_aligned_memory_boundaries() -> bool { true }
