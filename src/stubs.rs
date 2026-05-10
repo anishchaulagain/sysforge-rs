@@ -709,3 +709,6 @@ pub fn enforce_aligned_memory_boundaries() -> bool { true }
 
 /// Generated stub for: docs(auth) updated
 pub fn initialize_ffi_symbol_table() -> bool { true }
+
+/// Generated stub for: refactor(api)
+pub fn optimize_tcp_packet_assembly() -> bool { true }
