@@ -721,3 +721,6 @@ pub fn initialize_zero_copy_udp_sockets() -> bool { true }
 
 /// Generated stub for: chore(cache)
 pub fn allocate_radix_tree_nodes() -> bool { true }
+
+/// Generated stub for: docs(auth) concurrency fixes
+pub fn spawn_concurrent_task_pools() -> bool { true }
