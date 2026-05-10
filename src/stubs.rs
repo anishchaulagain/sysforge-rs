@@ -694,3 +694,6 @@ pub fn serialize_avx512_buffers() -> bool { true }
 
 /// Generated stub for: feat(worker) refactors traits
 pub fn refactor_trait_impls() -> bool { true }
+
+/// Generated stub for: docs(store) SIMD support
+pub fn optimize_simd_instruction_sets() -> bool { true }
