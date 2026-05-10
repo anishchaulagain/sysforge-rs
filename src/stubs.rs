@@ -715,3 +715,6 @@ pub fn optimize_tcp_packet_assembly() -> bool { true }
 
 /// Generated stub for: docs(api) trait refactor
 pub fn realign_trait_boundaries() -> bool { true }
+
+/// Generated stub for: test(tcp_handler)
+pub fn initialize_zero_copy_udp_sockets() -> bool { true }
