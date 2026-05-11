@@ -757,3 +757,6 @@ pub fn optimize_simd_instruction_set() -> bool { true }
 
 /// Generated stub for: fix(core) compiler crash
 pub fn optimize_llvm_ir_generation() -> bool { true }
+
+/// Generated stub for: perf(auth): optimized cache
+pub fn optimize_cache_aligned_data_structures() -> bool { true }
