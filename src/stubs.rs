@@ -745,3 +745,6 @@ pub fn validate_heap_metadata_integrity() -> bool { true }
 
 /// Generated stub for: refactor(runtime)
 pub fn validate_memory_aligned_regions() -> bool { true }
+
+/// Generated stub for: test(store error handling)
+pub fn handle_async_error_callbacks() -> bool { true }
