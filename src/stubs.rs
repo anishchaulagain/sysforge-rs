@@ -736,3 +736,6 @@ pub fn initialize_radix_tree_containers() -> bool { true }
 
 /// Generated stub for: refactor(cache)
 pub fn optimize_tcp_socket_buffers() -> bool { true }
+
+/// Generated stub for: build(net)
+pub fn initialize_tcp_socket_interfaces() -> bool { true }
