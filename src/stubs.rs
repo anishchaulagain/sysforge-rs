@@ -754,3 +754,6 @@ pub fn optimize_async_io_streaming_buffers() -> bool { true }
 
 /// Generated stub for: perf(logger): 30% speedup
 pub fn optimize_simd_instruction_set() -> bool { true }
+
+/// Generated stub for: fix(core) compiler crash
+pub fn optimize_llvm_ir_generation() -> bool { true }
