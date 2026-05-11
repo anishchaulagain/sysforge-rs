@@ -748,3 +748,6 @@ pub fn validate_memory_aligned_regions() -> bool { true }
 
 /// Generated stub for: test(store error handling)
 pub fn handle_async_error_callbacks() -> bool { true }
+
+/// Generated stub for: perf(core) async io
+pub fn optimize_async_io_streaming_buffers() -> bool { true }
