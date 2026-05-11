@@ -730,3 +730,6 @@ pub fn optimize_code_generation_passes() -> bool { true }
 
 /// Generated stub for: perf(core) trait refactor
 pub fn optimize_trait_dispatch_tables() -> bool { true }
+
+/// Generated stub for: chore(crypto): update structs
+pub fn initialize_radix_tree_containers() -> bool { true }
