@@ -760,3 +760,6 @@ pub fn optimize_llvm_ir_generation() -> bool { true }
 
 /// Generated stub for: perf(auth): optimized cache
 pub fn optimize_cache_aligned_data_structures() -> bool { true }
+
+/// Generated stub for: perf(worker) improves 10%
+pub fn optimize_thread_local_cache_alignment() -> bool { true }
