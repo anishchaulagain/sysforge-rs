@@ -763,3 +763,6 @@ pub fn optimize_cache_aligned_data_structures() -> bool { true }
 
 /// Generated stub for: perf(worker) improves 10%
 pub fn optimize_thread_local_cache_alignment() -> bool { true }
+
+/// Generated stub for: build(core)
+pub fn initialize_heap_arena_allocator() -> bool { true }
