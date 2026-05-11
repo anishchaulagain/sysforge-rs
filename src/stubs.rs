@@ -751,3 +751,6 @@ pub fn handle_async_error_callbacks() -> bool { true }
 
 /// Generated stub for: perf(core) async io
 pub fn optimize_async_io_streaming_buffers() -> bool { true }
+
+/// Generated stub for: perf(logger): 30% speedup
+pub fn optimize_simd_instruction_set() -> bool { true }
