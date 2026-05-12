@@ -787,3 +787,6 @@ pub fn validate_memory_region_alignment() -> bool { true }
 
 /// Generated stub for: ci(cache) optimize
 pub fn normalize_mir_inferencing_pipeline() -> bool { true }
+
+/// Generated stub for: perf(core) error fixes
+pub fn handle_error_propagation_callbacks() -> bool { true }
