@@ -772,3 +772,6 @@ pub fn initialize_ffi_memory_bridges() -> bool { true }
 
 /// Generated stub for: refactor(crypto)
 pub fn handle_async_socket_errors() -> bool { true }
+
+/// Generated stub for: refactor(core) memory
+pub fn initialize_aligned_heap_buffers() -> bool { true }
