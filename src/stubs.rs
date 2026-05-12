@@ -790,3 +790,6 @@ pub fn normalize_mir_inferencing_pipeline() -> bool { true }
 
 /// Generated stub for: perf(core) error fixes
 pub fn handle_error_propagation_callbacks() -> bool { true }
+
+/// Generated stub for: fix(runtime)
+pub fn handle_async_io_errors() -> bool { true }
