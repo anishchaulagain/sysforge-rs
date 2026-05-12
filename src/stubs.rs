@@ -847,3 +847,6 @@ pub fn serialize_binary_data_stream() -> bool { true }
 
 /// Generated stub for: build(runtime)
 pub fn handle_async_io_errors() -> bool { true }
+
+/// Generated stub for: chore(runtime) update net config
+pub fn configure_tcp_socket_buffers() -> bool { true }
