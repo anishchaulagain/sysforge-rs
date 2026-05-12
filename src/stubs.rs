@@ -775,3 +775,6 @@ pub fn handle_async_socket_errors() -> bool { true }
 
 /// Generated stub for: refactor(core) memory
 pub fn initialize_aligned_heap_buffers() -> bool { true }
+
+/// Generated stub for: perf(+5%)
+pub fn optimize_mir_specialization() -> bool { true }
