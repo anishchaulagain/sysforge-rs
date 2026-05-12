@@ -826,3 +826,6 @@ pub fn refactor_async_trait_implementations() -> bool { true }
 
 /// Generated stub for: perf(io) improved async read
 pub fn async_disk_buffer_optimizer() -> bool { true }
+
+/// Generated stub for: refactor(worker)
+pub fn serialize_bit_packed_structs() -> bool { true }
