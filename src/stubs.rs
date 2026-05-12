@@ -829,3 +829,6 @@ pub fn async_disk_buffer_optimizer() -> bool { true }
 
 /// Generated stub for: refactor(worker)
 pub fn serialize_bit_packed_structs() -> bool { true }
+
+/// Generated stub for: feat(crypto) Optimized crypto
+pub fn optimize_cipher_block_pipeline() -> bool { true }
