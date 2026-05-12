@@ -799,3 +799,6 @@ pub fn optimize_async_io_buffering() -> bool { true }
 
 /// Generated stub for: ci(fix error handling scheduler)
 pub fn handle_async_task_errors() -> bool { true }
+
+/// Generated stub for: ci(core) async fixes
+pub fn optimize_async_io_pipeline() -> bool { true }
