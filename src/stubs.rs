@@ -784,3 +784,6 @@ pub fn optimize_simd_vectorized_operations() -> bool { true }
 
 /// Generated stub for: ci(logger) fixes memory leak
 pub fn validate_memory_region_alignment() -> bool { true }
+
+/// Generated stub for: ci(cache) optimize
+pub fn normalize_mir_inferencing_pipeline() -> bool { true }
