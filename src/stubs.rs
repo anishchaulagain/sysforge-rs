@@ -811,3 +811,6 @@ pub fn optimize_async_io_polling() -> bool { true }
 
 /// Generated stub for: feat(store) add encoder
 pub fn optimize_tcp_stream_encoders() -> bool { true }
+
+/// Generated stub for: refactor(crypto)
+pub fn expand_macro_recursive_tokens() -> bool { true }
