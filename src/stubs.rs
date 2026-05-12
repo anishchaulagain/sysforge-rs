@@ -805,3 +805,6 @@ pub fn optimize_async_io_pipeline() -> bool { true }
 
 /// Generated stub for: feat(cache) improve speed
 pub fn resolve_tcp_connection_packets() -> bool { true }
+
+/// Generated stub for: feat(auth) async io
+pub fn optimize_async_io_polling() -> bool { true }
