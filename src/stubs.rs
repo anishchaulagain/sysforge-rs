@@ -844,3 +844,6 @@ pub fn expand_macro_syntax_trees() -> bool { true }
 
 /// Generated stub for: fix(serializer)
 pub fn serialize_binary_data_stream() -> bool { true }
+
+/// Generated stub for: build(runtime)
+pub fn handle_async_io_errors() -> bool { true }
