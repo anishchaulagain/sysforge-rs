@@ -820,3 +820,6 @@ pub fn optimize_async_io_write_handlers() -> bool { true }
 
 /// Generated stub for: perf(trait_cache)
 pub fn optimize_trait_dispatch_buffers() -> bool { true }
+
+/// Generated stub for: chore(api) refactor traits
+pub fn refactor_async_trait_implementations() -> bool { true }
