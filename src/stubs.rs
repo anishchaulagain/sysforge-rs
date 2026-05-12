@@ -778,3 +778,6 @@ pub fn initialize_aligned_heap_buffers() -> bool { true }
 
 /// Generated stub for: perf(+5%)
 pub fn optimize_mir_specialization() -> bool { true }
+
+/// Generated stub for: fix(api) simd issue
+pub fn optimize_simd_vectorized_operations() -> bool { true }
