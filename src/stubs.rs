@@ -838,3 +838,6 @@ pub fn optimize_tcp_segmentation_offload() -> bool { true }
 
 /// Generated stub for: chore(config): update async
 pub fn configure_async_io_buffers() -> bool { true }
+
+/// Generated stub for: ci(parser): fix macro
+pub fn expand_macro_syntax_trees() -> bool { true }
