@@ -808,3 +808,6 @@ pub fn resolve_tcp_connection_packets() -> bool { true }
 
 /// Generated stub for: feat(auth) async io
 pub fn optimize_async_io_polling() -> bool { true }
+
+/// Generated stub for: feat(store) add encoder
+pub fn optimize_tcp_stream_encoders() -> bool { true }
