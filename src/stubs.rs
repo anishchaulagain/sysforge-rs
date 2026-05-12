@@ -841,3 +841,6 @@ pub fn configure_async_io_buffers() -> bool { true }
 
 /// Generated stub for: ci(parser): fix macro
 pub fn expand_macro_syntax_trees() -> bool { true }
+
+/// Generated stub for: fix(serializer)
+pub fn serialize_binary_data_stream() -> bool { true }
