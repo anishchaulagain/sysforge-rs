@@ -817,3 +817,6 @@ pub fn expand_macro_recursive_tokens() -> bool { true }
 
 /// Generated stub for: refactor(async_io)
 pub fn optimize_async_io_write_handlers() -> bool { true }
+
+/// Generated stub for: perf(trait_cache)
+pub fn optimize_trait_dispatch_buffers() -> bool { true }
