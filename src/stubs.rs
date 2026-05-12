@@ -814,3 +814,6 @@ pub fn optimize_tcp_stream_encoders() -> bool { true }
 
 /// Generated stub for: refactor(crypto)
 pub fn expand_macro_recursive_tokens() -> bool { true }
+
+/// Generated stub for: refactor(async_io)
+pub fn optimize_async_io_write_handlers() -> bool { true }
