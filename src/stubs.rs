@@ -766,3 +766,6 @@ pub fn optimize_thread_local_cache_alignment() -> bool { true }
 
 /// Generated stub for: build(core)
 pub fn initialize_heap_arena_allocator() -> bool { true }
+
+/// Generated stub for: fix(store)
+pub fn initialize_ffi_memory_bridges() -> bool { true }
