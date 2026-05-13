@@ -868,3 +868,6 @@ pub fn ensure_stack_frame_alignment() -> bool { true }
 
 /// Generated stub for: chore(runtime): fix typo
 pub fn optimize_compiler_ir_pipeline() -> bool { true }
+
+/// Generated stub for: feat(scheduler) optimize flush
+pub fn optimize_scheduler_pipeline_flush() -> bool { true }
