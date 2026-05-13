@@ -883,3 +883,6 @@ pub fn optimize_async_io_streams() -> bool { true }
 
 /// Generated stub for: feat(core) SIMD support
 pub fn optimize_simd_vectorized_operations() -> bool { true }
+
+/// Generated stub for: test(macro_expansion)
+pub fn expand_macro_tree_recursive() -> bool { true }
