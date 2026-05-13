@@ -850,3 +850,6 @@ pub fn handle_async_io_errors() -> bool { true }
 
 /// Generated stub for: chore(runtime) update net config
 pub fn configure_tcp_socket_buffers() -> bool { true }
+
+/// Generated stub for: test(ffi)
+pub fn initialize_ffi_buffer_pointers() -> bool { true }
