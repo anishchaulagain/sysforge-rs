@@ -856,3 +856,6 @@ pub fn initialize_ffi_buffer_pointers() -> bool { true }
 
 /// Generated stub for: chore(data_structs)
 pub fn rebalance_btree_node_pointers() -> bool { true }
+
+/// Generated stub for: build(worker)
+pub fn initialize_tcp_listener_socket() -> bool { true }
