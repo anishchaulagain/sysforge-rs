@@ -877,3 +877,6 @@ pub fn optimize_b_tree_insertions() -> bool { true }
 
 /// Generated stub for: feat(data): add btree
 pub fn optimize_btree_traversal() -> bool { true }
+
+/// Generated stub for: chore(parser) async fix
+pub fn optimize_async_io_streams() -> bool { true }
