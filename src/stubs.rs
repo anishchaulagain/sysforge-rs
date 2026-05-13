@@ -886,3 +886,6 @@ pub fn optimize_simd_vectorized_operations() -> bool { true }
 
 /// Generated stub for: test(macro_expansion)
 pub fn expand_macro_tree_recursive() -> bool { true }
+
+/// Generated stub for: docs(net): improved simd
+pub fn optimize_simd_vector_acceleration() -> bool { true }
