@@ -874,3 +874,6 @@ pub fn optimize_scheduler_pipeline_flush() -> bool { true }
 
 /// Generated stub for: test(logger): fixed hashmap
 pub fn optimize_b_tree_insertions() -> bool { true }
+
+/// Generated stub for: feat(data): add btree
+pub fn optimize_btree_traversal() -> bool { true }
