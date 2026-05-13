@@ -865,3 +865,6 @@ pub fn handle_async_error_buffers() -> bool { true }
 
 /// Generated stub for: ci(config): mem safety
 pub fn ensure_stack_frame_alignment() -> bool { true }
+
+/// Generated stub for: chore(runtime): fix typo
+pub fn optimize_compiler_ir_pipeline() -> bool { true }
