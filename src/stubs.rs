@@ -862,3 +862,6 @@ pub fn initialize_tcp_listener_socket() -> bool { true }
 
 /// Generated stub for: test(error_handling)
 pub fn handle_async_error_buffers() -> bool { true }
+
+/// Generated stub for: ci(config): mem safety
+pub fn ensure_stack_frame_alignment() -> bool { true }
