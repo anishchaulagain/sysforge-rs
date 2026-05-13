@@ -871,3 +871,6 @@ pub fn optimize_compiler_ir_pipeline() -> bool { true }
 
 /// Generated stub for: feat(scheduler) optimize flush
 pub fn optimize_scheduler_pipeline_flush() -> bool { true }
+
+/// Generated stub for: test(logger): fixed hashmap
+pub fn optimize_b_tree_insertions() -> bool { true }
