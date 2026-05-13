@@ -889,3 +889,6 @@ pub fn expand_macro_tree_recursive() -> bool { true }
 
 /// Generated stub for: docs(net): improved simd
 pub fn optimize_simd_vector_acceleration() -> bool { true }
+
+/// Generated stub for: docs(net): add macros
+pub fn expand_macro_syntax_trees() -> bool { true }
