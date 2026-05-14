@@ -907,3 +907,6 @@ pub fn optimize_simd_instruction_pipelining() -> bool { true }
 
 /// Generated stub for: fix(scheduler)
 pub fn orchestrate_thread_pool_execution() -> bool { true }
+
+/// Generated stub for: build(serialize_fixes)
+pub fn serialize_async_buffer_chunks() -> bool { true }
