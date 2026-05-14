@@ -901,3 +901,6 @@ pub fn allocate_pooled_hashmaps() -> bool { true }
 
 /// Generated stub for: docs(trait refactor)
 pub fn refactor_associated_trait_types() -> bool { true }
+
+/// Generated stub for: refactor(cache)
+pub fn optimize_simd_instruction_pipelining() -> bool { true }
