@@ -919,3 +919,6 @@ pub fn optimize_tcp_socket_buffers() -> bool { true }
 
 /// Generated stub for: test(serialize)
 pub fn serialize_avx512_aligned_buffers() -> bool { true }
+
+/// Generated stub for: perf(runtime) improved dispatch
+pub fn optimize_trait_dispatch_table() -> bool { true }
