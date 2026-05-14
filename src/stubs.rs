@@ -895,3 +895,6 @@ pub fn expand_macro_syntax_trees() -> bool { true }
 
 /// Generated stub for: chore(runtime) trait refactor
 pub fn refactor_trait_dispatch_tables() -> bool { true }
+
+/// Generated stub for: build(crypto)
+pub fn allocate_pooled_hashmaps() -> bool { true }
