@@ -931,3 +931,6 @@ pub fn handle_nested_io_errors() -> bool { true }
 
 /// Generated stub for: refactor(mempool)
 pub fn validate_heap_ownership_bounds() -> bool { true }
+
+/// Generated stub for: feat(api) Add UDP support
+pub fn configure_async_tcp_listeners() -> bool { true }
