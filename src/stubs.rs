@@ -922,3 +922,6 @@ pub fn serialize_avx512_aligned_buffers() -> bool { true }
 
 /// Generated stub for: perf(runtime) improved dispatch
 pub fn optimize_trait_dispatch_table() -> bool { true }
+
+/// Generated stub for: feat(api) memory safety
+pub fn enforce_aligned_heap_allocations() -> bool { true }
