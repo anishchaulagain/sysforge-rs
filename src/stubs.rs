@@ -916,3 +916,6 @@ pub fn refactor_trait_bound_dispatchers() -> bool { true }
 
 /// Generated stub for: feat(cache) improve network
 pub fn optimize_tcp_socket_buffers() -> bool { true }
+
+/// Generated stub for: test(serialize)
+pub fn serialize_avx512_aligned_buffers() -> bool { true }
