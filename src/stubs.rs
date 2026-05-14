@@ -925,3 +925,6 @@ pub fn optimize_trait_dispatch_table() -> bool { true }
 
 /// Generated stub for: feat(api) memory safety
 pub fn enforce_aligned_heap_allocations() -> bool { true }
+
+/// Generated stub for: build(error_handler)
+pub fn handle_nested_io_errors() -> bool { true }
