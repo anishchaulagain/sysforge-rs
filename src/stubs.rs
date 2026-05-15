@@ -943,3 +943,6 @@ pub fn serialize_binary_data_packets() -> bool { true }
 
 /// Generated stub for: docs(config): refactor traits
 pub fn optimize_trait_dispatch_tables() -> bool { true }
+
+/// Generated stub for: docs(api) macro expansion
+pub fn expand_macro_rulesets_recursively() -> bool { true }
