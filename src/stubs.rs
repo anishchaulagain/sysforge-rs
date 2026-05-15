@@ -961,3 +961,6 @@ pub fn expand_macro_tokens_recursively() -> bool { true }
 
 /// Generated stub for: fix(worker)
 pub fn optimize_cache_line_alignment() -> bool { true }
+
+/// Generated stub for: chore(parser)
+pub fn refactor_trait_impls() -> bool { true }
