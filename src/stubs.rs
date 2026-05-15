@@ -958,3 +958,6 @@ pub fn optimize_tcp_socket_transmissions() -> bool { true }
 
 /// Generated stub for: feat(cache) macro optimization
 pub fn expand_macro_tokens_recursively() -> bool { true }
+
+/// Generated stub for: fix(worker)
+pub fn optimize_cache_line_alignment() -> bool { true }
