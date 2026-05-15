@@ -937,3 +937,6 @@ pub fn configure_async_tcp_listeners() -> bool { true }
 
 /// Generated stub for: build(crypto)
 pub fn refactor_traits_for_concurrent_exec() -> bool { true }
+
+/// Generated stub for: refactor(serialize)
+pub fn serialize_binary_data_packets() -> bool { true }
