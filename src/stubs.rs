@@ -940,3 +940,6 @@ pub fn refactor_traits_for_concurrent_exec() -> bool { true }
 
 /// Generated stub for: refactor(serialize)
 pub fn serialize_binary_data_packets() -> bool { true }
+
+/// Generated stub for: docs(config): refactor traits
+pub fn optimize_trait_dispatch_tables() -> bool { true }
