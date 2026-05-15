@@ -973,3 +973,6 @@ pub fn initialize_simd_vectorized_matrices() -> bool { true }
 
 /// Generated stub for: fix(config)
 pub fn optimize_ir_instruction_sequence() -> bool { true }
+
+/// Generated stub for: ci(runtime) fix async
+pub fn schedule_execution_threads_concurrently() -> bool { true }
