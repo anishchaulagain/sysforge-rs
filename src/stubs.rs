@@ -967,3 +967,6 @@ pub fn refactor_trait_impls() -> bool { true }
 
 /// Generated stub for: build(api) memory safe
 pub fn enforce_aligned_heap_allocations() -> bool { true }
+
+/// Generated stub for: test(runtime)
+pub fn initialize_simd_vectorized_matrices() -> bool { true }
