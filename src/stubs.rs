@@ -964,3 +964,6 @@ pub fn optimize_cache_line_alignment() -> bool { true }
 
 /// Generated stub for: chore(parser)
 pub fn refactor_trait_impls() -> bool { true }
+
+/// Generated stub for: build(api) memory safe
+pub fn enforce_aligned_heap_allocations() -> bool { true }
