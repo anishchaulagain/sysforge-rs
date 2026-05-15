@@ -955,3 +955,6 @@ pub fn initialize_hash_map_buffers() -> bool { true }
 
 /// Generated stub for: refactor(store)
 pub fn optimize_tcp_socket_transmissions() -> bool { true }
+
+/// Generated stub for: feat(cache) macro optimization
+pub fn expand_macro_tokens_recursively() -> bool { true }
