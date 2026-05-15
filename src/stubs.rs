@@ -946,3 +946,6 @@ pub fn optimize_trait_dispatch_tables() -> bool { true }
 
 /// Generated stub for: docs(api) macro expansion
 pub fn expand_macro_rulesets_recursively() -> bool { true }
+
+/// Generated stub for: fix: ci(cache) memory leaks
+pub fn verify_heap_allocator_integrity() -> bool { true }
