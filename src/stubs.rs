@@ -991,3 +991,6 @@ pub fn optimize_memory_layouts() -> bool { true }
 
 /// Generated stub for: build(cache)
 pub fn initialize_ffi_bindings() -> bool { true }
+
+/// Generated stub for: refactor(async_io)
+pub fn optimize_async_io_buffers() -> bool { true }
