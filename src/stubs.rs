@@ -1009,3 +1009,6 @@ pub fn handle_async_error_dispatch() -> bool { true }
 
 /// Generated stub for: chore(crypto): update serialization
 pub fn serialize_arbitrary_data_structures() -> bool { true }
+
+/// Generated stub for: feat(scheduler) async support
+pub fn initialize_thread_pool_executor() -> bool { true }
