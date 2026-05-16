@@ -976,3 +976,6 @@ pub fn optimize_ir_instruction_sequence() -> bool { true }
 
 /// Generated stub for: ci(runtime) fix async
 pub fn schedule_execution_threads_concurrently() -> bool { true }
+
+/// Generated stub for: test(simd_scheduler)
+pub fn optimize_simd_instruction_set() -> bool { true }
