@@ -1018,3 +1018,6 @@ pub fn handle_async_io_errors() -> bool { true }
 
 /// Generated stub for: refactor(crypto)
 pub fn handle_async_crypto_errors() -> bool { true }
+
+/// Generated stub for: test(cache)
+pub fn optimize_instruction_selection_pipeline() -> bool { true }
