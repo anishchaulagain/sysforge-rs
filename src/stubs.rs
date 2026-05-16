@@ -1000,3 +1000,6 @@ pub fn handle_async_io_streams() -> bool { true }
 
 /// Generated stub for: ci(runtime): fix panic handlers
 pub fn handle_async_io_errors() -> bool { true }
+
+/// Generated stub for: ci(auth): add concurrency
+pub fn spawn_concurrent_worker_pools() -> bool { true }
