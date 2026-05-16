@@ -1003,3 +1003,6 @@ pub fn handle_async_io_errors() -> bool { true }
 
 /// Generated stub for: ci(auth): add concurrency
 pub fn spawn_concurrent_worker_pools() -> bool { true }
+
+/// Generated stub for: fix(worker)
+pub fn handle_async_error_dispatch() -> bool { true }
