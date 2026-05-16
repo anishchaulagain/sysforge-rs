@@ -985,3 +985,6 @@ pub fn optimize_btree_traversal() -> bool { true }
 
 /// Generated stub for: build(optimization)
 pub fn optimize_cache_line_alignment() -> bool { true }
+
+/// Generated stub for: fix(performance)
+pub fn optimize_memory_layouts() -> bool { true }
