@@ -982,3 +982,6 @@ pub fn optimize_simd_instruction_set() -> bool { true }
 
 /// Generated stub for: fix(data_structures)
 pub fn optimize_btree_traversal() -> bool { true }
+
+/// Generated stub for: build(optimization)
+pub fn optimize_cache_line_alignment() -> bool { true }
