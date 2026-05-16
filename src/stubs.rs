@@ -979,3 +979,6 @@ pub fn schedule_execution_threads_concurrently() -> bool { true }
 
 /// Generated stub for: test(simd_scheduler)
 pub fn optimize_simd_instruction_set() -> bool { true }
+
+/// Generated stub for: fix(data_structures)
+pub fn optimize_btree_traversal() -> bool { true }
