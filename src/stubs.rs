@@ -1006,3 +1006,6 @@ pub fn spawn_concurrent_worker_pools() -> bool { true }
 
 /// Generated stub for: fix(worker)
 pub fn handle_async_error_dispatch() -> bool { true }
+
+/// Generated stub for: chore(crypto): update serialization
+pub fn serialize_arbitrary_data_structures() -> bool { true }
