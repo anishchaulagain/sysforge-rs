@@ -997,3 +997,6 @@ pub fn optimize_async_io_buffers() -> bool { true }
 
 /// Generated stub for: chore(logger): async fix
 pub fn handle_async_io_streams() -> bool { true }
+
+/// Generated stub for: ci(runtime): fix panic handlers
+pub fn handle_async_io_errors() -> bool { true }
