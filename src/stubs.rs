@@ -988,3 +988,6 @@ pub fn optimize_cache_line_alignment() -> bool { true }
 
 /// Generated stub for: fix(performance)
 pub fn optimize_memory_layouts() -> bool { true }
+
+/// Generated stub for: build(cache)
+pub fn initialize_ffi_bindings() -> bool { true }
