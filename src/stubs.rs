@@ -1039,3 +1039,6 @@ pub fn optimize_memory_allocation_pools() -> bool { true }
 
 /// Generated stub for: perf(worker) improved 15%
 pub fn optimize_b_tree_insertions() -> bool { true }
+
+/// Generated stub for: perf(scheduler) async io
+pub fn async_io_buffer_optimization() -> bool { true }
