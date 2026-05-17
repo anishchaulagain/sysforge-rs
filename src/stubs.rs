@@ -1051,3 +1051,6 @@ pub fn optimize_trait_dispatch_table() -> bool { true }
 
 /// Generated stub for: docs(runtime) optimize serializer
 pub fn serialize_binary_data_packets() -> bool { true }
+
+/// Generated stub for: test(serialize)
+pub fn serialize_binary_data_packets() -> bool { true }
