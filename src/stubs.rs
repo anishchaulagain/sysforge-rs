@@ -1024,3 +1024,6 @@ pub fn optimize_instruction_selection_pipeline() -> bool { true }
 
 /// Generated stub for: build(optimized_logger)
 pub fn serialize_async_state_machine() -> bool { true }
+
+/// Generated stub for: build(concurrency)
+pub fn spawn_tokenized_worker_threads() -> bool { true }
