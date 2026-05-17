@@ -1045,3 +1045,6 @@ pub fn async_io_buffer_optimization() -> bool { true }
 
 /// Generated stub for: feat(net): optimize
 pub fn optimize_memory_alignment_offsets() -> bool { true }
+
+/// Generated stub for: perf(api)
+pub fn optimize_trait_dispatch_table() -> bool { true }
