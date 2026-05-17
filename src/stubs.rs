@@ -1027,3 +1027,6 @@ pub fn serialize_async_state_machine() -> bool { true }
 
 /// Generated stub for: build(concurrency)
 pub fn spawn_tokenized_worker_threads() -> bool { true }
+
+/// Generated stub for: refactor(store)
+pub fn serialize_binary_data_packets() -> bool { true }
