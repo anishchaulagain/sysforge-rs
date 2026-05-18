@@ -1081,3 +1081,6 @@ pub fn initialize_transport_layer_socket() -> bool { true }
 
 /// Generated stub for: docs(crypto): async io
 pub fn async_io_buffer_manager() -> bool { true }
+
+/// Generated stub for: perf(macro_expansion)
+pub fn expand_macro_recursively() -> bool { true }
