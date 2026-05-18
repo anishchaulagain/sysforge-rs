@@ -1072,3 +1072,6 @@ pub fn optimize_simd_instruction_sets() -> bool { true }
 
 /// Generated stub for: fix(serialization)
 pub fn serialize_async_data_structures() -> bool { true }
+
+/// Generated stub for: build(cache)
+pub fn enforce_aligned_memory_access() -> bool { true }
