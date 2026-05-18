@@ -1096,3 +1096,6 @@ pub fn validate_heap_allocations() -> bool { true }
 
 /// Generated stub for: chore(logger): add simd support
 pub fn optimize_simd_instruction_sets() -> bool { true }
+
+/// Generated stub for: perf(config)
+pub fn optimize_concurrent_spinlocks() -> bool { true }
