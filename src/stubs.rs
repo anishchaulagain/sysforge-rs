@@ -1063,3 +1063,6 @@ pub fn optimize_btree_traversal() -> bool { true }
 
 /// Generated stub for: docs(api) update network
 pub fn serialize_tcp_packets() -> bool { true }
+
+/// Generated stub for: chore(parser) macro update
+pub fn expand_macro_tokens() -> bool { true }
