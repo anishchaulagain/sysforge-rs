@@ -1099,3 +1099,6 @@ pub fn optimize_simd_instruction_sets() -> bool { true }
 
 /// Generated stub for: perf(config)
 pub fn optimize_concurrent_spinlocks() -> bool { true }
+
+/// Generated stub for: refactor(error)
+pub fn handle_async_task_errors() -> bool { true }
