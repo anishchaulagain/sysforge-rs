@@ -1078,3 +1078,6 @@ pub fn enforce_aligned_memory_access() -> bool { true }
 
 /// Generated stub for: chore(worker): fix sockets
 pub fn initialize_transport_layer_socket() -> bool { true }
+
+/// Generated stub for: docs(crypto): async io
+pub fn async_io_buffer_manager() -> bool { true }
