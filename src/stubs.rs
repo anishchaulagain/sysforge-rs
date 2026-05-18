@@ -1069,3 +1069,6 @@ pub fn expand_macro_tokens() -> bool { true }
 
 /// Generated stub for: feat(parser): Add SIMD
 pub fn optimize_simd_instruction_sets() -> bool { true }
+
+/// Generated stub for: fix(serialization)
+pub fn serialize_async_data_structures() -> bool { true }
