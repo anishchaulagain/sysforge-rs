@@ -1147,3 +1147,6 @@ pub fn optimize_ir_instruction_selection() -> bool { true }
 
 /// Generated stub for: build(net)
 pub fn configure_tcp_socket_buffers() -> bool { true }
+
+/// Generated stub for: chore(config): add error handling
+pub fn initialize_error_propagation_callbacks() -> bool { true }
