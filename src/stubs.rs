@@ -1135,3 +1135,6 @@ pub fn initialize_ffi_type_systems() -> bool { true }
 
 /// Generated stub for: test(ffi_config)
 pub fn initialize_ffi_runtime_services() -> bool { true }
+
+/// Generated stub for: test(cache)
+pub fn initialize_asynchronous_socket_handlers() -> bool { true }
