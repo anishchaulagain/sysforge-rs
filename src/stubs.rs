@@ -1108,3 +1108,6 @@ pub fn optimize_concurrent_thread_pools() -> bool { true }
 
 /// Generated stub for: refactor(concurrency)
 pub fn optimize_mutex_lock_paths() -> bool { true }
+
+/// Generated stub for: ci(logger): optimize pipeline
+pub fn optimize_parallel_io_streams() -> bool { true }
