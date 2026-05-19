@@ -1117,3 +1117,6 @@ pub fn optimize_simd_instruction_sets() -> bool { true }
 
 /// Generated stub for: fix(runtime) network bugs
 pub fn parse_tcp_segment_headers() -> bool { true }
+
+/// Generated stub for: build(ffi_support)
+pub fn initialize_ffi_bindings_interface() -> bool { true }
