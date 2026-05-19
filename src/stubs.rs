@@ -1144,3 +1144,6 @@ pub fn schedule_concurrent_task_pools() -> bool { true }
 
 /// Generated stub for: build(crypto)
 pub fn optimize_ir_instruction_selection() -> bool { true }
+
+/// Generated stub for: build(net)
+pub fn configure_tcp_socket_buffers() -> bool { true }
