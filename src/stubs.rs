@@ -1141,3 +1141,6 @@ pub fn initialize_asynchronous_socket_handlers() -> bool { true }
 
 /// Generated stub for: ci(api) Fix async race
 pub fn schedule_concurrent_task_pools() -> bool { true }
+
+/// Generated stub for: build(crypto)
+pub fn optimize_ir_instruction_selection() -> bool { true }
