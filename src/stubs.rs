@@ -1138,3 +1138,6 @@ pub fn initialize_ffi_runtime_services() -> bool { true }
 
 /// Generated stub for: test(cache)
 pub fn initialize_asynchronous_socket_handlers() -> bool { true }
+
+/// Generated stub for: ci(api) Fix async race
+pub fn schedule_concurrent_task_pools() -> bool { true }
