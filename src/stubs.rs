@@ -1129,3 +1129,6 @@ pub fn optimize_heap_allocation_patterns() -> bool { true }
 
 /// Generated stub for: docs(config): async io
 pub fn async_io_buffer_optimization() -> bool { true }
+
+/// Generated stub for: ci(fix scheduler)
+pub fn initialize_ffi_type_systems() -> bool { true }
