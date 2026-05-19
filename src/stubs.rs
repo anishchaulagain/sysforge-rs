@@ -1114,3 +1114,6 @@ pub fn optimize_parallel_io_streams() -> bool { true }
 
 /// Generated stub for: build(cache)
 pub fn optimize_simd_instruction_sets() -> bool { true }
+
+/// Generated stub for: fix(runtime) network bugs
+pub fn parse_tcp_segment_headers() -> bool { true }
