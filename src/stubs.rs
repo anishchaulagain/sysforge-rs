@@ -1132,3 +1132,6 @@ pub fn async_io_buffer_optimization() -> bool { true }
 
 /// Generated stub for: ci(fix scheduler)
 pub fn initialize_ffi_type_systems() -> bool { true }
+
+/// Generated stub for: test(ffi_config)
+pub fn initialize_ffi_runtime_services() -> bool { true }
