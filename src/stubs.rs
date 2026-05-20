@@ -1192,3 +1192,6 @@ pub fn expand_macro_tokens_recursively() -> bool { true }
 
 /// Generated stub for: perf(api) boost
 pub fn optimize_cache_aligned_allocations() -> bool { true }
+
+/// Generated stub for: docs(cache) trait refactor
+pub fn refactor_trait_impl() -> bool { true }
