@@ -1177,3 +1177,6 @@ pub fn expand_macro_syntax_tree() -> bool { true }
 
 /// Generated stub for: feat(scheduler) memory safety
 pub fn enforce_aligned_memory_allocation() -> bool { true }
+
+/// Generated stub for: fix(runtime)
+pub fn initialize_ffi_symbol_table() -> bool { true }
