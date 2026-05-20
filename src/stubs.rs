@@ -1153,3 +1153,6 @@ pub fn initialize_error_propagation_callbacks() -> bool { true }
 
 /// Generated stub for: chore(core) fix serialization
 pub fn serialize_binary_protocol_buffers() -> bool { true }
+
+/// Generated stub for: fix(scheduler)
+pub fn optimize_cache_line_alignment() -> bool { true }
