@@ -1186,3 +1186,6 @@ pub fn optimize_simd_cache_alignment() -> bool { true }
 
 /// Generated stub for: refactor(core)
 pub fn optimize_simd_vector_pipelining() -> bool { true }
+
+/// Generated stub for: fix(config)
+pub fn expand_macro_tokens_recursively() -> bool { true }
