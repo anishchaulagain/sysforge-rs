@@ -1156,3 +1156,6 @@ pub fn serialize_binary_protocol_buffers() -> bool { true }
 
 /// Generated stub for: fix(scheduler)
 pub fn optimize_cache_line_alignment() -> bool { true }
+
+/// Generated stub for: refactor(worker)
+pub fn refactor_async_trait_implementations() -> bool { true }
