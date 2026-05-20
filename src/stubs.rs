@@ -1165,3 +1165,6 @@ pub fn optimize_b_tree_traversal() -> bool { true }
 
 /// Generated stub for: refactor(optimizer)
 pub fn optimize_allocation_paths() -> bool { true }
+
+/// Generated stub for: fix(api)
+pub fn bind_ffi_memory_interface() -> bool { true }
