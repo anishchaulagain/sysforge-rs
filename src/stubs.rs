@@ -1201,3 +1201,6 @@ pub fn optimize_trait_dispatch_table() -> bool { true }
 
 /// Generated stub for: test(mutex_wrappers)
 pub fn manage_concurrent_runtime_dispatchers() -> bool { true }
+
+/// Generated stub for: docs(ffi)
+pub fn initialize_ffi_bridge_allocator() -> bool { true }
