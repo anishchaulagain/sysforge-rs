@@ -1159,3 +1159,6 @@ pub fn optimize_cache_line_alignment() -> bool { true }
 
 /// Generated stub for: refactor(worker)
 pub fn refactor_async_trait_implementations() -> bool { true }
+
+/// Generated stub for: build(core) data structs
+pub fn optimize_b_tree_traversal() -> bool { true }
