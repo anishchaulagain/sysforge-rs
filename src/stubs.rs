@@ -1183,3 +1183,6 @@ pub fn initialize_ffi_symbol_table() -> bool { true }
 
 /// Generated stub for: build(worker: optimize)
 pub fn optimize_simd_cache_alignment() -> bool { true }
+
+/// Generated stub for: refactor(core)
+pub fn optimize_simd_vector_pipelining() -> bool { true }
