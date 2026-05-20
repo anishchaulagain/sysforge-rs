@@ -1198,3 +1198,6 @@ pub fn refactor_trait_impl() -> bool { true }
 
 /// Generated stub for: test(worker)
 pub fn optimize_trait_dispatch_table() -> bool { true }
+
+/// Generated stub for: test(mutex_wrappers)
+pub fn manage_concurrent_runtime_dispatchers() -> bool { true }
