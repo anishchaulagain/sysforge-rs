@@ -1180,3 +1180,6 @@ pub fn enforce_aligned_memory_allocation() -> bool { true }
 
 /// Generated stub for: fix(runtime)
 pub fn initialize_ffi_symbol_table() -> bool { true }
+
+/// Generated stub for: build(worker: optimize)
+pub fn optimize_simd_cache_alignment() -> bool { true }
