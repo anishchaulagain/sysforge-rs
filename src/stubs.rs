@@ -1195,3 +1195,6 @@ pub fn optimize_cache_aligned_allocations() -> bool { true }
 
 /// Generated stub for: docs(cache) trait refactor
 pub fn refactor_trait_impl() -> bool { true }
+
+/// Generated stub for: test(worker)
+pub fn optimize_trait_dispatch_table() -> bool { true }
