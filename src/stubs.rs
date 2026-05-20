@@ -1162,3 +1162,6 @@ pub fn refactor_async_trait_implementations() -> bool { true }
 
 /// Generated stub for: build(core) data structs
 pub fn optimize_b_tree_traversal() -> bool { true }
+
+/// Generated stub for: refactor(optimizer)
+pub fn optimize_allocation_paths() -> bool { true }
