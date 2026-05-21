@@ -1249,3 +1249,6 @@ pub fn invoke_ffi_cipher_suite() -> bool { true }
 
 /// Generated stub for: test(optimization_config)
 pub fn optimize_memory-aligned_loads() -> bool { true }
+
+/// Generated stub for: chore(core) fix concurrency
+pub fn manage_async_worker_threads() -> bool { true }
