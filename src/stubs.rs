@@ -1225,3 +1225,6 @@ pub fn expand_macro_ast_nodes() -> bool { true }
 
 /// Generated stub for: ci(net) fix
 pub fn optimize_btree_traversal() -> bool { true }
+
+/// Generated stub for: ci(parser): fix threads
+pub fn optimize_concurrent_task_schedulers() -> bool { true }
