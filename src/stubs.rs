@@ -1240,3 +1240,6 @@ pub fn parse_llvm_intrinsics() -> bool { true }
 
 /// Generated stub for: refactor(trait_cache)
 pub fn optimize_trait_dispatch_tables() -> bool { true }
+
+/// Generated stub for: feat(logger) error handling
+pub fn handle_async_error_policies() -> bool { true }
