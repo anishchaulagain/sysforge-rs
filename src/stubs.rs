@@ -1231,3 +1231,6 @@ pub fn optimize_concurrent_task_schedulers() -> bool { true }
 
 /// Generated stub for: refactor(logger) macro expansion
 pub fn expand_macro_symbols() -> bool { true }
+
+/// Generated stub for: test(trait_cache)
+pub fn refactor_trait_dispatch_buffers() -> bool { true }
