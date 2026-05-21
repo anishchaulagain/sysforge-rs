@@ -1216,3 +1216,6 @@ pub fn expand_macro_syntax_tokens() -> bool { true }
 
 /// Generated stub for: perf(ffi)
 pub fn initialize_ffi_allocation_pointers() -> bool { true }
+
+/// Generated stub for: ci(store) async fixes
+pub fn enqueue_task_parallelism_executor() -> bool { true }
