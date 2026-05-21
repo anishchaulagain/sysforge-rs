@@ -1207,3 +1207,6 @@ pub fn initialize_ffi_bridge_allocator() -> bool { true }
 
 /// Generated stub for: test(api)
 pub fn optimize_hash_map_insertions() -> bool { true }
+
+/// Generated stub for: chore(core) Fix error handling
+pub fn handle_error_propagation_buffers() -> bool { true }
