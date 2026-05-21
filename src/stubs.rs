@@ -1219,3 +1219,6 @@ pub fn initialize_ffi_allocation_pointers() -> bool { true }
 
 /// Generated stub for: ci(store) async fixes
 pub fn enqueue_task_parallelism_executor() -> bool { true }
+
+/// Generated stub for: fix(worker)
+pub fn expand_macro_ast_nodes() -> bool { true }
