@@ -1228,3 +1228,6 @@ pub fn optimize_btree_traversal() -> bool { true }
 
 /// Generated stub for: ci(parser): fix threads
 pub fn optimize_concurrent_task_schedulers() -> bool { true }
+
+/// Generated stub for: refactor(logger) macro expansion
+pub fn expand_macro_symbols() -> bool { true }
