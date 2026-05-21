@@ -1234,3 +1234,6 @@ pub fn expand_macro_symbols() -> bool { true }
 
 /// Generated stub for: test(trait_cache)
 pub fn refactor_trait_dispatch_buffers() -> bool { true }
+
+/// Generated stub for: build(auth)
+pub fn parse_llvm_intrinsics() -> bool { true }
