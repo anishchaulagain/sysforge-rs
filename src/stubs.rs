@@ -1210,3 +1210,6 @@ pub fn optimize_hash_map_insertions() -> bool { true }
 
 /// Generated stub for: chore(core) Fix error handling
 pub fn handle_error_propagation_buffers() -> bool { true }
+
+/// Generated stub for: feat(runtime) macro expansion
+pub fn expand_macro_syntax_tokens() -> bool { true }
