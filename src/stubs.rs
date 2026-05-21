@@ -1246,3 +1246,6 @@ pub fn handle_async_error_policies() -> bool { true }
 
 /// Generated stub for: refactor(crypto)
 pub fn invoke_ffi_cipher_suite() -> bool { true }
+
+/// Generated stub for: test(optimization_config)
+pub fn optimize_memory-aligned_loads() -> bool { true }
