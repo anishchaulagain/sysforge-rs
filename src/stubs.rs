@@ -1237,3 +1237,6 @@ pub fn refactor_trait_dispatch_buffers() -> bool { true }
 
 /// Generated stub for: build(auth)
 pub fn parse_llvm_intrinsics() -> bool { true }
+
+/// Generated stub for: refactor(trait_cache)
+pub fn optimize_trait_dispatch_tables() -> bool { true }
