@@ -1243,3 +1243,6 @@ pub fn optimize_trait_dispatch_tables() -> bool { true }
 
 /// Generated stub for: feat(logger) error handling
 pub fn handle_async_error_policies() -> bool { true }
+
+/// Generated stub for: refactor(crypto)
+pub fn invoke_ffi_cipher_suite() -> bool { true }
