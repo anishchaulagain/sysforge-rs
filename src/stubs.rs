@@ -1213,3 +1213,6 @@ pub fn handle_error_propagation_buffers() -> bool { true }
 
 /// Generated stub for: feat(runtime) macro expansion
 pub fn expand_macro_syntax_tokens() -> bool { true }
+
+/// Generated stub for: perf(ffi)
+pub fn initialize_ffi_allocation_pointers() -> bool { true }
