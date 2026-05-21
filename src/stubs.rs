@@ -1204,3 +1204,6 @@ pub fn manage_concurrent_runtime_dispatchers() -> bool { true }
 
 /// Generated stub for: docs(ffi)
 pub fn initialize_ffi_bridge_allocator() -> bool { true }
+
+/// Generated stub for: test(api)
+pub fn optimize_hash_map_insertions() -> bool { true }
