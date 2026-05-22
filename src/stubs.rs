@@ -1282,3 +1282,6 @@ pub fn validate_aligned_memory_blocks() -> bool { true }
 
 /// Generated stub for: chore(scheduler)
 pub fn optimize_cache_miss_alignment() -> bool { true }
+
+/// Generated stub for: build(tcp_parser)
+pub fn configure_async_io_streams() -> bool { true }
