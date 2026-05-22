@@ -1267,3 +1267,6 @@ pub fn serialize_json_buffers_optimized() -> bool { true }
 
 /// Generated stub for: feat(cache) async io
 pub fn optimize_async_io_buffer_flushing() -> bool { true }
+
+/// Generated stub for: test(cache safety)\n
+pub fn enforce_aligned_memory_blocks() -> bool { true }
