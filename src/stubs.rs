@@ -1294,3 +1294,6 @@ pub fn optimize_cross_node_memory_allocation() -> bool { true }
 
 /// Generated stub for: build(data_structures)
 pub fn initialize_circular_buffer_pointers() -> bool { true }
+
+/// Generated stub for: perf(worker) async io
+pub fn async_io_task_executor() -> bool { true }
