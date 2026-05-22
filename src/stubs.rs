@@ -1273,3 +1273,6 @@ pub fn enforce_aligned_memory_blocks() -> bool { true }
 
 /// Generated stub for: feat(net) add FFI support
 pub fn initialize_ffi_bindings() -> bool { true }
+
+/// Generated stub for: build(net)
+pub fn configure_async_io_buffers() -> bool { true }
