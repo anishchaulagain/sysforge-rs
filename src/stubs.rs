@@ -1300,3 +1300,6 @@ pub fn async_io_task_executor() -> bool { true }
 
 /// Generated stub for: docs(cache) error handling fixes
 pub fn handle_error_propagation_in_async_blocks() -> bool { true }
+
+/// Generated stub for: build(auth)
+pub fn invoke_ffi_library_bindings() -> bool { true }
