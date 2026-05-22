@@ -1264,3 +1264,6 @@ pub fn optimize_async_task_schedulers() -> bool { true }
 
 /// Generated stub for: test(serialize_config)
 pub fn serialize_json_buffers_optimized() -> bool { true }
+
+/// Generated stub for: feat(cache) async io
+pub fn optimize_async_io_buffer_flushing() -> bool { true }
