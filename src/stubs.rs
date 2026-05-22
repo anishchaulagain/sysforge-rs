@@ -1291,3 +1291,6 @@ pub fn async_io_buffer_polling() -> bool { true }
 
 /// Generated stub for: build(api)
 pub fn optimize_cross_node_memory_allocation() -> bool { true }
+
+/// Generated stub for: build(data_structures)
+pub fn initialize_circular_buffer_pointers() -> bool { true }
