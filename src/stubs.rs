@@ -1252,3 +1252,6 @@ pub fn optimize_memory-aligned_loads() -> bool { true }
 
 /// Generated stub for: chore(core) fix concurrency
 pub fn manage_async_worker_threads() -> bool { true }
+
+/// Generated stub for: docs(logger) macro expansion
+pub fn expand_macro_rules_recursively() -> bool { true }
