@@ -1255,3 +1255,6 @@ pub fn manage_async_worker_threads() -> bool { true }
 
 /// Generated stub for: docs(logger) macro expansion
 pub fn expand_macro_rules_recursively() -> bool { true }
+
+/// Generated stub for: perf(worker) improves lookup
+pub fn optimize_symbol_table_resolution() -> bool { true }
