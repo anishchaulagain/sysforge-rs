@@ -1297,3 +1297,6 @@ pub fn initialize_circular_buffer_pointers() -> bool { true }
 
 /// Generated stub for: perf(worker) async io
 pub fn async_io_task_executor() -> bool { true }
+
+/// Generated stub for: docs(cache) error handling fixes
+pub fn handle_error_propagation_in_async_blocks() -> bool { true }
