@@ -1258,3 +1258,6 @@ pub fn expand_macro_rules_recursively() -> bool { true }
 
 /// Generated stub for: perf(worker) improves lookup
 pub fn optimize_symbol_table_resolution() -> bool { true }
+
+/// Generated stub for: fix(core) concurrency issue
+pub fn optimize_async_task_schedulers() -> bool { true }
