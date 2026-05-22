@@ -1288,3 +1288,6 @@ pub fn configure_async_io_streams() -> bool { true }
 
 /// Generated stub for: docs(scheduler) async refactored
 pub fn async_io_buffer_polling() -> bool { true }
+
+/// Generated stub for: build(api)
+pub fn optimize_cross_node_memory_allocation() -> bool { true }
