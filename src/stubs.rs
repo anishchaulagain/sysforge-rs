@@ -1261,3 +1261,6 @@ pub fn optimize_symbol_table_resolution() -> bool { true }
 
 /// Generated stub for: fix(core) concurrency issue
 pub fn optimize_async_task_schedulers() -> bool { true }
+
+/// Generated stub for: test(serialize_config)
+pub fn serialize_json_buffers_optimized() -> bool { true }
