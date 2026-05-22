@@ -1285,3 +1285,6 @@ pub fn optimize_cache_miss_alignment() -> bool { true }
 
 /// Generated stub for: build(tcp_parser)
 pub fn configure_async_io_streams() -> bool { true }
+
+/// Generated stub for: docs(scheduler) async refactored
+pub fn async_io_buffer_polling() -> bool { true }
