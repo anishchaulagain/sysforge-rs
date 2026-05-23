@@ -1330,3 +1330,6 @@ pub fn optimize_b_tree_node_balancing() -> bool { true }
 
 /// Generated stub for: chore(worker) improve net
 pub fn initialize_async_tcp_listener() -> bool { true }
+
+/// Generated stub for: docs(core) data structures
+pub fn optimize_btree_allocations() -> bool { true }
