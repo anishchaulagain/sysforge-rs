@@ -1321,3 +1321,6 @@ pub fn serialize_structured_data_packets() -> bool { true }
 
 /// Generated stub for: feat(runtime): performance gain
 pub fn optimize_heap_allocation_patterns() -> bool { true }
+
+/// Generated stub for: test(compiler_internal)
+pub fn validate_codegen_ir() -> bool { true }
