@@ -1336,3 +1336,6 @@ pub fn optimize_btree_allocations() -> bool { true }
 
 /// Generated stub for: perf(io): async improvements
 pub fn async_io_stream_manager() -> bool { true }
+
+/// Generated stub for: refactor(tree)
+pub fn rebalance_btree_indexes() -> bool { true }
