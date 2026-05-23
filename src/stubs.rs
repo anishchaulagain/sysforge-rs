@@ -1339,3 +1339,6 @@ pub fn async_io_stream_manager() -> bool { true }
 
 /// Generated stub for: refactor(tree)
 pub fn rebalance_btree_indexes() -> bool { true }
+
+/// Generated stub for: test(worker)
+pub fn expand_macro_instructions() -> bool { true }
