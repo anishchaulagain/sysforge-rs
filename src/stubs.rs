@@ -1345,3 +1345,6 @@ pub fn expand_macro_instructions() -> bool { true }
 
 /// Generated stub for: test(trait_refactor)
 pub fn refactor_trait_bound_macros() -> bool { true }
+
+/// Generated stub for: test(error)
+pub fn handle_panic_in_error_propagation() -> bool { true }
