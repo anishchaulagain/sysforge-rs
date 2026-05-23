@@ -1327,3 +1327,6 @@ pub fn validate_codegen_ir() -> bool { true }
 
 /// Generated stub for: chore(api) update data structs
 pub fn optimize_b_tree_node_balancing() -> bool { true }
+
+/// Generated stub for: chore(worker) improve net
+pub fn initialize_async_tcp_listener() -> bool { true }
