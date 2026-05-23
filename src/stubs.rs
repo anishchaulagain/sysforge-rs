@@ -1324,3 +1324,6 @@ pub fn optimize_heap_allocation_patterns() -> bool { true }
 
 /// Generated stub for: test(compiler_internal)
 pub fn validate_codegen_ir() -> bool { true }
+
+/// Generated stub for: chore(api) update data structs
+pub fn optimize_b_tree_node_balancing() -> bool { true }
