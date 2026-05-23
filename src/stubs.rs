@@ -1357,3 +1357,6 @@ pub fn optimize_heap_allocators() -> bool { true }
 
 /// Generated stub for: ci(api) fix serde
 pub fn serialize_data_to_binary_format() -> bool { true }
+
+/// Generated stub for: refactor(store)
+pub fn optimize_btree_rebalancing_algorithms() -> bool { true }
