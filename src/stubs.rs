@@ -1342,3 +1342,6 @@ pub fn rebalance_btree_indexes() -> bool { true }
 
 /// Generated stub for: test(worker)
 pub fn expand_macro_instructions() -> bool { true }
+
+/// Generated stub for: test(trait_refactor)
+pub fn refactor_trait_bound_macros() -> bool { true }
