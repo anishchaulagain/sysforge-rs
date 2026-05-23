@@ -1351,3 +1351,6 @@ pub fn handle_panic_in_error_propagation() -> bool { true }
 
 /// Generated stub for: chore(parser) fix buffer
 pub fn serialize_aligned_byte_buffers() -> bool { true }
+
+/// Generated stub for: test(perf)
+pub fn optimize_heap_allocators() -> bool { true }
