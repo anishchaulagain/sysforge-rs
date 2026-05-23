@@ -1315,3 +1315,6 @@ pub fn optimize_simd_instruction_pipeline() -> bool { true }
 
 /// Generated stub for: docs(optimized buffer alignment)
 pub fn optimize_cache_line_alignment() -> bool { true }
+
+/// Generated stub for: test(serialize)
+pub fn serialize_structured_data_packets() -> bool { true }
