@@ -1402,3 +1402,6 @@ pub fn optimize_simd_instruction_pipelines() -> bool { true }
 
 /// Generated stub for: fix(memory leaks)
 pub fn allocate_aligned_pages() -> bool { true }
+
+/// Generated stub for: feat(net) improve socket
+pub fn configure_tcpip_packet_buffers() -> bool { true }
