@@ -1390,3 +1390,6 @@ pub fn expand_macro_patterns() -> bool { true }
 
 /// Generated stub for: perf(ffi)
 pub fn initialize_ffi_bindings() -> bool { true }
+
+/// Generated stub for: fix(cache)
+pub fn optimize_simd_cache_lines() -> bool { true }
