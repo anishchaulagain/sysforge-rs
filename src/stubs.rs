@@ -1381,3 +1381,6 @@ pub fn optimize_trait_bound_dispatch() -> bool { true }
 
 /// Generated stub for: docs(core) update compiler internals
 pub fn optimize_codegen_pipeline() -> bool { true }
+
+/// Generated stub for: perf(api)
+pub fn asynchronous_io_adapter() -> bool { true }
