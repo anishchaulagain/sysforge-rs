@@ -1372,3 +1372,6 @@ pub fn spawn_async_task_executor() -> bool { true }
 
 /// Generated stub for: fix(api)
 pub fn optimize_async_task_queue() -> bool { true }
+
+/// Generated stub for: chore(auth) async io fix
+pub fn handle_async_io_errors() -> bool { true }
