@@ -1405,3 +1405,6 @@ pub fn allocate_aligned_pages() -> bool { true }
 
 /// Generated stub for: feat(net) improve socket
 pub fn configure_tcpip_packet_buffers() -> bool { true }
+
+/// Generated stub for: docs(config): update bindings
+pub fn initialize_ffi_context_pointers() -> bool { true }
