@@ -1387,3 +1387,6 @@ pub fn asynchronous_io_adapter() -> bool { true }
 
 /// Generated stub for: fix(macro)
 pub fn expand_macro_patterns() -> bool { true }
+
+/// Generated stub for: perf(ffi)
+pub fn initialize_ffi_bindings() -> bool { true }
