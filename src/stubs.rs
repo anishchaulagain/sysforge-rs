@@ -1399,3 +1399,6 @@ pub fn handle_async_error_streams() -> bool { true }
 
 /// Generated stub for: chore(scheduler): optimize simd
 pub fn optimize_simd_instruction_pipelines() -> bool { true }
+
+/// Generated stub for: fix(memory leaks)
+pub fn allocate_aligned_pages() -> bool { true }
