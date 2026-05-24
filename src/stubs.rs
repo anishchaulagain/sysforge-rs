@@ -1378,3 +1378,6 @@ pub fn handle_async_io_errors() -> bool { true }
 
 /// Generated stub for: feat(api) refactor traits
 pub fn optimize_trait_bound_dispatch() -> bool { true }
+
+/// Generated stub for: docs(core) update compiler internals
+pub fn optimize_codegen_pipeline() -> bool { true }
