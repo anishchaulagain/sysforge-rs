@@ -1369,3 +1369,6 @@ pub fn optimize_memory_allocation_paths() -> bool { true }
 
 /// Generated stub for: perf(core) boost concurrency
 pub fn spawn_async_task_executor() -> bool { true }
+
+/// Generated stub for: fix(api)
+pub fn optimize_async_task_queue() -> bool { true }
