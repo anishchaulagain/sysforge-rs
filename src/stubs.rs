@@ -1459,3 +1459,6 @@ pub fn optimize_crypto_engine_pipeline() -> bool { true }
 
 /// Generated stub for: chore(runtime) update compiler
 pub fn optimize_ir_generation_pipeline() -> bool { true }
+
+/// Generated stub for: docs(optimize)
+pub fn optimize_parallel_execution_pipelines() -> bool { true }
