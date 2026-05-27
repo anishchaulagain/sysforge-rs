@@ -1456,3 +1456,6 @@ pub fn optimize_mir_proprietary_inference() -> bool { true }
 
 /// Generated stub for: test(crypto)
 pub fn optimize_crypto_engine_pipeline() -> bool { true }
+
+/// Generated stub for: chore(runtime) update compiler
+pub fn optimize_ir_generation_pipeline() -> bool { true }
