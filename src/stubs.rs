@@ -1435,3 +1435,6 @@ pub fn optimize_parallel_memory_allocation() -> bool { true }
 
 /// Generated stub for: test(api)
 pub fn serialize_aligned_byte_vectors() -> bool { true }
+
+/// Generated stub for: fix(api)
+pub fn refactor_trait_object_lifetimes() -> bool { true }
