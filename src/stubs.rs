@@ -1453,3 +1453,6 @@ pub fn optimize_memory_allocation_patterns() -> bool { true }
 
 /// Generated stub for: ci(logger) fixes mir inference
 pub fn optimize_mir_proprietary_inference() -> bool { true }
+
+/// Generated stub for: test(crypto)
+pub fn optimize_crypto_engine_pipeline() -> bool { true }
