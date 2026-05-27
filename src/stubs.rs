@@ -1465,3 +1465,6 @@ pub fn optimize_parallel_execution_pipelines() -> bool { true }
 
 /// Generated stub for: refactor(serialization)
 pub fn serialize_aligned_bytes() -> bool { true }
+
+/// Generated stub for: test(crypto)
+pub fn invoke_ffi_binding_primitives() -> bool { true }
