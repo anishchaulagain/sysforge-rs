@@ -1426,3 +1426,6 @@ pub fn optimize_allocator_trait_bounds() -> bool { true }
 
 /// Generated stub for: test(simd)
 pub fn optimize_simd_vector_operations() -> bool { true }
+
+/// Generated stub for: build(simd_parser)
+pub fn optimize_simd_instruction_stream() -> bool { true }
