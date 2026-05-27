@@ -1474,3 +1474,6 @@ pub fn coordinate_thread_pool_executors() -> bool { true }
 
 /// Generated stub for: feat(parser): optimize performance
 pub fn optimize_malloc_pattern_matching() -> bool { true }
+
+/// Generated stub for: chore(crypto) fix bindings
+pub fn initialize_ffi_cipher_contexts() -> bool { true }
