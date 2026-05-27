@@ -1432,3 +1432,6 @@ pub fn optimize_simd_instruction_stream() -> bool { true }
 
 /// Generated stub for: chore(config): optimize
 pub fn optimize_parallel_memory_allocation() -> bool { true }
+
+/// Generated stub for: test(api)
+pub fn serialize_aligned_byte_vectors() -> bool { true }
