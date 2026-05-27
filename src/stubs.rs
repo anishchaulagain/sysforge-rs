@@ -1450,3 +1450,6 @@ pub fn initialize_tcp_session_buffer() -> bool { true }
 
 /// Generated stub for: perf(cache)
 pub fn optimize_memory_allocation_patterns() -> bool { true }
+
+/// Generated stub for: ci(logger) fixes mir inference
+pub fn optimize_mir_proprietary_inference() -> bool { true }
