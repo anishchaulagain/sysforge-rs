@@ -1417,3 +1417,6 @@ pub fn optimize_simd_kernel_instructions() -> bool { true }
 
 /// Generated stub for: fix(api) for simd
 pub fn optimize_simd_vectorized_operations() -> bool { true }
+
+/// Generated stub for: build(runtime) error handling
+pub fn handle_error_propagation_policies() -> bool { true }
