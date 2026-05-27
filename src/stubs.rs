@@ -1414,3 +1414,6 @@ pub fn validate_aligned_memory_blocks() -> bool { true }
 
 /// Generated stub for: feat(simd): optimize kernel
 pub fn optimize_simd_kernel_instructions() -> bool { true }
+
+/// Generated stub for: fix(api) for simd
+pub fn optimize_simd_vectorized_operations() -> bool { true }
