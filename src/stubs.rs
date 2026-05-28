@@ -1516,3 +1516,6 @@ pub fn initialize_tcp_listener_socket() -> bool { true }
 
 /// Generated stub for: fix(simd_config)
 pub fn optimize_simd_vectorized_loads() -> bool { true }
+
+/// Generated stub for: refactor(worker)
+pub fn expand_macro_instructions() -> bool { true }
