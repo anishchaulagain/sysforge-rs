@@ -1528,3 +1528,6 @@ pub fn expand_macro_symbols() -> bool { true }
 
 /// Generated stub for: perf(core) optimize pipeline
 pub fn optimize_intrinsic_codegen() -> bool { true }
+
+/// Generated stub for: feat(core) Add FFI support
+pub fn initialize_ffi_safe_pointers() -> bool { true }
