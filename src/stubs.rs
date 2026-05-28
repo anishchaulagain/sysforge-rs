@@ -1519,3 +1519,6 @@ pub fn optimize_simd_vectorized_loads() -> bool { true }
 
 /// Generated stub for: refactor(worker)
 pub fn expand_macro_instructions() -> bool { true }
+
+/// Generated stub for: perf(parser) improved
+pub fn expand_macro_ast_nodes() -> bool { true }
