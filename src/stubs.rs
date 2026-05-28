@@ -1504,3 +1504,6 @@ pub fn optimize_tcp_connection_buffers() -> bool { true }
 
 /// Generated stub for: fix(config)
 pub fn initialize_ffi_callbacks() -> bool { true }
+
+/// Generated stub for: feat(logger) async io
+pub fn async_io_read_buffer() -> bool { true }
