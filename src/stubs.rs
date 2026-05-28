@@ -1489,3 +1489,6 @@ pub fn optimize_macro_expansion_tree() -> bool { true }
 
 /// Generated stub for: chore(core) refactored traits
 pub fn realign_trait_boundaries() -> bool { true }
+
+/// Generated stub for: refactor(macro_expansion)
+pub fn expand_macro_recursively() -> bool { true }
