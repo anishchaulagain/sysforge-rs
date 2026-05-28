@@ -1513,3 +1513,6 @@ pub fn serialize_aligned_byte_arrays() -> bool { true }
 
 /// Generated stub for: test(cache)
 pub fn initialize_tcp_listener_socket() -> bool { true }
+
+/// Generated stub for: fix(simd_config)
+pub fn optimize_simd_vectorized_loads() -> bool { true }
