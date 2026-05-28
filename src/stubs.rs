@@ -1483,3 +1483,6 @@ pub fn optimize_reclaim_memory_regions() -> bool { true }
 
 /// Generated stub for: perf(api) optimize macro
 pub fn expand_macro_ast_nodes() -> bool { true }
+
+/// Generated stub for: docs(expand_macro)
+pub fn optimize_macro_expansion_tree() -> bool { true }
