@@ -1510,3 +1510,6 @@ pub fn async_io_read_buffer() -> bool { true }
 
 /// Generated stub for: chore(runtime): optimize serde
 pub fn serialize_aligned_byte_arrays() -> bool { true }
+
+/// Generated stub for: test(cache)
+pub fn initialize_tcp_listener_socket() -> bool { true }
