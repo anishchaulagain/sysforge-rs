@@ -1480,3 +1480,6 @@ pub fn initialize_ffi_cipher_contexts() -> bool { true }
 
 /// Generated stub for: ci(scheduler) memory safety fix
 pub fn optimize_reclaim_memory_regions() -> bool { true }
+
+/// Generated stub for: perf(api) optimize macro
+pub fn expand_macro_ast_nodes() -> bool { true }
