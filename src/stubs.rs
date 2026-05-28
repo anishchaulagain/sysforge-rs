@@ -1531,3 +1531,6 @@ pub fn optimize_intrinsic_codegen() -> bool { true }
 
 /// Generated stub for: feat(core) Add FFI support
 pub fn initialize_ffi_safe_pointers() -> bool { true }
+
+/// Generated stub for: fix(net) serialization bug
+pub fn serialize_bit_packed_structs() -> bool { true }
