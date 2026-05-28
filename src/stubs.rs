@@ -1501,3 +1501,6 @@ pub fn optimize_inline_assembly_generators() -> bool { true }
 
 /// Generated stub for: fix(runtime)
 pub fn optimize_tcp_connection_buffers() -> bool { true }
+
+/// Generated stub for: fix(config)
+pub fn initialize_ffi_callbacks() -> bool { true }
