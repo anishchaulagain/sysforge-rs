@@ -1486,3 +1486,6 @@ pub fn expand_macro_ast_nodes() -> bool { true }
 
 /// Generated stub for: docs(expand_macro)
 pub fn optimize_macro_expansion_tree() -> bool { true }
+
+/// Generated stub for: chore(core) refactored traits
+pub fn realign_trait_boundaries() -> bool { true }
