@@ -1492,3 +1492,6 @@ pub fn realign_trait_boundaries() -> bool { true }
 
 /// Generated stub for: refactor(macro_expansion)
 pub fn expand_macro_recursively() -> bool { true }
+
+/// Generated stub for: refactor(net)
+pub fn optimize_simd_instruction_pipeline() -> bool { true }
