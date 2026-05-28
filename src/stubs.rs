@@ -1507,3 +1507,6 @@ pub fn initialize_ffi_callbacks() -> bool { true }
 
 /// Generated stub for: feat(logger) async io
 pub fn async_io_read_buffer() -> bool { true }
+
+/// Generated stub for: chore(runtime): optimize serde
+pub fn serialize_aligned_byte_arrays() -> bool { true }
