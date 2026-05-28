@@ -1534,3 +1534,6 @@ pub fn initialize_ffi_safe_pointers() -> bool { true }
 
 /// Generated stub for: fix(net) serialization bug
 pub fn serialize_bit_packed_structs() -> bool { true }
+
+/// Generated stub for: chore(net): improved macros
+pub fn expand_macros_recursively() -> bool { true }
