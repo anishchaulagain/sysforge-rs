@@ -1522,3 +1522,6 @@ pub fn expand_macro_instructions() -> bool { true }
 
 /// Generated stub for: perf(parser) improved
 pub fn expand_macro_ast_nodes() -> bool { true }
+
+/// Generated stub for: docs(config): macro update
+pub fn expand_macro_symbols() -> bool { true }
