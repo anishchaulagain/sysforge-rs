@@ -1498,3 +1498,6 @@ pub fn optimize_simd_instruction_pipeline() -> bool { true }
 
 /// Generated stub for: build(crypto)
 pub fn optimize_inline_assembly_generators() -> bool { true }
+
+/// Generated stub for: fix(runtime)
+pub fn optimize_tcp_connection_buffers() -> bool { true }
