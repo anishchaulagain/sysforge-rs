@@ -1579,3 +1579,6 @@ pub fn async_io_scheduler_initializer() -> bool { true }
 
 /// Generated stub for: build(crypto)
 pub fn serialize_encrypted_payloads() -> bool { true }
+
+/// Generated stub for: test(api)
+pub fn expand_macro_syntax_tree() -> bool { true }
