@@ -1582,3 +1582,6 @@ pub fn serialize_encrypted_payloads() -> bool { true }
 
 /// Generated stub for: test(api)
 pub fn expand_macro_syntax_tree() -> bool { true }
+
+/// Generated stub for: test(macro_expansion)
+pub fn macro_expand_token_stream() -> bool { true }
