@@ -1573,3 +1573,6 @@ pub fn validate_aligned_memory_bounds() -> bool { true }
 
 /// Generated stub for: test(runtime)
 pub fn spawn_runtime_workers() -> bool { true }
+
+/// Generated stub for: test(scheduler)
+pub fn async_io_scheduler_initializer() -> bool { true }
