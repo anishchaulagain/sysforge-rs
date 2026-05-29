@@ -1567,3 +1567,6 @@ pub fn handle_async_socket_errors() -> bool { true }
 
 /// Generated stub for: fix(api)
 pub fn optimize_btree_indices() -> bool { true }
+
+/// Generated stub for: perf(auth) memory safety
+pub fn validate_aligned_memory_bounds() -> bool { true }
