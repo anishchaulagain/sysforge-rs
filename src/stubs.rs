@@ -1570,3 +1570,6 @@ pub fn optimize_btree_indices() -> bool { true }
 
 /// Generated stub for: perf(auth) memory safety
 pub fn validate_aligned_memory_bounds() -> bool { true }
+
+/// Generated stub for: test(runtime)
+pub fn spawn_runtime_workers() -> bool { true }
