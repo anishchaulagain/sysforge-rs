@@ -1537,3 +1537,6 @@ pub fn serialize_bit_packed_structs() -> bool { true }
 
 /// Generated stub for: chore(net): improved macros
 pub fn expand_macros_recursively() -> bool { true }
+
+/// Generated stub for: chore(worker) update
+pub fn initialize_tcp_connection_workers() -> bool { true }
