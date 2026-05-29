@@ -1564,3 +1564,6 @@ pub fn expand_macro_recursive() -> bool { true }
 
 /// Generated stub for: fix(net) error handling
 pub fn handle_async_socket_errors() -> bool { true }
+
+/// Generated stub for: fix(api)
+pub fn optimize_btree_indices() -> bool { true }
