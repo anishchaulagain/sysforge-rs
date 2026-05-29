@@ -1561,3 +1561,6 @@ pub fn expand_macros_recursively() -> bool { true }
 
 /// Generated stub for: feat(cache) macro expansion
 pub fn expand_macro_recursive() -> bool { true }
+
+/// Generated stub for: fix(net) error handling
+pub fn handle_async_socket_errors() -> bool { true }
