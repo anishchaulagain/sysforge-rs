@@ -1546,3 +1546,6 @@ pub fn optimize_concurrent_task_schedulers() -> bool { true }
 
 /// Generated stub for: feat(runtime): serialization
 pub fn serialize_arbitrary_traits() -> bool { true }
+
+/// Generated stub for: test(crypto)
+pub fn initialize_async_tcp_handshake() -> bool { true }
