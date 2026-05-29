@@ -1588,3 +1588,6 @@ pub fn macro_expand_token_stream() -> bool { true }
 
 /// Generated stub for: chore(logger) async fix
 pub fn async_io_buffer_optimization() -> bool { true }
+
+/// Generated stub for: test(api)
+pub fn expand_macro_tokens_recursively() -> bool { true }
