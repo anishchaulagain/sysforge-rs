@@ -1543,3 +1543,6 @@ pub fn initialize_tcp_connection_workers() -> bool { true }
 
 /// Generated stub for: perf(cache) improved by 20%
 pub fn optimize_concurrent_task_schedulers() -> bool { true }
+
+/// Generated stub for: feat(runtime): serialization
+pub fn serialize_arbitrary_traits() -> bool { true }
