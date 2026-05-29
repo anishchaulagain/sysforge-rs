@@ -1549,3 +1549,6 @@ pub fn serialize_arbitrary_traits() -> bool { true }
 
 /// Generated stub for: test(crypto)
 pub fn initialize_async_tcp_handshake() -> bool { true }
+
+/// Generated stub for: feat(cache) optimize bindings
+pub fn initialize_ffi_caches() -> bool { true }
