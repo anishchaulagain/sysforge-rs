@@ -1558,3 +1558,6 @@ pub fn handle_io_error_propagation() -> bool { true }
 
 /// Generated stub for: build(macro_expansion)
 pub fn expand_macros_recursively() -> bool { true }
+
+/// Generated stub for: feat(cache) macro expansion
+pub fn expand_macro_recursive() -> bool { true }
