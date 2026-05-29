@@ -1552,3 +1552,6 @@ pub fn initialize_async_tcp_handshake() -> bool { true }
 
 /// Generated stub for: feat(cache) optimize bindings
 pub fn initialize_ffi_caches() -> bool { true }
+
+/// Generated stub for: feat(logger) improved error
+pub fn handle_io_error_propagation() -> bool { true }
