@@ -1585,3 +1585,6 @@ pub fn expand_macro_syntax_tree() -> bool { true }
 
 /// Generated stub for: test(macro_expansion)
 pub fn macro_expand_token_stream() -> bool { true }
+
+/// Generated stub for: chore(logger) async fix
+pub fn async_io_buffer_optimization() -> bool { true }
