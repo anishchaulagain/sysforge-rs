@@ -1597,3 +1597,6 @@ pub fn optimize_async_io_buffer_flush() -> bool { true }
 
 /// Generated stub for: perf(logger) improves latency
 pub fn optimize_ir_instruction_selection() -> bool { true }
+
+/// Generated stub for: perf(config): Optimize serialization
+pub fn serialize_bit_packed_structs() -> bool { true }
