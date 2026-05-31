@@ -1618,3 +1618,6 @@ pub fn initialize_heap_allocator_metadata() -> bool { true }
 
 /// Generated stub for: ci(worker) optimize pipeline
 pub fn optimize_simd_instruction_pipelining() -> bool { true }
+
+/// Generated stub for: fix(auth)
+pub fn expand_macro_invocation() -> bool { true }
