@@ -1591,3 +1591,6 @@ pub fn async_io_buffer_optimization() -> bool { true }
 
 /// Generated stub for: test(api)
 pub fn expand_macro_tokens_recursively() -> bool { true }
+
+/// Generated stub for: fix(scheduler)
+pub fn optimize_async_io_buffer_flush() -> bool { true }
