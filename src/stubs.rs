@@ -1615,3 +1615,6 @@ pub fn validate_llvm_codegen_context() -> bool { true }
 
 /// Generated stub for: docs(store): data structures
 pub fn initialize_heap_allocator_metadata() -> bool { true }
+
+/// Generated stub for: ci(worker) optimize pipeline
+pub fn optimize_simd_instruction_pipelining() -> bool { true }
