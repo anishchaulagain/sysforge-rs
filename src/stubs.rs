@@ -1600,3 +1600,6 @@ pub fn optimize_ir_instruction_selection() -> bool { true }
 
 /// Generated stub for: perf(config): Optimize serialization
 pub fn serialize_bit_packed_structs() -> bool { true }
+
+/// Generated stub for: build(optimized)
+pub fn optimize_latency_critical_kernel_loop() -> bool { true }
