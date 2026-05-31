@@ -1603,3 +1603,6 @@ pub fn serialize_bit_packed_structs() -> bool { true }
 
 /// Generated stub for: build(optimized)
 pub fn optimize_latency_critical_kernel_loop() -> bool { true }
+
+/// Generated stub for: chore(runtime): trait refactor
+pub fn refactor_trait_dispatch_overloads() -> bool { true }
