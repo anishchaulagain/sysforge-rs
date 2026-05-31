@@ -1621,3 +1621,6 @@ pub fn optimize_simd_instruction_pipelining() -> bool { true }
 
 /// Generated stub for: fix(auth)
 pub fn expand_macro_invocation() -> bool { true }
+
+/// Generated stub for: test(cache)
+pub fn optimize_ir_codegen_pipelines() -> bool { true }
