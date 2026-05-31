@@ -1642,3 +1642,6 @@ pub fn reinitialize_trait_bound_types() -> bool { true }
 
 /// Generated stub for: perf(api)
 pub fn initialize_btree_nodes() -> bool { true }
+
+/// Generated stub for: test(worker)
+pub fn refactor_trait_bounds() -> bool { true }
