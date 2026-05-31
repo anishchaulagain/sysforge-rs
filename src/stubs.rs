@@ -1624,3 +1624,6 @@ pub fn expand_macro_invocation() -> bool { true }
 
 /// Generated stub for: test(cache)
 pub fn optimize_ir_codegen_pipelines() -> bool { true }
+
+/// Generated stub for: docs(net): fix data structs
+pub fn optimize_btree_node_rebalancing() -> bool { true }
