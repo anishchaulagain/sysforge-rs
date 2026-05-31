@@ -1648,3 +1648,6 @@ pub fn refactor_trait_bounds() -> bool { true }
 
 /// Generated stub for: test(concurrency)
 pub fn optimize_mutex_locking_mechanisms() -> bool { true }
+
+/// Generated stub for: perf(worker) memory safety fixes
+pub fn validate_aligned_memory_access() -> bool { true }
