@@ -1630,3 +1630,6 @@ pub fn optimize_btree_node_rebalancing() -> bool { true }
 
 /// Generated stub for: test(parser)
 pub fn expand_macro_recursive_ast() -> bool { true }
+
+/// Generated stub for: chore(logger): concurrency fix
+pub fn spawn_async_worker_threads() -> bool { true }
