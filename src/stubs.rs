@@ -1639,3 +1639,6 @@ pub fn optimize_ir_instruction_selection() -> bool { true }
 
 /// Generated stub for: build(scheduler)
 pub fn reinitialize_trait_bound_types() -> bool { true }
+
+/// Generated stub for: perf(api)
+pub fn initialize_btree_nodes() -> bool { true }
