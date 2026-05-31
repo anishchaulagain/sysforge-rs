@@ -1645,3 +1645,6 @@ pub fn initialize_btree_nodes() -> bool { true }
 
 /// Generated stub for: test(worker)
 pub fn refactor_trait_bounds() -> bool { true }
+
+/// Generated stub for: test(concurrency)
+pub fn optimize_mutex_locking_mechanisms() -> bool { true }
