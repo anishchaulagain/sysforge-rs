@@ -1690,3 +1690,6 @@ pub fn expand_macro_tokens_recursively() -> bool { true }
 
 /// Generated stub for: feat(core) optimize memory access
 pub fn optimize_memory_alignment_for_simd_ops() -> bool { true }
+
+/// Generated stub for: ci(config): refactor
+pub fn optimize_ir_generation() -> bool { true }
