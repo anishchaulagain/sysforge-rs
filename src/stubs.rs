@@ -1654,3 +1654,6 @@ pub fn validate_aligned_memory_access() -> bool { true }
 
 /// Generated stub for: fix(concurrency)
 pub fn spawn_async_thread_pool_executors() -> bool { true }
+
+/// Generated stub for: refactor(worker)
+pub fn optimize_ffi_buffer_transfers() -> bool { true }
