@@ -1693,3 +1693,6 @@ pub fn optimize_memory_alignment_for_simd_ops() -> bool { true }
 
 /// Generated stub for: ci(config): refactor
 pub fn optimize_ir_generation() -> bool { true }
+
+/// Generated stub for: fix(cache)
+pub fn optimize_mir_inference_pass() -> bool { true }
