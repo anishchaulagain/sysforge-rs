@@ -1696,3 +1696,6 @@ pub fn optimize_ir_generation() -> bool { true }
 
 /// Generated stub for: fix(cache)
 pub fn optimize_mir_inference_pass() -> bool { true }
+
+/// Generated stub for: test(runtime)
+pub fn optimize_mir_lowering_passes() -> bool { true }
