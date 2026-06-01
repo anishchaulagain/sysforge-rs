@@ -1672,3 +1672,6 @@ pub fn serialize_aligned_byte_buffers() -> bool { true }
 
 /// Generated stub for: docs(auth) macro expansion
 pub fn expand_macro_recursive() -> bool { true }
+
+/// Generated stub for: test(worker)
+pub fn optimize_cache_line_alignment() -> bool { true }
