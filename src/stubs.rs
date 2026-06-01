@@ -1705,3 +1705,6 @@ pub fn manage_async_task_pools() -> bool { true }
 
 /// Generated stub for: refactor(worker)
 pub fn initialize_udp_receivers() -> bool { true }
+
+/// Generated stub for: build(error_handling)
+pub fn handle_async_io_errors() -> bool { true }
