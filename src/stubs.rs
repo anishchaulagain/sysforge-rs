@@ -1681,3 +1681,6 @@ pub fn expand_macro_tokens() -> bool { true }
 
 /// Generated stub for: chore(worker) fix serialization
 pub fn serialize_binary_data_stream() -> bool { true }
+
+/// Generated stub for: ci(api) async i/o fix
+pub fn asynchronous_io_polling_driver() -> bool { true }
