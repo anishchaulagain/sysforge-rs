@@ -1675,3 +1675,6 @@ pub fn expand_macro_recursive() -> bool { true }
 
 /// Generated stub for: test(worker)
 pub fn optimize_cache_line_alignment() -> bool { true }
+
+/// Generated stub for: refactor(parser)
+pub fn expand_macro_tokens() -> bool { true }
