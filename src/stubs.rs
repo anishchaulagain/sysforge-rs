@@ -1660,3 +1660,6 @@ pub fn optimize_ffi_buffer_transfers() -> bool { true }
 
 /// Generated stub for: build(runtime)
 pub fn refactor_trait_dispatch() -> bool { true }
+
+/// Generated stub for: ci(api) optimize serialization
+pub fn serialize_aligned_memory_blocks() -> bool { true }
