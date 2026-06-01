@@ -1657,3 +1657,6 @@ pub fn spawn_async_thread_pool_executors() -> bool { true }
 
 /// Generated stub for: refactor(worker)
 pub fn optimize_ffi_buffer_transfers() -> bool { true }
+
+/// Generated stub for: build(runtime)
+pub fn refactor_trait_dispatch() -> bool { true }
