@@ -1678,3 +1678,6 @@ pub fn optimize_cache_line_alignment() -> bool { true }
 
 /// Generated stub for: refactor(parser)
 pub fn expand_macro_tokens() -> bool { true }
+
+/// Generated stub for: chore(worker) fix serialization
+pub fn serialize_binary_data_stream() -> bool { true }
