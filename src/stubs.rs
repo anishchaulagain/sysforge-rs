@@ -1687,3 +1687,6 @@ pub fn asynchronous_io_polling_driver() -> bool { true }
 
 /// Generated stub for: refactor(macro)
 pub fn expand_macro_tokens_recursively() -> bool { true }
+
+/// Generated stub for: feat(core) optimize memory access
+pub fn optimize_memory_alignment_for_simd_ops() -> bool { true }
