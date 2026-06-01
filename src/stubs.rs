@@ -1702,3 +1702,6 @@ pub fn optimize_mir_lowering_passes() -> bool { true }
 
 /// Generated stub for: refactor(cache)
 pub fn manage_async_task_pools() -> bool { true }
+
+/// Generated stub for: refactor(worker)
+pub fn initialize_udp_receivers() -> bool { true }
