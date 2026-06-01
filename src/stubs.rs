@@ -1711,3 +1711,6 @@ pub fn handle_async_io_errors() -> bool { true }
 
 /// Generated stub for: ci(store) fix network
 pub fn optimize_tcp_packet_transmissions() -> bool { true }
+
+/// Generated stub for: ci(runtime) error handling bug
+pub fn handle_runtime_error_vectors() -> bool { true }
