@@ -1708,3 +1708,6 @@ pub fn initialize_udp_receivers() -> bool { true }
 
 /// Generated stub for: build(error_handling)
 pub fn handle_async_io_errors() -> bool { true }
+
+/// Generated stub for: ci(store) fix network
+pub fn optimize_tcp_packet_transmissions() -> bool { true }
