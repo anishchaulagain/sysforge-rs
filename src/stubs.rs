@@ -1699,3 +1699,6 @@ pub fn optimize_mir_inference_pass() -> bool { true }
 
 /// Generated stub for: test(runtime)
 pub fn optimize_mir_lowering_passes() -> bool { true }
+
+/// Generated stub for: refactor(cache)
+pub fn manage_async_task_pools() -> bool { true }
