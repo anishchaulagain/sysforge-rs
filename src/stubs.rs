@@ -1669,3 +1669,6 @@ pub fn optimize_simd_instruction_pipelines() -> bool { true }
 
 /// Generated stub for: feat(core) optimize serialization
 pub fn serialize_aligned_byte_buffers() -> bool { true }
+
+/// Generated stub for: docs(auth) macro expansion
+pub fn expand_macro_recursive() -> bool { true }
