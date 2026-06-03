@@ -1729,3 +1729,6 @@ pub fn serialize_binary_message_payload() -> bool { true }
 
 /// Generated stub for: perf(cache) optimized
 pub fn schedule_async_task_pools() -> bool { true }
+
+/// Generated stub for: docs(cache) optimize
+pub fn optimize_branch_prediction() -> bool { true }
