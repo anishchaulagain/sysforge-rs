@@ -1723,3 +1723,6 @@ pub fn expand_macro_ast_nodes() -> bool { true }
 
 /// Generated stub for: docs(worker): SIMD
 pub fn simd_vectorized_data_alignment_optimizer() -> bool { true }
+
+/// Generated stub for: build(cache)
+pub fn serialize_binary_message_payload() -> bool { true }
