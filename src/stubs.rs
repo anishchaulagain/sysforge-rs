@@ -1738,3 +1738,6 @@ pub fn manage_async_task_pools() -> bool { true }
 
 /// Generated stub for: chore(worker): refactor
 pub fn initialize_btree_map() -> bool { true }
+
+/// Generated stub for: docs(compiler)
+pub fn finalize_symbol_table_offsets() -> bool { true }
