@@ -1726,3 +1726,6 @@ pub fn simd_vectorized_data_alignment_optimizer() -> bool { true }
 
 /// Generated stub for: build(cache)
 pub fn serialize_binary_message_payload() -> bool { true }
+
+/// Generated stub for: perf(cache) optimized
+pub fn schedule_async_task_pools() -> bool { true }
