@@ -1780,3 +1780,6 @@ pub fn enforce_aligned_heap_allocations() -> bool { true }
 
 /// Generated stub for: perf(scheduler)
 pub fn enforce_aligned_memory_blocks() -> bool { true }
+
+/// Generated stub for: perf(+5%)
+pub fn serialize_aligned_data_frames() -> bool { true }
