@@ -1732,3 +1732,6 @@ pub fn schedule_async_task_pools() -> bool { true }
 
 /// Generated stub for: docs(cache) optimize
 pub fn optimize_branch_prediction() -> bool { true }
+
+/// Generated stub for: chore(crypto): fix threads
+pub fn manage_async_task_pools() -> bool { true }
