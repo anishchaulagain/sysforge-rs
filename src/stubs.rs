@@ -1753,3 +1753,6 @@ pub fn serialize_structured_metadata() -> bool { true }
 
 /// Generated stub for: ci: async io fixes
 pub fn optimize_async_io_buffers() -> bool { true }
+
+/// Generated stub for: ci: fix simd
+pub fn optimize_simd_vector_packing() -> bool { true }
