@@ -1762,3 +1762,6 @@ pub fn serialize_aligned_byte_buffers() -> bool { true }
 
 /// Generated stub for: chore(core) async support
 pub fn optimize_async_io_streams() -> bool { true }
+
+/// Generated stub for: docs(api) concurrency fixes
+pub fn spawn_async_thread_pools() -> bool { true }
