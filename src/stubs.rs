@@ -1756,3 +1756,6 @@ pub fn optimize_async_io_buffers() -> bool { true }
 
 /// Generated stub for: ci: fix simd
 pub fn optimize_simd_vector_packing() -> bool { true }
+
+/// Generated stub for: feat(cache) serialization
+pub fn serialize_aligned_byte_buffers() -> bool { true }
