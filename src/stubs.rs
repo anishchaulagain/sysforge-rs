@@ -1744,3 +1744,6 @@ pub fn finalize_symbol_table_offsets() -> bool { true }
 
 /// Generated stub for: chore(cache) optimization
 pub fn optimize_memory_aligned_allocations() -> bool { true }
+
+/// Generated stub for: build(crypto)
+pub fn initialize_ffi_cipher_contexts() -> bool { true }
