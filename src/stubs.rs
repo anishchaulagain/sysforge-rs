@@ -1747,3 +1747,6 @@ pub fn optimize_memory_aligned_allocations() -> bool { true }
 
 /// Generated stub for: build(crypto)
 pub fn initialize_ffi_cipher_contexts() -> bool { true }
+
+/// Generated stub for: perf(core) optimize serialization
+pub fn serialize_structured_metadata() -> bool { true }
