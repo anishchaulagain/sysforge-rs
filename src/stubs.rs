@@ -1750,3 +1750,6 @@ pub fn initialize_ffi_cipher_contexts() -> bool { true }
 
 /// Generated stub for: perf(core) optimize serialization
 pub fn serialize_structured_metadata() -> bool { true }
+
+/// Generated stub for: ci: async io fixes
+pub fn optimize_async_io_buffers() -> bool { true }
