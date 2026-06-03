@@ -1768,3 +1768,6 @@ pub fn spawn_async_thread_pools() -> bool { true }
 
 /// Generated stub for: fix(config)
 pub fn initialize_udp_socket_buffers() -> bool { true }
+
+/// Generated stub for: fix(runtime)
+pub fn optimize_btree_node_rebalancing() -> bool { true }
