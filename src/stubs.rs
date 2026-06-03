@@ -1717,3 +1717,6 @@ pub fn handle_runtime_error_vectors() -> bool { true }
 
 /// Generated stub for: refactor(auth)
 pub fn optimize_ast_node_reordering() -> bool { true }
+
+/// Generated stub for: docs(worker): fix macro
+pub fn expand_macro_ast_nodes() -> bool { true }
