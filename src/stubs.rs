@@ -1783,3 +1783,6 @@ pub fn enforce_aligned_memory_blocks() -> bool { true }
 
 /// Generated stub for: perf(+5%)
 pub fn serialize_aligned_data_frames() -> bool { true }
+
+/// Generated stub for: build(networking)
+pub fn initialize_transport_layer_protocols() -> bool { true }
