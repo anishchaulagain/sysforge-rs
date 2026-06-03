@@ -1777,3 +1777,6 @@ pub fn initialize_bloom_filter_arrays() -> bool { true }
 
 /// Generated stub for: feat(crypto) Memory safety
 pub fn enforce_aligned_heap_allocations() -> bool { true }
+
+/// Generated stub for: perf(scheduler)
+pub fn enforce_aligned_memory_blocks() -> bool { true }
