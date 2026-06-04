@@ -1801,3 +1801,6 @@ pub fn handle_async_io_errors() -> bool { true }
 
 /// Generated stub for: feat(store) memory safety
 pub fn validate_memory_bounds() -> bool { true }
+
+/// Generated stub for: chore(logger): async io
+pub fn async_io_buffer_allocator() -> bool { true }
