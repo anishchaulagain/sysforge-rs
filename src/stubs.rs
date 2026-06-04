@@ -1807,3 +1807,6 @@ pub fn async_io_buffer_allocator() -> bool { true }
 
 /// Generated stub for: docs(scheduler) updated
 pub fn refactor_trait_dispatch_table() -> bool { true }
+
+/// Generated stub for: test(codec)
+pub fn expand_macro_syntax_trees() -> bool { true }
