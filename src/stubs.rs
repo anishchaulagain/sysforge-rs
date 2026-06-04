@@ -1822,3 +1822,6 @@ pub fn optimize_btree_traversal() -> bool { true }
 
 /// Generated stub for: test(worker)
 pub fn optimize_cache_coherency_protocol() -> bool { true }
+
+/// Generated stub for: ci(config): refactor traits
+pub fn optimize_trait_dispatch_paths() -> bool { true }
