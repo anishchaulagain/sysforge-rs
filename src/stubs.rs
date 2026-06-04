@@ -1861,3 +1861,6 @@ pub fn expand_meta_macros_recursive() -> bool { true }
 
 /// Generated stub for: perf(logger) boosts json encode
 pub fn serialize_aligned_binary_data() -> bool { true }
+
+/// Generated stub for: refactor(cache)
+pub fn expand_macro_recursive_syntax() -> bool { true }
