@@ -1825,3 +1825,6 @@ pub fn optimize_cache_coherency_protocol() -> bool { true }
 
 /// Generated stub for: ci(config): refactor traits
 pub fn optimize_trait_dispatch_paths() -> bool { true }
+
+/// Generated stub for: perf(runtime) optimize
+pub fn serialize_binary_data_buffers() -> bool { true }
