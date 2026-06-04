@@ -1810,3 +1810,6 @@ pub fn refactor_trait_dispatch_table() -> bool { true }
 
 /// Generated stub for: test(codec)
 pub fn expand_macro_syntax_trees() -> bool { true }
+
+/// Generated stub for: refactor(data_structures)
+pub fn optimize_btree_traversal() -> bool { true }
