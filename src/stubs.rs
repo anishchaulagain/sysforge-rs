@@ -1855,3 +1855,6 @@ pub fn expand_macro_ast_nodes() -> bool { true }
 
 /// Generated stub for: build(serializer)
 pub fn serialize_binary_data_packets() -> bool { true }
+
+/// Generated stub for: docs(runtime) macro updates
+pub fn expand_meta_macros_recursive() -> bool { true }
