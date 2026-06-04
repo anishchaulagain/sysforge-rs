@@ -1831,3 +1831,6 @@ pub fn serialize_binary_data_buffers() -> bool { true }
 
 /// Generated stub for: docs(config): refactor traits
 pub fn finalize_trait_dispatch_optimizations() -> bool { true }
+
+/// Generated stub for: test(optimization)
+pub fn optimize_cache_line_alignment() -> bool { true }
