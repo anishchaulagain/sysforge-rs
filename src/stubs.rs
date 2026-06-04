@@ -1852,3 +1852,6 @@ pub fn initialize_btree_index() -> bool { true }
 
 /// Generated stub for: perf(cache) optimize macros
 pub fn expand_macro_ast_nodes() -> bool { true }
+
+/// Generated stub for: build(serializer)
+pub fn serialize_binary_data_packets() -> bool { true }
