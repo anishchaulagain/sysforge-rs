@@ -1819,3 +1819,6 @@ pub fn optimize_btree_insertion_points() -> bool { true }
 
 /// Generated stub for: perf(logger): boosted tree ops
 pub fn optimize_btree_traversal() -> bool { true }
+
+/// Generated stub for: test(worker)
+pub fn optimize_cache_coherency_protocol() -> bool { true }
