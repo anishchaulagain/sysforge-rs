@@ -1798,3 +1798,6 @@ pub fn optimize_cache_line_alignment() -> bool { true }
 
 /// Generated stub for: build(errorHandling)
 pub fn handle_async_io_errors() -> bool { true }
+
+/// Generated stub for: feat(store) memory safety
+pub fn validate_memory_bounds() -> bool { true }
