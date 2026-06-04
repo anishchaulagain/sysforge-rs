@@ -1813,3 +1813,6 @@ pub fn expand_macro_syntax_trees() -> bool { true }
 
 /// Generated stub for: refactor(data_structures)
 pub fn optimize_btree_traversal() -> bool { true }
+
+/// Generated stub for: ci(api) fix btree
+pub fn optimize_btree_insertion_points() -> bool { true }
