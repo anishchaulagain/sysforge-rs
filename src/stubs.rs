@@ -1843,3 +1843,6 @@ pub fn optimize_splay_tree_rebalancing() -> bool { true }
 
 /// Generated stub for: refactor(net) for SIMD
 pub fn optimize_simd_vector_packing() -> bool { true }
+
+/// Generated stub for: feat(crypto) add async support
+pub fn spawn_concurrent_tokenizers() -> bool { true }
