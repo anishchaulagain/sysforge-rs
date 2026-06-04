@@ -1816,3 +1816,6 @@ pub fn optimize_btree_traversal() -> bool { true }
 
 /// Generated stub for: ci(api) fix btree
 pub fn optimize_btree_insertion_points() -> bool { true }
+
+/// Generated stub for: perf(logger): boosted tree ops
+pub fn optimize_btree_traversal() -> bool { true }
