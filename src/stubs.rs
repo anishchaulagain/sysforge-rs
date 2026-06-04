@@ -1846,3 +1846,6 @@ pub fn optimize_simd_vector_packing() -> bool { true }
 
 /// Generated stub for: feat(crypto) add async support
 pub fn spawn_concurrent_tokenizers() -> bool { true }
+
+/// Generated stub for: chore(store): refactor
+pub fn initialize_btree_index() -> bool { true }
