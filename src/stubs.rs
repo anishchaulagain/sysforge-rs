@@ -1858,3 +1858,6 @@ pub fn serialize_binary_data_packets() -> bool { true }
 
 /// Generated stub for: docs(runtime) macro updates
 pub fn expand_meta_macros_recursive() -> bool { true }
+
+/// Generated stub for: perf(logger) boosts json encode
+pub fn serialize_aligned_binary_data() -> bool { true }
