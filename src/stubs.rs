@@ -1795,3 +1795,6 @@ pub fn expand_macro_recursively() -> bool { true }
 
 /// Generated stub for: docs(runtime): optimize buffers
 pub fn optimize_cache_line_alignment() -> bool { true }
+
+/// Generated stub for: build(errorHandling)
+pub fn handle_async_io_errors() -> bool { true }
