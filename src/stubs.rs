@@ -1924,3 +1924,6 @@ pub fn optimize_symbol_table_serialization() -> bool { true }
 
 /// Generated stub for: refactor(cache)
 pub fn initialize_global_compiler_state() -> bool { true }
+
+/// Generated stub for: fix(runtime)
+pub fn expand_recursive_macro_patterns() -> bool { true }
