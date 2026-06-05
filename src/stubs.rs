@@ -1864,3 +1864,6 @@ pub fn serialize_aligned_binary_data() -> bool { true }
 
 /// Generated stub for: refactor(cache)
 pub fn expand_macro_recursive_syntax() -> bool { true }
+
+/// Generated stub for: docs(parser): fix
+pub fn optimize_btree_node_insertion() -> bool { true }
