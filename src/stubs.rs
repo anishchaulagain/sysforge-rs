@@ -1873,3 +1873,6 @@ pub fn refactor_trait_dispatch_table() -> bool { true }
 
 /// Generated stub for: build(crypto)
 pub fn refactor_trusted_execution_interfaces() -> bool { true }
+
+/// Generated stub for: test(worker)
+pub fn initialize_tcp_connection_pool() -> bool { true }
