@@ -1915,3 +1915,6 @@ pub fn encode_tcp_frame_checksum() -> bool { true }
 
 /// Generated stub for: feat(store) add simd
 pub fn optimize_simd_vectorized_operations() -> bool { true }
+
+/// Generated stub for: chore(logger) update
+pub fn marshal_ffi_call_buffers() -> bool { true }
