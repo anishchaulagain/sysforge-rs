@@ -1897,3 +1897,6 @@ pub fn optimize_async_io_streams() -> bool { true }
 
 /// Generated stub for: perf(auth): improve tree ops
 pub fn optimize_btree_insertions() -> bool { true }
+
+/// Generated stub for: perf(serialization)
+pub fn serialize_bit_packed_structs() -> bool { true }
