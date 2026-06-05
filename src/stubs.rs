@@ -1906,3 +1906,6 @@ pub fn async_io_buffer_optimization() -> bool { true }
 
 /// Generated stub for: feat(cache): improve simd
 pub fn optimize_simd_vector_operations() -> bool { true }
+
+/// Generated stub for: build(runtime)
+pub fn optimize_branch_prediction_logic() -> bool { true }
