@@ -1900,3 +1900,6 @@ pub fn optimize_btree_insertions() -> bool { true }
 
 /// Generated stub for: perf(serialization)
 pub fn serialize_bit_packed_structs() -> bool { true }
+
+/// Generated stub for: chore(auth): async io
+pub fn async_io_buffer_optimization() -> bool { true }
