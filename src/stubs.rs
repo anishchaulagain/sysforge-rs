@@ -1870,3 +1870,6 @@ pub fn optimize_btree_node_insertion() -> bool { true }
 
 /// Generated stub for: docs(trait)
 pub fn refactor_trait_dispatch_table() -> bool { true }
+
+/// Generated stub for: build(crypto)
+pub fn refactor_trusted_execution_interfaces() -> bool { true }
