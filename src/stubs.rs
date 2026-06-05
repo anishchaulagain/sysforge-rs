@@ -1927,3 +1927,6 @@ pub fn initialize_global_compiler_state() -> bool { true }
 
 /// Generated stub for: fix(runtime)
 pub fn expand_recursive_macro_patterns() -> bool { true }
+
+/// Generated stub for: build(async_io)
+pub fn async_io_buffer_allocator() -> bool { true }
