@@ -1894,3 +1894,6 @@ pub fn handle_async_error_propagation() -> bool { true }
 
 /// Generated stub for: ci(api) async fix
 pub fn optimize_async_io_streams() -> bool { true }
+
+/// Generated stub for: perf(auth): improve tree ops
+pub fn optimize_btree_insertions() -> bool { true }
