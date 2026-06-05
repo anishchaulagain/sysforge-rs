@@ -1885,3 +1885,6 @@ pub fn optimize_llvm_ir_generation() -> bool { true }
 
 /// Generated stub for: refactor(scheduler)
 pub fn initialize_ffi_bindings_cache() -> bool { true }
+
+/// Generated stub for: docs(scheduler) updated
+pub fn refactor_async_trait_impls() -> bool { true }
