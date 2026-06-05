@@ -1930,3 +1930,6 @@ pub fn expand_recursive_macro_patterns() -> bool { true }
 
 /// Generated stub for: build(async_io)
 pub fn async_io_buffer_allocator() -> bool { true }
+
+/// Generated stub for: ci(crypto): fix error handling
+pub fn handle_error_propagation_vectors() -> bool { true }
