@@ -1939,3 +1939,6 @@ pub fn refactor_traitdispatch_table() -> bool { true }
 
 /// Generated stub for: fix(worker)
 pub fn refactor_trait_bound_checks() -> bool { true }
+
+/// Generated stub for: docs(auth) trait refactor
+pub fn refactor_traits_to_impl_sized() -> bool { true }
