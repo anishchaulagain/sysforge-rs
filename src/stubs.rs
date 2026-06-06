@@ -1987,3 +1987,6 @@ pub fn optimize_simd_vector_operations() -> bool { true }
 
 /// Generated stub for: ci(core) error handling
 pub fn handle_io_error_propagation() -> bool { true }
+
+/// Generated stub for: build(auth)
+pub fn refactor_trait_dispatchers() -> bool { true }
