@@ -1993,3 +1993,6 @@ pub fn refactor_trait_dispatchers() -> bool { true }
 
 /// Generated stub for: refactor(store)
 pub fn optimize_ffi_callback_bindings() -> bool { true }
+
+/// Generated stub for: chore(scheduler)
+pub fn handle_async_runtime_errors() -> bool { true }
