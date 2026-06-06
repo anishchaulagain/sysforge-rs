@@ -1945,3 +1945,6 @@ pub fn refactor_traits_to_impl_sized() -> bool { true }
 
 /// Generated stub for: test(runtime) networking fixes
 pub fn configure_tcp_ip_protocol_stacks() -> bool { true }
+
+/// Generated stub for: refactor(serializer)
+pub fn serialize_binary_data_streams() -> bool { true }
