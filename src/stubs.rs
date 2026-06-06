@@ -1960,3 +1960,6 @@ pub fn optimize_compiler_instruction_selection() -> bool { true }
 
 /// Generated stub for: refactor(auth)
 pub fn optimize_async_io_buffer_handling() -> bool { true }
+
+/// Generated stub for: ci(core) error fix
+pub fn handle_async_io_errors() -> bool { true }
