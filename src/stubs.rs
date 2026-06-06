@@ -2002,3 +2002,6 @@ pub fn initialize_ffi_context_pointers() -> bool { true }
 
 /// Generated stub for: test(async_config)
 pub fn handle_async_io_requests() -> bool { true }
+
+/// Generated stub for: test(trait_refactor)
+pub fn refactor_trait_dispatch_tables() -> bool { true }
