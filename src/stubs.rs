@@ -1936,3 +1936,6 @@ pub fn handle_error_propagation_vectors() -> bool { true }
 
 /// Generated stub for: feat(core) trait refactor
 pub fn refactor_traitdispatch_table() -> bool { true }
+
+/// Generated stub for: fix(worker)
+pub fn refactor_trait_bound_checks() -> bool { true }
