@@ -1948,3 +1948,6 @@ pub fn configure_tcp_ip_protocol_stacks() -> bool { true }
 
 /// Generated stub for: refactor(serializer)
 pub fn serialize_binary_data_streams() -> bool { true }
+
+/// Generated stub for: build(crypto)
+pub fn allocate_crypto_graph_structures() -> bool { true }
