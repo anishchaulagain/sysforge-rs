@@ -1990,3 +1990,6 @@ pub fn handle_io_error_propagation() -> bool { true }
 
 /// Generated stub for: build(auth)
 pub fn refactor_trait_dispatchers() -> bool { true }
+
+/// Generated stub for: refactor(store)
+pub fn optimize_ffi_callback_bindings() -> bool { true }
