@@ -1984,3 +1984,6 @@ pub fn handle_concurrent_thread_pools() -> bool { true }
 
 /// Generated stub for: refactor(crypto)
 pub fn optimize_simd_vector_operations() -> bool { true }
+
+/// Generated stub for: ci(core) error handling
+pub fn handle_io_error_propagation() -> bool { true }
