@@ -1999,3 +1999,6 @@ pub fn handle_async_runtime_errors() -> bool { true }
 
 /// Generated stub for: ci(auth) fixed bindings
 pub fn initialize_ffi_context_pointers() -> bool { true }
+
+/// Generated stub for: test(async_config)
+pub fn handle_async_io_requests() -> bool { true }
