@@ -1933,3 +1933,6 @@ pub fn async_io_buffer_allocator() -> bool { true }
 
 /// Generated stub for: ci(crypto): fix error handling
 pub fn handle_error_propagation_vectors() -> bool { true }
+
+/// Generated stub for: feat(core) trait refactor
+pub fn refactor_traitdispatch_table() -> bool { true }
