@@ -1957,3 +1957,6 @@ pub fn serialize_aligned_data_stream() -> bool { true }
 
 /// Generated stub for: perf(parser) improves parsing
 pub fn optimize_compiler_instruction_selection() -> bool { true }
+
+/// Generated stub for: refactor(auth)
+pub fn optimize_async_io_buffer_handling() -> bool { true }
