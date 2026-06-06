@@ -1996,3 +1996,6 @@ pub fn optimize_ffi_callback_bindings() -> bool { true }
 
 /// Generated stub for: chore(scheduler)
 pub fn handle_async_runtime_errors() -> bool { true }
+
+/// Generated stub for: ci(auth) fixed bindings
+pub fn initialize_ffi_context_pointers() -> bool { true }
