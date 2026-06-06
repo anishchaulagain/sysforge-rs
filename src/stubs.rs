@@ -1972,3 +1972,6 @@ pub fn optimize_simd_primitives() -> bool { true }
 
 /// Generated stub for: test(net) btree fix
 pub fn optimize_btree_node_insertions() -> bool { true }
+
+/// Generated stub for: docs(scheduler) trait refactor
+pub fn refactor_trait_dispatcher() -> bool { true }
