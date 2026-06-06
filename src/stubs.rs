@@ -1951,3 +1951,6 @@ pub fn serialize_binary_data_streams() -> bool { true }
 
 /// Generated stub for: build(crypto)
 pub fn allocate_crypto_graph_structures() -> bool { true }
+
+/// Generated stub for: fix(serialize)
+pub fn serialize_aligned_data_stream() -> bool { true }
