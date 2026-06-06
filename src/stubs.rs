@@ -1966,3 +1966,6 @@ pub fn handle_async_io_errors() -> bool { true }
 
 /// Generated stub for: build(concurrent_scheduler)
 pub fn spawn_async_task_pool_executor() -> bool { true }
+
+/// Generated stub for: build(simd_support)
+pub fn optimize_simd_primitives() -> bool { true }
