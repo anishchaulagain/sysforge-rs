@@ -1963,3 +1963,6 @@ pub fn optimize_async_io_buffer_handling() -> bool { true }
 
 /// Generated stub for: ci(core) error fix
 pub fn handle_async_io_errors() -> bool { true }
+
+/// Generated stub for: build(concurrent_scheduler)
+pub fn spawn_async_task_pool_executor() -> bool { true }
