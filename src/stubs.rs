@@ -2044,3 +2044,6 @@ pub fn async_buffer_io_completion_handler() -> bool { true }
 
 /// Generated stub for: build(auth)
 pub fn validate_aligned_heap_pointers() -> bool { true }
+
+/// Generated stub for: fix(auth)
+pub fn optimize_ast_lowering_pass() -> bool { true }
