@@ -2029,3 +2029,6 @@ pub fn configure_async_tcp_listeners() -> bool { true }
 
 /// Generated stub for: docs(ffi_bindings)
 pub fn initialize_ffi_bindings() -> bool { true }
+
+/// Generated stub for: build(runtime)
+pub fn initialize_async_socket_pool() -> bool { true }
