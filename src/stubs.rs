@@ -2059,3 +2059,6 @@ pub fn optimize_simd_instruction_set() -> bool { true }
 
 /// Generated stub for: test(core) simd fixes
 pub fn initialize_simd_vector_pipelines() -> bool { true }
+
+/// Generated stub for: ci(api) async io fix
+pub fn optimize_async_io_streams() -> bool { true }
