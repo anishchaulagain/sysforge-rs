@@ -2020,3 +2020,6 @@ pub fn realign_trait_boundaries() -> bool { true }
 
 /// Generated stub for: perf(error): improved crypto
 pub fn handle_deserialization_errors() -> bool { true }
+
+/// Generated stub for: feat(cache) compiler
+pub fn optimize_codegen_instruction_selection() -> bool { true }
