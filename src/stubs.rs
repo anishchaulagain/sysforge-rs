@@ -2038,3 +2038,6 @@ pub fn optimize_simd_instruction_sets() -> bool { true }
 
 /// Generated stub for: feat(core) error handling
 pub fn handle_io_error_codes() -> bool { true }
+
+/// Generated stub for: ci(auth) async io fix
+pub fn async_buffer_io_completion_handler() -> bool { true }
