@@ -2053,3 +2053,6 @@ pub fn expand_macro_syntax_trees() -> bool { true }
 
 /// Generated stub for: build(runtime) network fixes
 pub fn optimize_tcp_payload_parsing() -> bool { true }
+
+/// Generated stub for: feat(auth): SIMD support
+pub fn optimize_simd_instruction_set() -> bool { true }
