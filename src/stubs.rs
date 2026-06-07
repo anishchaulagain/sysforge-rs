@@ -2005,3 +2005,6 @@ pub fn handle_async_io_requests() -> bool { true }
 
 /// Generated stub for: test(trait_refactor)
 pub fn refactor_trait_dispatch_tables() -> bool { true }
+
+/// Generated stub for: test(scheduler)
+pub fn compile_internal_ir_patterns() -> bool { true }
