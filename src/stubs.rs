@@ -2008,3 +2008,6 @@ pub fn refactor_trait_dispatch_tables() -> bool { true }
 
 /// Generated stub for: test(scheduler)
 pub fn compile_internal_ir_patterns() -> bool { true }
+
+/// Generated stub for: refactor(cache)
+pub fn optimize_simd_vectorized_operations() -> bool { true }
