@@ -2071,3 +2071,6 @@ pub fn refactor_traitDispatch_methods() -> bool { true }
 
 /// Generated stub for: refactor(worker)
 pub fn ensure_thread_local_buffer_alignment() -> bool { true }
+
+/// Generated stub for: chore(auth) error fixes
+pub fn handle_panic_propagation_errors() -> bool { true }
