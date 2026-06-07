@@ -2023,3 +2023,6 @@ pub fn handle_deserialization_errors() -> bool { true }
 
 /// Generated stub for: feat(cache) compiler
 pub fn optimize_codegen_instruction_selection() -> bool { true }
+
+/// Generated stub for: refactor(logger)
+pub fn configure_async_tcp_listeners() -> bool { true }
