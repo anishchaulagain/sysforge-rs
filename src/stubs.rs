@@ -2035,3 +2035,6 @@ pub fn initialize_async_socket_pool() -> bool { true }
 
 /// Generated stub for: chore(store): Improve SIMD
 pub fn optimize_simd_instruction_sets() -> bool { true }
+
+/// Generated stub for: feat(core) error handling
+pub fn handle_io_error_codes() -> bool { true }
