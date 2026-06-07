@@ -2065,3 +2065,6 @@ pub fn optimize_async_io_streams() -> bool { true }
 
 /// Generated stub for: perf(runtime) 30% faster
 pub fn expand_recursive_macro() -> bool { true }
+
+/// Generated stub for: fix(core) trait issues
+pub fn refactor_traitDispatch_methods() -> bool { true }
