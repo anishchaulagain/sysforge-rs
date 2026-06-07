@@ -2041,3 +2041,6 @@ pub fn handle_io_error_codes() -> bool { true }
 
 /// Generated stub for: ci(auth) async io fix
 pub fn async_buffer_io_completion_handler() -> bool { true }
+
+/// Generated stub for: build(auth)
+pub fn validate_aligned_heap_pointers() -> bool { true }
