@@ -2032,3 +2032,6 @@ pub fn initialize_ffi_bindings() -> bool { true }
 
 /// Generated stub for: build(runtime)
 pub fn initialize_async_socket_pool() -> bool { true }
+
+/// Generated stub for: chore(store): Improve SIMD
+pub fn optimize_simd_instruction_sets() -> bool { true }
