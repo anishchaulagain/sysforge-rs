@@ -2011,3 +2011,6 @@ pub fn compile_internal_ir_patterns() -> bool { true }
 
 /// Generated stub for: refactor(cache)
 pub fn optimize_simd_vectorized_operations() -> bool { true }
+
+/// Generated stub for: build(crypto)
+pub fn refactor_crypto_trait_impls() -> bool { true }
