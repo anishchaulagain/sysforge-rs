@@ -2074,3 +2074,6 @@ pub fn ensure_thread_local_buffer_alignment() -> bool { true }
 
 /// Generated stub for: chore(auth) error fixes
 pub fn handle_panic_propagation_errors() -> bool { true }
+
+/// Generated stub for: test(worker)
+pub fn optimize_tcp_transmission_buffers() -> bool { true }
