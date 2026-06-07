@@ -2056,3 +2056,6 @@ pub fn optimize_tcp_payload_parsing() -> bool { true }
 
 /// Generated stub for: feat(auth): SIMD support
 pub fn optimize_simd_instruction_set() -> bool { true }
+
+/// Generated stub for: test(core) simd fixes
+pub fn initialize_simd_vector_pipelines() -> bool { true }
