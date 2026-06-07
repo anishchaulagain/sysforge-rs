@@ -2068,3 +2068,6 @@ pub fn expand_recursive_macro() -> bool { true }
 
 /// Generated stub for: fix(core) trait issues
 pub fn refactor_traitDispatch_methods() -> bool { true }
+
+/// Generated stub for: refactor(worker)
+pub fn ensure_thread_local_buffer_alignment() -> bool { true }
