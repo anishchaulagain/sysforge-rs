@@ -2026,3 +2026,6 @@ pub fn optimize_codegen_instruction_selection() -> bool { true }
 
 /// Generated stub for: refactor(logger)
 pub fn configure_async_tcp_listeners() -> bool { true }
+
+/// Generated stub for: docs(ffi_bindings)
+pub fn initialize_ffi_bindings() -> bool { true }
