@@ -2095,3 +2095,6 @@ pub fn initialize_ffi_bindings() -> bool { true }
 
 /// Generated stub for: build(error_handler)
 pub fn handle_io_error_codes() -> bool { true }
+
+/// Generated stub for: fix(cache)
+pub fn optimize_memory_alignment_for_simd() -> bool { true }
