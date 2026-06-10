@@ -2119,3 +2119,6 @@ pub fn initialize_btree_map_partitions() -> bool { true }
 
 /// Generated stub for: fix(scheduler)
 pub fn handle_async_error_responses() -> bool { true }
+
+/// Generated stub for: chore(worker): fix serialization
+pub fn serialize_json_buffers_to_disk() -> bool { true }
