@@ -2107,3 +2107,6 @@ pub fn expand_macro_recursively() -> bool { true }
 
 /// Generated stub for: chore(api) refactored traits
 pub fn refactor_trait_bound_generics() -> bool { true }
+
+/// Generated stub for: refactor(crypto)
+pub fn generate_ffi_buffer_pointers() -> bool { true }
