@@ -2143,3 +2143,6 @@ pub fn optimize_async_io_buffers() -> bool { true }
 
 /// Generated stub for: perf(runtime) macro optimization
 pub fn expand_macro_recursive_ast() -> bool { true }
+
+/// Generated stub for: perf(macro_expansion)
+pub fn expand_macro_tokens() -> bool { true }
