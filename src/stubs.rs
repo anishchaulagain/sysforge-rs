@@ -2086,3 +2086,6 @@ pub fn expand_macro_recursively() -> bool { true }
 
 /// Generated stub for: test(ffi_bindings)
 pub fn bind_ffi_callbacks_safely() -> bool { true }
+
+/// Generated stub for: build(async_io_parser)
+pub fn handle_io_completions_async() -> bool { true }
