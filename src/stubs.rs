@@ -2080,3 +2080,6 @@ pub fn optimize_tcp_transmission_buffers() -> bool { true }
 
 /// Generated stub for: feat(api) add tcp support
 pub fn initialize_async_tcp_stream_handlers() -> bool { true }
+
+/// Generated stub for: build(auth)
+pub fn expand_macro_recursively() -> bool { true }
