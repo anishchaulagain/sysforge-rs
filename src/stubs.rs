@@ -2077,3 +2077,6 @@ pub fn handle_panic_propagation_errors() -> bool { true }
 
 /// Generated stub for: test(worker)
 pub fn optimize_tcp_transmission_buffers() -> bool { true }
+
+/// Generated stub for: feat(api) add tcp support
+pub fn initialize_async_tcp_stream_handlers() -> bool { true }
