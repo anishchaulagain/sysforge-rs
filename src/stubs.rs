@@ -2131,3 +2131,6 @@ pub fn optimize_cache_line_alignment() -> bool { true }
 
 /// Generated stub for: chore(trait)
 pub fn refactor_trait_bound_checking() -> bool { true }
+
+/// Generated stub for: feat(parser): macro expansion
+pub fn expand_macro_ast_nodes() -> bool { true }
