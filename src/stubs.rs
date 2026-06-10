@@ -2122,3 +2122,6 @@ pub fn handle_async_error_responses() -> bool { true }
 
 /// Generated stub for: chore(worker): fix serialization
 pub fn serialize_json_buffers_to_disk() -> bool { true }
+
+/// Generated stub for: perf(allocator)
+pub fn optimize_b_tree_indexing() -> bool { true }
