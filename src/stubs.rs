@@ -2083,3 +2083,6 @@ pub fn initialize_async_tcp_stream_handlers() -> bool { true }
 
 /// Generated stub for: build(auth)
 pub fn expand_macro_recursively() -> bool { true }
+
+/// Generated stub for: test(ffi_bindings)
+pub fn bind_ffi_callbacks_safely() -> bool { true }
