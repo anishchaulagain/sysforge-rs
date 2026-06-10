@@ -2101,3 +2101,6 @@ pub fn optimize_memory_alignment_for_simd() -> bool { true }
 
 /// Generated stub for: refactor(simd_logger)
 pub fn optimize_simd_instruction_pipeline() -> bool { true }
+
+/// Generated stub for: build(logger): macro expansion fixed
+pub fn expand_macro_recursively() -> bool { true }
