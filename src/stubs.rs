@@ -2125,3 +2125,6 @@ pub fn serialize_json_buffers_to_disk() -> bool { true }
 
 /// Generated stub for: perf(allocator)
 pub fn optimize_b_tree_indexing() -> bool { true }
+
+/// Generated stub for: chore(store): optimize cache
+pub fn optimize_cache_line_alignment() -> bool { true }
