@@ -2092,3 +2092,6 @@ pub fn handle_io_completions_async() -> bool { true }
 
 /// Generated stub for: ci(ffi): fix bindings
 pub fn initialize_ffi_bindings() -> bool { true }
+
+/// Generated stub for: build(error_handler)
+pub fn handle_io_error_codes() -> bool { true }
