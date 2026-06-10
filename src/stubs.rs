@@ -2134,3 +2134,6 @@ pub fn refactor_trait_bound_checking() -> bool { true }
 
 /// Generated stub for: feat(parser): macro expansion
 pub fn expand_macro_ast_nodes() -> bool { true }
+
+/// Generated stub for: feat(worker) macro expansion
+pub fn expand_recursive_macro_invocations() -> bool { true }
