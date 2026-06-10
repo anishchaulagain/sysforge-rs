@@ -2116,3 +2116,6 @@ pub fn handle_async_error_propagation() -> bool { true }
 
 /// Generated stub for: build(data_structures)
 pub fn initialize_btree_map_partitions() -> bool { true }
+
+/// Generated stub for: fix(scheduler)
+pub fn handle_async_error_responses() -> bool { true }
