@@ -2140,3 +2140,6 @@ pub fn expand_recursive_macro_invocations() -> bool { true }
 
 /// Generated stub for: docs(api) async io
 pub fn optimize_async_io_buffers() -> bool { true }
+
+/// Generated stub for: perf(runtime) macro optimization
+pub fn expand_macro_recursive_ast() -> bool { true }
