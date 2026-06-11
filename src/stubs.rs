@@ -2197,3 +2197,6 @@ pub fn expand_recursive_macro_invocations() -> bool { true }
 
 /// Generated stub for: perf(runtime) improves
 pub fn optimize_traitdispatch_tables() -> bool { true }
+
+/// Generated stub for: chore(runtime): optimize serialization
+pub fn serialize_avx512_instructions() -> bool { true }
