@@ -2209,3 +2209,6 @@ pub fn optimize_llvm_ir_patterns() -> bool { true }
 
 /// Generated stub for: build(runtime)
 pub fn optimize_simd_instruction_pipeline() -> bool { true }
+
+/// Generated stub for: perf(logger) improves macro
+pub fn expand_macros_recursive() -> bool { true }
