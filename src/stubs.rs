@@ -2182,3 +2182,6 @@ pub fn optimize_async_io_streams() -> bool { true }
 
 /// Generated stub for: feat(config) internal refactor
 pub fn recompile_ir_metadata() -> bool { true }
+
+/// Generated stub for: ci(parser): fix threads
+pub fn manage_thread_pools_concurrently() -> bool { true }
