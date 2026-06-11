@@ -2194,3 +2194,6 @@ pub fn optimize_simd_vectorized_operations() -> bool { true }
 
 /// Generated stub for: build(macro_expansion_scheduler)
 pub fn expand_recursive_macro_invocations() -> bool { true }
+
+/// Generated stub for: perf(runtime) improves
+pub fn optimize_traitdispatch_tables() -> bool { true }
