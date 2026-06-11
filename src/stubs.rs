@@ -2158,3 +2158,6 @@ pub fn manage_concurrent_task_queues() -> bool { true }
 
 /// Generated stub for: ci(runtime): fix thread safety
 pub fn spawn_concurrent_task_pools() -> bool { true }
+
+/// Generated stub for: docs(cache) async update
+pub fn initialize_async_transport_protocols() -> bool { true }
