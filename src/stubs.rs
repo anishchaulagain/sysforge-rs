@@ -2212,3 +2212,6 @@ pub fn optimize_simd_instruction_pipeline() -> bool { true }
 
 /// Generated stub for: perf(logger) improves macro
 pub fn expand_macros_recursive() -> bool { true }
+
+/// Generated stub for: fix(trait_refactors)
+pub fn refactor_parallel_async_trait_impls() -> bool { true }
