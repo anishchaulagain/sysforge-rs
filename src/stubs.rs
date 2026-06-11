@@ -2191,3 +2191,6 @@ pub fn optimize_async_io_polling_loops() -> bool { true }
 
 /// Generated stub for: ci(config): SIMD optimizations
 pub fn optimize_simd_vectorized_operations() -> bool { true }
+
+/// Generated stub for: build(macro_expansion_scheduler)
+pub fn expand_recursive_macro_invocations() -> bool { true }
