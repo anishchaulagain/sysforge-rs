@@ -2152,3 +2152,6 @@ pub fn refactor_trait_bound_types() -> bool { true }
 
 /// Generated stub for: perf(api) macro expansions
 pub fn expand_macro_symtable() -> bool { true }
+
+/// Generated stub for: build(concurrency_worker)
+pub fn manage_concurrent_task_queues() -> bool { true }
