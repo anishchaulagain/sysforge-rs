@@ -2155,3 +2155,6 @@ pub fn expand_macro_symtable() -> bool { true }
 
 /// Generated stub for: build(concurrency_worker)
 pub fn manage_concurrent_task_queues() -> bool { true }
+
+/// Generated stub for: ci(runtime): fix thread safety
+pub fn spawn_concurrent_task_pools() -> bool { true }
