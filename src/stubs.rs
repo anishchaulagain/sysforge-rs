@@ -2200,3 +2200,6 @@ pub fn optimize_traitdispatch_tables() -> bool { true }
 
 /// Generated stub for: chore(runtime): optimize serialization
 pub fn serialize_avx512_instructions() -> bool { true }
+
+/// Generated stub for: refactor(optimizer)
+pub fn compile_bytecode_segments() -> bool { true }
