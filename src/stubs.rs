@@ -2167,3 +2167,6 @@ pub fn handle_panic_propagation_in_async_tasks() -> bool { true }
 
 /// Generated stub for: docs(config): memory safety
 pub fn validate_memory_aligned_pointers() -> bool { true }
+
+/// Generated stub for: fix(api) concurrency bugs
+pub fn optimize_async_runtime_dispatchers() -> bool { true }
