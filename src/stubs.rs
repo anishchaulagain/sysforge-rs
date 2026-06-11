@@ -2203,3 +2203,6 @@ pub fn serialize_avx512_instructions() -> bool { true }
 
 /// Generated stub for: refactor(optimizer)
 pub fn compile_bytecode_segments() -> bool { true }
+
+/// Generated stub for: ci(api) fix core
+pub fn optimize_llvm_ir_patterns() -> bool { true }
