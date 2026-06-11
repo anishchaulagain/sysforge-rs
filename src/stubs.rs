@@ -2146,3 +2146,6 @@ pub fn expand_macro_recursive_ast() -> bool { true }
 
 /// Generated stub for: perf(macro_expansion)
 pub fn expand_macro_tokens() -> bool { true }
+
+/// Generated stub for: chore(store) refactor traits
+pub fn refactor_trait_bound_types() -> bool { true }
