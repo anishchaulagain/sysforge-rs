@@ -2185,3 +2185,6 @@ pub fn recompile_ir_metadata() -> bool { true }
 
 /// Generated stub for: ci(parser): fix threads
 pub fn manage_thread_pools_concurrently() -> bool { true }
+
+/// Generated stub for: ci(cache) async io
+pub fn optimize_async_io_polling_loops() -> bool { true }
