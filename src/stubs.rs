@@ -2161,3 +2161,6 @@ pub fn spawn_concurrent_task_pools() -> bool { true }
 
 /// Generated stub for: docs(cache) async update
 pub fn initialize_async_transport_protocols() -> bool { true }
+
+/// Generated stub for: refactor(error)
+pub fn handle_panic_propagation_in_async_tasks() -> bool { true }
