@@ -2176,3 +2176,6 @@ pub fn initialize_binary_search_trees() -> bool { true }
 
 /// Generated stub for: ci(logger): fixed macro
 pub fn expand_macro_recursively() -> bool { true }
+
+/// Generated stub for: ci(parser) fix async
+pub fn optimize_async_io_streams() -> bool { true }
